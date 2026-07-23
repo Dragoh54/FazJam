@@ -1,21 +1,33 @@
-using UnityEngine;
+using UnityEngine;  
 
 public class Room : MonoBehaviour
 {
-    [SerializeField] private Collider2D[] walls;
+    [field: SerializeField] public Door UpDoor;
+    [field: SerializeField] public Door DownDoor;
+    [field: SerializeField] public Door LeftDoor;
+    [field: SerializeField] public Door RightDoor;
 
     public Vector3 GetCenter()
     {
-        if (walls == null || walls.Length == 0)
-            return transform.position;
+        return transform.position;
+    }
 
-        var bounds = walls[0].bounds;
+    public void SetDoorConnection(Door upDoorConnection,
+        Door downDoorConnection,
+        Door leftDoorConnection,
+        Door rightDoorConnection)
+    {
+        SetDoor(UpDoor, upDoorConnection);
+        SetDoor(DownDoor, downDoorConnection);
+        SetDoor(LeftDoor, leftDoorConnection);
+        SetDoor(RightDoor, rightDoorConnection);
+    }
 
-        for (var i = 1; i < walls.Length; i++)
+    private void SetDoor(Door ownedDoor, Door connection)
+    {
+        if(ownedDoor is not null)
         {
-            bounds.Encapsulate(walls[i].bounds);
+            ownedDoor.connectedDoor = connection;
         }
-
-        return bounds.center;
     }
 }

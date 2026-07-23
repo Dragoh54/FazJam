@@ -6,7 +6,7 @@ using UnityEngine.Serialization;
 public class Door : MonoBehaviour, IInteractable
 {
     [Header("Door Connection")]
-    [SerializeField] private Door connectedDoor;
+    [SerializeField] public Door connectedDoor;
     
     [Header("Spawn")]
     [SerializeField] private Transform spawnPoint;
