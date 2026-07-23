@@ -1,55 +1,46 @@
-﻿using Items;
-using Microsoft.Extensions.Logging.Abstractions;
+﻿using System;
+using Items;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace Player.Interactions
 {
     public class PlayerInteraction : MonoBehaviour
     {
-        [Header("Settings")]
-        [SerializeField] private float interactionRadius = 0.5f;
-        [SerializeField] private LayerMask interactableLayer;
-        
         private IInteractable _currentInteractable;
-        private HighlightEffect _currentHighlight;
+        private InteractionPrompt _prompt;
+        
+        private void Awake()
+        {
+            _prompt = GetComponentInChildren<InteractionPrompt>();
+        }
         
         private void Update()
         {
-            FindInteractable();
-
             if (Input.GetKeyDown(KeyCode.E))
             {
                 _currentInteractable?.Interact();
             }
         }
-        
-        private void FindInteractable()
+
+        private void OnTriggerEnter2D(Collider2D other)
         {
-            var hit = Physics2D.OverlapCircle(
-                transform.position,
-                interactionRadius,
-                interactableLayer
-                );
+            var interactable = other.GetComponent<IInteractable>();
 
-            IInteractable  newInteractable = null;
-            HighlightEffect newHighlight = null;
-            
-
-            if (hit != null)
+            if (interactable != null)
             {
-                newInteractable = hit.GetComponent<IInteractable>();
-                newHighlight = hit.GetComponent<HighlightEffect>();
+                _currentInteractable = interactable;
+                _prompt.Show();
             }
-            
-            if (_currentInteractable != newInteractable)
+        }
+
+        private void OnTriggerExit2D(Collider2D other)
+        {
+            var interactable = other.GetComponent<IInteractable>();
+
+            if (interactable != null && interactable == _currentInteractable)
             {
-                _currentHighlight?.DisableHighlight();
-                
-                _currentInteractable = newInteractable;
-                _currentHighlight = newHighlight;
-                
-                _currentHighlight?.EnableHighlight();
+                _currentInteractable = null;
+                _prompt.Hide();
             }
         }
     }
