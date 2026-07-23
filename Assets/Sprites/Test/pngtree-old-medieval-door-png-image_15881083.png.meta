@@ -1,0 +1,2886 @@
+fileFormatVersion: 2
+guid: 209ec8f96ff41034189dcbf506b07c46
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7690875789274547219
+    second: pngtree-old-medieval-door-png-image_15881083_0
+  - first:
+      213: 6917928242188939645
+    second: pngtree-old-medieval-door-png-image_15881083_1
+  - first:
+      213: 4064063396319696137
+    second: pngtree-old-medieval-door-png-image_15881083_2
+  - first:
+      213: 5113974558826526641
+    second: pngtree-old-medieval-door-png-image_15881083_3
+  - first:
+      213: -4531334067018507956
+    second: pngtree-old-medieval-door-png-image_15881083_4
+  - first:
+      213: -8227741870513211406
+    second: pngtree-old-medieval-door-png-image_15881083_5
+  - first:
+      213: 3692257329968989147
+    second: pngtree-old-medieval-door-png-image_15881083_6
+  - first:
+      213: -7032405076893420370
+    second: pngtree-old-medieval-door-png-image_15881083_7
+  - first:
+      213: 680067449158053172
+    second: pngtree-old-medieval-door-png-image_15881083_8
+  - first:
+      213: 4781863207545469158
+    second: pngtree-old-medieval-door-png-image_15881083_9
+  - first:
+      213: 1089657971978124657
+    second: pngtree-old-medieval-door-png-image_15881083_10
+  - first:
+      213: -4564954648806304285
+    second: pngtree-old-medieval-door-png-image_15881083_11
+  - first:
+      213: 3152656887926574868
+    second: pngtree-old-medieval-door-png-image_15881083_12
+  - first:
+      213: -8500167485348299249
+    second: pngtree-old-medieval-door-png-image_15881083_13
+  - first:
+      213: 5202478523530381315
+    second: pngtree-old-medieval-door-png-image_15881083_14
+  - first:
+      213: 6375366200803827247
+    second: pngtree-old-medieval-door-png-image_15881083_15
+  - first:
+      213: -2430967672023941008
+    second: pngtree-old-medieval-door-png-image_15881083_16
+  - first:
+      213: -7148728350754606872
+    second: pngtree-old-medieval-door-png-image_15881083_17
+  - first:
+      213: -8577286114032431839
+    second: pngtree-old-medieval-door-png-image_15881083_18
+  - first:
+      213: -8066799422875949804
+    second: pngtree-old-medieval-door-png-image_15881083_19
+  - first:
+      213: 7280281614007189292
+    second: pngtree-old-medieval-door-png-image_15881083_20
+  - first:
+      213: 6299785629293679304
+    second: pngtree-old-medieval-door-png-image_15881083_21
+  - first:
+      213: 1615730583247463785
+    second: pngtree-old-medieval-door-png-image_15881083_22
+  - first:
+      213: -3339886954738052978
+    second: pngtree-old-medieval-door-png-image_15881083_23
+  - first:
+      213: -4303041763617977773
+    second: pngtree-old-medieval-door-png-image_15881083_24
+  - first:
+      213: -4900623822768189413
+    second: pngtree-old-medieval-door-png-image_15881083_25
+  - first:
+      213: -3292803086531649421
+    second: pngtree-old-medieval-door-png-image_15881083_26
+  - first:
+      213: -7203107374753075644
+    second: pngtree-old-medieval-door-png-image_15881083_27
+  - first:
+      213: 6450339919947071492
+    second: pngtree-old-medieval-door-png-image_15881083_28
+  - first:
+      213: -3742116658686324195
+    second: pngtree-old-medieval-door-png-image_15881083_29
+  - first:
+      213: 949009311295855796
+    second: pngtree-old-medieval-door-png-image_15881083_30
+  - first:
+      213: -4841891119938838273
+    second: pngtree-old-medieval-door-png-image_15881083_31
+  - first:
+      213: 8370355758878632352
+    second: pngtree-old-medieval-door-png-image_15881083_32
+  - first:
+      213: -3697301520989039383
+    second: pngtree-old-medieval-door-png-image_15881083_33
+  - first:
+      213: 6438740458161255024
+    second: pngtree-old-medieval-door-png-image_15881083_34
+  - first:
+      213: -3130071227474227225
+    second: pngtree-old-medieval-door-png-image_15881083_35
+  - first:
+      213: -6793056736094232289
+    second: pngtree-old-medieval-door-png-image_15881083_36
+  - first:
+      213: -9074967027898374830
+    second: pngtree-old-medieval-door-png-image_15881083_37
+  - first:
+      213: 3409800941139868226
+    second: pngtree-old-medieval-door-png-image_15881083_38
+  - first:
+      213: 2597924747584210981
+    second: pngtree-old-medieval-door-png-image_15881083_39
+  - first:
+      213: -3573027027456515583
+    second: pngtree-old-medieval-door-png-image_15881083_40
+  - first:
+      213: 6771043306639633805
+    second: pngtree-old-medieval-door-png-image_15881083_41
+  - first:
+      213: -6590153811472538414
+    second: pngtree-old-medieval-door-png-image_15881083_42
+  - first:
+      213: -176214862601721968
+    second: pngtree-old-medieval-door-png-image_15881083_43
+  - first:
+      213: -1077458746821142874
+    second: pngtree-old-medieval-door-png-image_15881083_44
+  - first:
+      213: 1242573501552188547
+    second: pngtree-old-medieval-door-png-image_15881083_45
+  - first:
+      213: -838547712297486268
+    second: pngtree-old-medieval-door-png-image_15881083_46
+  - first:
+      213: 1477502099151999653
+    second: pngtree-old-medieval-door-png-image_15881083_47
+  - first:
+      213: -1268340749613119784
+    second: pngtree-old-medieval-door-png-image_15881083_48
+  - first:
+      213: -7350576896810840320
+    second: pngtree-old-medieval-door-png-image_15881083_49
+  - first:
+      213: 6459554280100463864
+    second: pngtree-old-medieval-door-png-image_15881083_50
+  - first:
+      213: 5474514310828982021
+    second: pngtree-old-medieval-door-png-image_15881083_51
+  - first:
+      213: 8443114770714870959
+    second: pngtree-old-medieval-door-png-image_15881083_52
+  - first:
+      213: 2640778656488796531
+    second: pngtree-old-medieval-door-png-image_15881083_53
+  - first:
+      213: 3552545504169095286
+    second: pngtree-old-medieval-door-png-image_15881083_54
+  - first:
+      213: 6838672047402675878
+    second: pngtree-old-medieval-door-png-image_15881083_55
+  - first:
+      213: 8782885262276457937
+    second: pngtree-old-medieval-door-png-image_15881083_56
+  - first:
+      213: 2496613837691011326
+    second: pngtree-old-medieval-door-png-image_15881083_57
+  - first:
+      213: -4560411356938823427
+    second: pngtree-old-medieval-door-png-image_15881083_58
+  - first:
+      213: -1806416641128123310
+    second: pngtree-old-medieval-door-png-image_15881083_59
+  - first:
+      213: -4593279688513698292
+    second: pngtree-old-medieval-door-png-image_15881083_60
+  - first:
+      213: 7318937068539717970
+    second: pngtree-old-medieval-door-png-image_15881083_61
+  - first:
+      213: -2755396940225040252
+    second: pngtree-old-medieval-door-png-image_15881083_62
+  - first:
+      213: -3429054731983705274
+    second: pngtree-old-medieval-door-png-image_15881083_63
+  - first:
+      213: -5766827016749493318
+    second: pngtree-old-medieval-door-png-image_15881083_64
+  - first:
+      213: -2481613946782268192
+    second: pngtree-old-medieval-door-png-image_15881083_65
+  - first:
+      213: -8276647164493374835
+    second: pngtree-old-medieval-door-png-image_15881083_66
+  - first:
+      213: -5081063940686112323
+    second: pngtree-old-medieval-door-png-image_15881083_67
+  - first:
+      213: -2233553358352911542
+    second: pngtree-old-medieval-door-png-image_15881083_68
+  - first:
+      213: 3505288157935239096
+    second: pngtree-old-medieval-door-png-image_15881083_69
+  - first:
+      213: -6001003465576066463
+    second: pngtree-old-medieval-door-png-image_15881083_70
+  - first:
+      213: 445860582058744711
+    second: pngtree-old-medieval-door-png-image_15881083_71
+  - first:
+      213: 4435520284922992901
+    second: pngtree-old-medieval-door-png-image_15881083_72
+  - first:
+      213: 6826837433808483533
+    second: pngtree-old-medieval-door-png-image_15881083_73
+  - first:
+      213: -4109218373071600140
+    second: pngtree-old-medieval-door-png-image_15881083_74
+  - first:
+      213: 397580080871044214
+    second: pngtree-old-medieval-door-png-image_15881083_75
+  - first:
+      213: -5441637313334604384
+    second: pngtree-old-medieval-door-png-image_15881083_76
+  - first:
+      213: -5244280589800915562
+    second: pngtree-old-medieval-door-png-image_15881083_77
+  - first:
+      213: 4988668414821791802
+    second: pngtree-old-medieval-door-png-image_15881083_78
+  - first:
+      213: -1909168071710771610
+    second: pngtree-old-medieval-door-png-image_15881083_79
+  - first:
+      213: 6956402844027310212
+    second: pngtree-old-medieval-door-png-image_15881083_80
+  - first:
+      213: -2597534789552211275
+    second: pngtree-old-medieval-door-png-image_15881083_81
+  - first:
+      213: -2046402408915451422
+    second: pngtree-old-medieval-door-png-image_15881083_82
+  - first:
+      213: 7312709013255954761
+    second: pngtree-old-medieval-door-png-image_15881083_83
+  - first:
+      213: -6304723216364116972
+    second: pngtree-old-medieval-door-png-image_15881083_84
+  - first:
+      213: -364218175571270533
+    second: pngtree-old-medieval-door-png-image_15881083_85
+  - first:
+      213: 7949170474870900514
+    second: pngtree-old-medieval-door-png-image_15881083_86
+  - first:
+      213: 5893317656325753320
+    second: pngtree-old-medieval-door-png-image_15881083_87
+  - first:
+      213: -2593387867519052797
+    second: pngtree-old-medieval-door-png-image_15881083_88
+  - first:
+      213: -4917359550258787895
+    second: pngtree-old-medieval-door-png-image_15881083_89
+  - first:
+      213: -8695193394626414672
+    second: pngtree-old-medieval-door-png-image_15881083_90
+  - first:
+      213: 1728517026733596653
+    second: pngtree-old-medieval-door-png-image_15881083_91
+  - first:
+      213: -8735222984148339302
+    second: pngtree-old-medieval-door-png-image_15881083_92
+  - first:
+      213: -2063706788369854100
+    second: pngtree-old-medieval-door-png-image_15881083_93
+  - first:
+      213: 3213656338239015993
+    second: pngtree-old-medieval-door-png-image_15881083_94
+  - first:
+      213: -6834599949885197781
+    second: pngtree-old-medieval-door-png-image_15881083_95
+  - first:
+      213: 3783070338888235433
+    second: pngtree-old-medieval-door-png-image_15881083_96
+  - first:
+      213: 2175803389844648522
+    second: pngtree-old-medieval-door-png-image_15881083_97
+  - first:
+      213: 4328821742118597225
+    second: pngtree-old-medieval-door-png-image_15881083_98
+  - first:
+      213: -3254388555433397557
+    second: pngtree-old-medieval-door-png-image_15881083_99
+  - first:
+      213: -7780906708531613164
+    second: pngtree-old-medieval-door-png-image_15881083_100
+  - first:
+      213: 99226407425981285
+    second: pngtree-old-medieval-door-png-image_15881083_101
+  - first:
+      213: 6360203232929936398
+    second: pngtree-old-medieval-door-png-image_15881083_102
+  - first:
+      213: -2679228083504009191
+    second: pngtree-old-medieval-door-png-image_15881083_103
+  - first:
+      213: 1206045326639035044
+    second: pngtree-old-medieval-door-png-image_15881083_104
+  - first:
+      213: 2418957996605135209
+    second: pngtree-old-medieval-door-png-image_15881083_105
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2246
+        width: 248
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3148c5748ca7bba60800000000000000
+      internalID: 7690875789274547219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_1
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 2365
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d717051651b610060800000000000000
+      internalID: 6917928242188939645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_2
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 2391
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9059d4a6024766830800000000000000
+      internalID: 4064063396319696137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_3
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 111
+        width: 1456
+        height: 2382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b77d3924cc78f640800000000000000
+      internalID: 5113974558826526641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_4
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 2365
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c495cb09ca77d11c0800000000000000
+      internalID: -4531334067018507956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_5
+      rect:
+        serializedVersion: 2
+        x: 2288
+        y: 2391
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7b3787c5031dd80800000000000000
+      internalID: -8227741870513211406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_6
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 2397
+        width: 90
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd3422caa788d3330800000000000000
+      internalID: 3692257329968989147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_7
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 2308
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea43d1387d0e76e90800000000000000
+      internalID: -7032405076893420370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_8
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 2346
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d2f5aedb5107900800000000000000
+      internalID: 680067449158053172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_9
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 2308
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e8f14a70479c5240800000000000000
+      internalID: 4781863207545469158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_10
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 2346
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17dbd6af62e3f1f00800000000000000
+      internalID: 1089657971978124657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_11
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 2247
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5d12edee506a0c0800000000000000
+      internalID: -4564954648806304285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_12
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 2278
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f4d8f6cbc70cb20800000000000000
+      internalID: 3152656887926574868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_13
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 2247
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0e3d7835b6590a80800000000000000
+      internalID: -8500167485348299249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_14
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 2278
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30880aa37aae23840800000000000000
+      internalID: 5202478523530381315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_15
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2162
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e91ff08c9d97850800000000000000
+      internalID: 6375366200803827247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_16
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1914
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0700e8838c7734ed0800000000000000
+      internalID: -2430967672023941008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_17
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 2162
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e0f189c07d9acc90800000000000000
+      internalID: -7148728350754606872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_18
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 1914
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12dc43449bb57f880800000000000000
+      internalID: -8577286114032431839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_19
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 2085
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41527252aa8fc0090800000000000000
+      internalID: -8066799422875949804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_20
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 2110
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2fb4bb2e81c80560800000000000000
+      internalID: 7280281614007189292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_21
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 2028
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c21923f6a55d6750800000000000000
+      internalID: 6299785629293679304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_22
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 2066
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 965233ba76a3c6610800000000000000
+      internalID: 1615730583247463785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_23
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1968
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8090e8928656a1d0800000000000000
+      internalID: -3339886954738052978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_24
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1999
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a41e180568844c0800000000000000
+      internalID: -4303041763617977773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_25
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 1969
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10d51a099c7dfbb0800000000000000
+      internalID: -4900623822768189413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_26
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1645
+        width: 248
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 370a8ffe90d9d42d0800000000000000
+      internalID: -3292803086531649421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_27
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1764
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ea8d0a10c690c90800000000000000
+      internalID: -7203107374753075644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_28
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1789
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40087f85bf5348950800000000000000
+      internalID: 6450339919947071492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_29
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 1764
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d121eeab9b4511cc0800000000000000
+      internalID: -3742116658686324195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_30
+      rect:
+        serializedVersion: 2
+        x: 2287
+        y: 1789
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bcd358c0fe8b2d00800000000000000
+      internalID: 949009311295855796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_31
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 1796
+        width: 90
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff06dea0ea52eccb0800000000000000
+      internalID: -4841891119938838273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_32
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1707
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a92b93f63a792470800000000000000
+      internalID: 8370355758878632352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_33
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1745
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e4dfe51bdb80bcc0800000000000000
+      internalID: -3697301520989039383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_34
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 1707
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07233a135500b5950800000000000000
+      internalID: 6438740458161255024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_35
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 1745
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef4abc6dc0cf84d0800000000000000
+      internalID: -3130071227474227225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_36
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1646
+        width: 73
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f116702c3e63ab1a0800000000000000
+      internalID: -6793056736094232289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_37
+      rect:
+        serializedVersion: 2
+        x: 2150
+        y: 1646
+        width: 73
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2552cb1c19d3f0280800000000000000
+      internalID: -9074967027898374830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_38
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1561
+        width: 74
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a3f6bd3eb025f20800000000000000
+      internalID: 3409800941139868226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_39
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1313
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52804f42bcead0420800000000000000
+      internalID: 2597924747584210981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_40
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 1561
+        width: 74
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 102a59769de0a6ec0800000000000000
+      internalID: -3573027027456515583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_41
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 1313
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8daa0b430497fd50800000000000000
+      internalID: 6771043306639633805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_42
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1484
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d42efb46021b84a0800000000000000
+      internalID: -6590153811472538414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_43
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1509
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 097ea7e1485fd8df0800000000000000
+      internalID: -176214862601721968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_44
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1427
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a696977af81c01f0800000000000000
+      internalID: -1077458746821142874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_45
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1465
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38cd45724028e3110800000000000000
+      internalID: 1242573501552188547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_46
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1367
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448ba496c41ec54f0800000000000000
+      internalID: -838547712297486268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_47
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1398
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a259deb454218410800000000000000
+      internalID: 1477502099151999653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_48
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 1368
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d64825eec2f56ee0800000000000000
+      internalID: -1268340749613119784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_49
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1044
+        width: 248
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f8563e1418df990800000000000000
+      internalID: -7350576896810840320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_50
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1163
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f40eb0c462f4a950800000000000000
+      internalID: 6459554280100463864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_51
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 1189
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ff0cea2c169fb40800000000000000
+      internalID: 5474514310828982021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_52
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 1163
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa440528628fb2570800000000000000
+      internalID: 8443114770714870959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_53
+      rect:
+        serializedVersion: 2
+        x: 2288
+        y: 1189
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 371b276523ee5a420800000000000000
+      internalID: 2640778656488796531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_54
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 1195
+        width: 90
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 670f868505d2d4130800000000000000
+      internalID: 3552545504169095286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_55
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1106
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae64d88ef7d7ee50800000000000000
+      internalID: 6838672047402675878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_56
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1144
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d57001cc9313e970800000000000000
+      internalID: 8782885262276457937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_57
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 1106
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef0c5e8ce01c5a220800000000000000
+      internalID: 2496613837691011326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_58
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 1144
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df81100780a26b0c0800000000000000
+      internalID: -4560411356938823427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_59
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1045
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254343db2a15ee6e0800000000000000
+      internalID: -1806416641128123310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_60
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1076
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c06cf14a5746140c0800000000000000
+      internalID: -4593279688513698292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_61
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 1045
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259afb78c76129560800000000000000
+      internalID: 7318937068539717970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_62
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 1076
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48030b2e41dd2c9d0800000000000000
+      internalID: -2755396940225040252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_63
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 960
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b2db0a3ec8960d0800000000000000
+      internalID: -3429054731983705274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_64
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 712
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab35589d16d18ffa0800000000000000
+      internalID: -5766827016749493318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_65
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 960
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e4436873498f8dd0800000000000000
+      internalID: -2481613946782268192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_66
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 712
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8ad0256141732d80800000000000000
+      internalID: -8276647164493374835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_67
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 883
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db99b5e344f6c79b0800000000000000
+      internalID: -5081063940686112323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_68
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 908
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a437e70fd03d001e0800000000000000
+      internalID: -2233553358352911542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_69
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 826
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bffc11020945a030800000000000000
+      internalID: 3505288157935239096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_70
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 864
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 162537a842728bca0800000000000000
+      internalID: -6001003465576066463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_71
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 766
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78bd5fc46d3003600800000000000000
+      internalID: 445860582058744711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_72
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 797
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509dfd0e2322e8d30800000000000000
+      internalID: 4435520284922992901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_73
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 767
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc47e75d97ccdbe50800000000000000
+      internalID: 6826837433808483533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_74
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 443
+        width: 248
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f50f8849af19f6c0800000000000000
+      internalID: -4109218373071600140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_75
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 562
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 674f6122afc748500800000000000000
+      internalID: 397580080871044214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_76
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 587
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad0e2ec1bb6b74b0800000000000000
+      internalID: -5441637313334604384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_77
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 562
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69db076c6929837b0800000000000000
+      internalID: -5244280589800915562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_78
+      rect:
+        serializedVersion: 2
+        x: 2287
+        y: 587
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38f9affd7f4b3540800000000000000
+      internalID: 4988668414821791802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_79
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 594
+        width: 90
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666792501c54185e0800000000000000
+      internalID: -1909168071710771610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_80
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 505
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 480d3c0b78b1a8060800000000000000
+      internalID: 6956402844027310212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_81
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 543
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba75090fd3b3fbd0800000000000000
+      internalID: -2597534789552211275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_82
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 505
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e14715f9d7b993e0800000000000000
+      internalID: -2046402408915451422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_83
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 543
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9412be86a16fb7560800000000000000
+      internalID: 7312709013255954761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_84
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 444
+        width: 73
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 414657973af1188a0800000000000000
+      internalID: -6304723216364116972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_85
+      rect:
+        serializedVersion: 2
+        x: 2150
+        y: 444
+        width: 73
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b746550cf7902faf0800000000000000
+      internalID: -364218175571270533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_86
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 359
+        width: 74
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22704bd2e60215e60800000000000000
+      internalID: 7949170474870900514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_87
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 111
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e985dd2f2549c150800000000000000
+      internalID: 5893317656325753320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_88
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 359
+        width: 74
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30418bf897f620cd0800000000000000
+      internalID: -2593387867519052797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_89
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 111
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c943f5da8702cbb0800000000000000
+      internalID: -4917359550258787895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_90
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 282
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b738fb3da7745780800000000000000
+      internalID: -8695193394626414672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_91
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 307
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def9ba6e31decf710800000000000000
+      internalID: 1728517026733596653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_92
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 225
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a95b2042af046c680800000000000000
+      internalID: -8735222984148339302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_93
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 263
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6117a62c9d3c53e0800000000000000
+      internalID: -2063706788369854100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_94
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 165
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c4be6b963399c20800000000000000
+      internalID: 3213656338239015993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_95
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 196
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22b03d8e8f9621a0800000000000000
+      internalID: -6834599949885197781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_96
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 166
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a9ffbdfd6a208430800000000000000
+      internalID: 3783070338888235433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_97
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 96
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a42f7c8b7a1023e10800000000000000
+      internalID: 2175803389844648522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_98
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 0
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96277fa7070131c30800000000000000
+      internalID: 4328821742118597225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_99
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 0
+        width: 96
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2bb40f9d616d2d0800000000000000
+      internalID: -3254388555433397557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_100
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 0
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 412f487d29aa40490800000000000000
+      internalID: -7780906708531613164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_101
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 0
+        width: 96
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56bb6fe44e5806100800000000000000
+      internalID: 99226407425981285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_102
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 0
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04741e742bf34850800000000000000
+      internalID: 6360203232929936398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_103
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 0
+        width: 96
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9103e72d04871dad0800000000000000
+      internalID: -2679228083504009191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_104
+      rect:
+        serializedVersion: 2
+        x: 2288
+        y: 0
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a2f65da5dbbcb010800000000000000
+      internalID: 1206045326639035044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-old-medieval-door-png-image_15881083_105
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 0
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9695d325b7dd19120800000000000000
+      internalID: 2418957996605135209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pngtree-old-medieval-door-png-image_15881083_0: 7690875789274547219
+      pngtree-old-medieval-door-png-image_15881083_1: 6917928242188939645
+      pngtree-old-medieval-door-png-image_15881083_10: 1089657971978124657
+      pngtree-old-medieval-door-png-image_15881083_100: -7780906708531613164
+      pngtree-old-medieval-door-png-image_15881083_101: 99226407425981285
+      pngtree-old-medieval-door-png-image_15881083_102: 6360203232929936398
+      pngtree-old-medieval-door-png-image_15881083_103: -2679228083504009191
+      pngtree-old-medieval-door-png-image_15881083_104: 1206045326639035044
+      pngtree-old-medieval-door-png-image_15881083_105: 2418957996605135209
+      pngtree-old-medieval-door-png-image_15881083_11: -4564954648806304285
+      pngtree-old-medieval-door-png-image_15881083_12: 3152656887926574868
+      pngtree-old-medieval-door-png-image_15881083_13: -8500167485348299249
+      pngtree-old-medieval-door-png-image_15881083_14: 5202478523530381315
+      pngtree-old-medieval-door-png-image_15881083_15: 6375366200803827247
+      pngtree-old-medieval-door-png-image_15881083_16: -2430967672023941008
+      pngtree-old-medieval-door-png-image_15881083_17: -7148728350754606872
+      pngtree-old-medieval-door-png-image_15881083_18: -8577286114032431839
+      pngtree-old-medieval-door-png-image_15881083_19: -8066799422875949804
+      pngtree-old-medieval-door-png-image_15881083_2: 4064063396319696137
+      pngtree-old-medieval-door-png-image_15881083_20: 7280281614007189292
+      pngtree-old-medieval-door-png-image_15881083_21: 6299785629293679304
+      pngtree-old-medieval-door-png-image_15881083_22: 1615730583247463785
+      pngtree-old-medieval-door-png-image_15881083_23: -3339886954738052978
+      pngtree-old-medieval-door-png-image_15881083_24: -4303041763617977773
+      pngtree-old-medieval-door-png-image_15881083_25: -4900623822768189413
+      pngtree-old-medieval-door-png-image_15881083_26: -3292803086531649421
+      pngtree-old-medieval-door-png-image_15881083_27: -7203107374753075644
+      pngtree-old-medieval-door-png-image_15881083_28: 6450339919947071492
+      pngtree-old-medieval-door-png-image_15881083_29: -3742116658686324195
+      pngtree-old-medieval-door-png-image_15881083_3: 5113974558826526641
+      pngtree-old-medieval-door-png-image_15881083_30: 949009311295855796
+      pngtree-old-medieval-door-png-image_15881083_31: -4841891119938838273
+      pngtree-old-medieval-door-png-image_15881083_32: 8370355758878632352
+      pngtree-old-medieval-door-png-image_15881083_33: -3697301520989039383
+      pngtree-old-medieval-door-png-image_15881083_34: 6438740458161255024
+      pngtree-old-medieval-door-png-image_15881083_35: -3130071227474227225
+      pngtree-old-medieval-door-png-image_15881083_36: -6793056736094232289
+      pngtree-old-medieval-door-png-image_15881083_37: -9074967027898374830
+      pngtree-old-medieval-door-png-image_15881083_38: 3409800941139868226
+      pngtree-old-medieval-door-png-image_15881083_39: 2597924747584210981
+      pngtree-old-medieval-door-png-image_15881083_4: -4531334067018507956
+      pngtree-old-medieval-door-png-image_15881083_40: -3573027027456515583
+      pngtree-old-medieval-door-png-image_15881083_41: 6771043306639633805
+      pngtree-old-medieval-door-png-image_15881083_42: -6590153811472538414
+      pngtree-old-medieval-door-png-image_15881083_43: -176214862601721968
+      pngtree-old-medieval-door-png-image_15881083_44: -1077458746821142874
+      pngtree-old-medieval-door-png-image_15881083_45: 1242573501552188547
+      pngtree-old-medieval-door-png-image_15881083_46: -838547712297486268
+      pngtree-old-medieval-door-png-image_15881083_47: 1477502099151999653
+      pngtree-old-medieval-door-png-image_15881083_48: -1268340749613119784
+      pngtree-old-medieval-door-png-image_15881083_49: -7350576896810840320
+      pngtree-old-medieval-door-png-image_15881083_5: -8227741870513211406
+      pngtree-old-medieval-door-png-image_15881083_50: 6459554280100463864
+      pngtree-old-medieval-door-png-image_15881083_51: 5474514310828982021
+      pngtree-old-medieval-door-png-image_15881083_52: 8443114770714870959
+      pngtree-old-medieval-door-png-image_15881083_53: 2640778656488796531
+      pngtree-old-medieval-door-png-image_15881083_54: 3552545504169095286
+      pngtree-old-medieval-door-png-image_15881083_55: 6838672047402675878
+      pngtree-old-medieval-door-png-image_15881083_56: 8782885262276457937
+      pngtree-old-medieval-door-png-image_15881083_57: 2496613837691011326
+      pngtree-old-medieval-door-png-image_15881083_58: -4560411356938823427
+      pngtree-old-medieval-door-png-image_15881083_59: -1806416641128123310
+      pngtree-old-medieval-door-png-image_15881083_6: 3692257329968989147
+      pngtree-old-medieval-door-png-image_15881083_60: -4593279688513698292
+      pngtree-old-medieval-door-png-image_15881083_61: 7318937068539717970
+      pngtree-old-medieval-door-png-image_15881083_62: -2755396940225040252
+      pngtree-old-medieval-door-png-image_15881083_63: -3429054731983705274
+      pngtree-old-medieval-door-png-image_15881083_64: -5766827016749493318
+      pngtree-old-medieval-door-png-image_15881083_65: -2481613946782268192
+      pngtree-old-medieval-door-png-image_15881083_66: -8276647164493374835
+      pngtree-old-medieval-door-png-image_15881083_67: -5081063940686112323
+      pngtree-old-medieval-door-png-image_15881083_68: -2233553358352911542
+      pngtree-old-medieval-door-png-image_15881083_69: 3505288157935239096
+      pngtree-old-medieval-door-png-image_15881083_7: -7032405076893420370
+      pngtree-old-medieval-door-png-image_15881083_70: -6001003465576066463
+      pngtree-old-medieval-door-png-image_15881083_71: 445860582058744711
+      pngtree-old-medieval-door-png-image_15881083_72: 4435520284922992901
+      pngtree-old-medieval-door-png-image_15881083_73: 6826837433808483533
+      pngtree-old-medieval-door-png-image_15881083_74: -4109218373071600140
+      pngtree-old-medieval-door-png-image_15881083_75: 397580080871044214
+      pngtree-old-medieval-door-png-image_15881083_76: -5441637313334604384
+      pngtree-old-medieval-door-png-image_15881083_77: -5244280589800915562
+      pngtree-old-medieval-door-png-image_15881083_78: 4988668414821791802
+      pngtree-old-medieval-door-png-image_15881083_79: -1909168071710771610
+      pngtree-old-medieval-door-png-image_15881083_8: 680067449158053172
+      pngtree-old-medieval-door-png-image_15881083_80: 6956402844027310212
+      pngtree-old-medieval-door-png-image_15881083_81: -2597534789552211275
+      pngtree-old-medieval-door-png-image_15881083_82: -2046402408915451422
+      pngtree-old-medieval-door-png-image_15881083_83: 7312709013255954761
+      pngtree-old-medieval-door-png-image_15881083_84: -6304723216364116972
+      pngtree-old-medieval-door-png-image_15881083_85: -364218175571270533
+      pngtree-old-medieval-door-png-image_15881083_86: 7949170474870900514
+      pngtree-old-medieval-door-png-image_15881083_87: 5893317656325753320
+      pngtree-old-medieval-door-png-image_15881083_88: -2593387867519052797
+      pngtree-old-medieval-door-png-image_15881083_89: -4917359550258787895
+      pngtree-old-medieval-door-png-image_15881083_9: 4781863207545469158
+      pngtree-old-medieval-door-png-image_15881083_90: -8695193394626414672
+      pngtree-old-medieval-door-png-image_15881083_91: 1728517026733596653
+      pngtree-old-medieval-door-png-image_15881083_92: -8735222984148339302
+      pngtree-old-medieval-door-png-image_15881083_93: -2063706788369854100
+      pngtree-old-medieval-door-png-image_15881083_94: 3213656338239015993
+      pngtree-old-medieval-door-png-image_15881083_95: -6834599949885197781
+      pngtree-old-medieval-door-png-image_15881083_96: 3783070338888235433
+      pngtree-old-medieval-door-png-image_15881083_97: 2175803389844648522
+      pngtree-old-medieval-door-png-image_15881083_98: 4328821742118597225
+      pngtree-old-medieval-door-png-image_15881083_99: -3254388555433397557
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
