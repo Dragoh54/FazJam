@@ -7,15 +7,15 @@ public class Door : MonoBehaviour, IInteractable
     [SerializeField] public Door connectedDoor;
     
     [Header("Spawn")]
-    [SerializeField] private Transform spawnPoint;
+    [SerializeField] protected Transform spawnPoint;
     
     [Header("Room")]
-    [SerializeField] private Room room;
+    [SerializeField] protected Room room;
 
     public delegate void RoomVisited(Room room, Door door);
     public event RoomVisited OnRoomVisited;
 
-    public void Interact()
+    public virtual void Interact()
     {
         GameObject player = GameObject.FindGameObjectWithTag("Player");
 
@@ -26,7 +26,7 @@ public class Door : MonoBehaviour, IInteractable
             connectedDoor.OnRoomVisited?.Invoke(connectedDoor.room, connectedDoor);
 
             var roomCenter = connectedDoor.room.GetCenter();
-            
+
             Camera.main.transform.position = new Vector3(
                 roomCenter.x,
                 roomCenter.y,

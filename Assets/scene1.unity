@@ -175,6 +175,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -235,6 +243,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -301,6 +317,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -373,11 +397,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+--- !u!1 &77004233 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2199235078008075064, guid: b6f175014ebcb3349950da677e1b40e2, type: 3}
+  m_PrefabInstance: {fileID: 111294359725811864}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &79813356 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
@@ -438,6 +475,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (65)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -515,6 +560,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (70)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -581,6 +634,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -641,6 +702,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -769,6 +838,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -840,6 +917,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -909,6 +994,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (99)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_IsActive
@@ -1112,6 +1205,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (78)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1197,6 +1298,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1370,6 +1479,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1441,6 +1558,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (86)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1502,6 +1627,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1562,6 +1695,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1629,6 +1770,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (94)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1694,6 +1843,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (96)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1898,6 +2055,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (76)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2033,6 +2198,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2184,6 +2357,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2249,6 +2430,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2316,6 +2505,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2376,6 +2573,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2438,6 +2643,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2498,6 +2711,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (77)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2575,6 +2796,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (98)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2635,6 +2864,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2712,6 +2949,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (92)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2777,6 +3022,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2844,6 +3097,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2904,6 +3165,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2971,6 +3240,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (84)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3011,8 +3288,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -600, y: -150}
+  m_AnchoredPosition: {x: -8.630005, y: 2.880005}
+  m_SizeDelta: {x: -392.94, y: -98.23}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &714274644
 MonoBehaviour:
@@ -3057,6 +3334,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9183282115071752361, guid: f9f425a2e9185594ca603cd95799e476, type: 3}
   m_PrefabInstance: {fileID: 993645347}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &717066012 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5334016092690748108, guid: f9f425a2e9185594ca603cd95799e476, type: 3}
+  m_PrefabInstance: {fileID: 993645347}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84aace791f1b7e4a9ae29e2742aa91f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Room
 --- !u!1001 &718068135
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3112,6 +3400,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (91)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3173,6 +3469,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3330,6 +3634,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (97)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3390,6 +3702,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3487,6 +3807,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3562,6 +3890,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (85)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3649,6 +3985,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3709,6 +4053,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3878,13 +4230,69 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1026950867227338899, guid: f9f425a2e9185594ca603cd95799e476, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1026950867227338899, guid: f9f425a2e9185594ca603cd95799e476, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1270850479588486830, guid: f9f425a2e9185594ca603cd95799e476, type: 3}
+      propertyPath: connectedEntrance
+      value: 
+      objectReference: {fileID: 1406258965}
     - target: {fileID: 1525035940948365415, guid: f9f425a2e9185594ca603cd95799e476, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1652492830114688882, guid: f9f425a2e9185594ca603cd95799e476, type: 3}
+      propertyPath: room
+      value: 
+      objectReference: {fileID: 717066012}
+    - target: {fileID: 1652492830114688882, guid: f9f425a2e9185594ca603cd95799e476, type: 3}
+      propertyPath: _isEntrance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1652492830114688882, guid: f9f425a2e9185594ca603cd95799e476, type: 3}
+      propertyPath: connectedDoor
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2518235192003953574, guid: f9f425a2e9185594ca603cd95799e476, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636899559814585216, guid: f9f425a2e9185594ca603cd95799e476, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636899559814585216, guid: f9f425a2e9185594ca603cd95799e476, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636899559814585216, guid: f9f425a2e9185594ca603cd95799e476, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636899559814585216, guid: f9f425a2e9185594ca603cd95799e476, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0019999982
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636899559814585216, guid: f9f425a2e9185594ca603cd95799e476, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.407
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636899559814585216, guid: f9f425a2e9185594ca603cd95799e476, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071039
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636899559814585216, guid: f9f425a2e9185594ca603cd95799e476, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.70710975
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636899559814585216, guid: f9f425a2e9185594ca603cd95799e476, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 270
       objectReference: {fileID: 0}
     - target: {fileID: 5334016092690748108, guid: f9f425a2e9185594ca603cd95799e476, type: 3}
       propertyPath: doorSetup
@@ -3897,6 +4305,22 @@ PrefabInstance:
     - target: {fileID: 5740768489926519469, guid: f9f425a2e9185594ca603cd95799e476, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6769960713975590399, guid: f9f425a2e9185594ca603cd95799e476, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.128
+      objectReference: {fileID: 0}
+    - target: {fileID: 6769960713975590399, guid: f9f425a2e9185594ca603cd95799e476, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.019
+      objectReference: {fileID: 0}
+    - target: {fileID: 7712266729408039328, guid: f9f425a2e9185594ca603cd95799e476, type: 3}
+      propertyPath: m_FlipY
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7712266729408039328, guid: f9f425a2e9185594ca603cd95799e476, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7859169809216360474, guid: f9f425a2e9185594ca603cd95799e476, type: 3}
       propertyPath: m_IsActive
@@ -3951,6 +4375,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9f425a2e9185594ca603cd95799e476, type: 3}
+--- !u!114 &993645348 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1270850479588486830, guid: f9f425a2e9185594ca603cd95799e476, type: 3}
+  m_PrefabInstance: {fileID: 993645347}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8ef2ec672f8b4b4589590ba901ec8d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Entrance
 --- !u!4 &993652234 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
@@ -4064,6 +4499,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4130,6 +4573,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4190,6 +4641,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4252,6 +4711,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4313,6 +4780,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4373,6 +4848,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4522,6 +5005,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -4597,6 +5088,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4662,6 +5161,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (80)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4722,6 +5229,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4788,6 +5303,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4859,6 +5382,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (93)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4963,6 +5494,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5023,6 +5562,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5085,6 +5632,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5145,6 +5700,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5207,6 +5770,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (87)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5267,6 +5838,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5329,6 +5908,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5389,6 +5976,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (90)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5451,11 +6046,124 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+--- !u!1001 &1406258959
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1850841122}
+    m_Modifications:
+    - target: {fileID: 2895477879832634244, guid: 8eeada5d13c3b494ca8ff8d354b9d1c4, type: 3}
+      propertyPath: connectedEntrance
+      value: 
+      objectReference: {fileID: 993645348}
+    - target: {fileID: 3414554749267141208, guid: 8eeada5d13c3b494ca8ff8d354b9d1c4, type: 3}
+      propertyPath: _isEntrance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3414554749267141208, guid: 8eeada5d13c3b494ca8ff8d354b9d1c4, type: 3}
+      propertyPath: connectedDoor
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4772461428192512851, guid: 8eeada5d13c3b494ca8ff8d354b9d1c4, type: 3}
+      propertyPath: m_Name
+      value: Entrance
+      objectReference: {fileID: 0}
+    - target: {fileID: 7241649026141003989, guid: 8eeada5d13c3b494ca8ff8d354b9d1c4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 7241649026141003989, guid: 8eeada5d13c3b494ca8ff8d354b9d1c4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.002
+      objectReference: {fileID: 0}
+    - target: {fileID: 8779109520086701738, guid: 8eeada5d13c3b494ca8ff8d354b9d1c4, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.007192075
+      objectReference: {fileID: 0}
+    - target: {fileID: 8779109520086701738, guid: 8eeada5d13c3b494ca8ff8d354b9d1c4, type: 3}
+      propertyPath: m_LocalScale.y
+      value: -0.008121002
+      objectReference: {fileID: 0}
+    - target: {fileID: 8779109520086701738, guid: 8eeada5d13c3b494ca8ff8d354b9d1c4, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.6233164
+      objectReference: {fileID: 0}
+    - target: {fileID: 8779109520086701738, guid: 8eeada5d13c3b494ca8ff8d354b9d1c4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0053049233
+      objectReference: {fileID: 0}
+    - target: {fileID: 8779109520086701738, guid: 8eeada5d13c3b494ca8ff8d354b9d1c4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.03243394
+      objectReference: {fileID: 0}
+    - target: {fileID: 8779109520086701738, guid: 8eeada5d13c3b494ca8ff8d354b9d1c4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8779109520086701738, guid: 8eeada5d13c3b494ca8ff8d354b9d1c4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071079
+      objectReference: {fileID: 0}
+    - target: {fileID: 8779109520086701738, guid: 8eeada5d13c3b494ca8ff8d354b9d1c4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8779109520086701738, guid: 8eeada5d13c3b494ca8ff8d354b9d1c4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8779109520086701738, guid: 8eeada5d13c3b494ca8ff8d354b9d1c4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7071057
+      objectReference: {fileID: 0}
+    - target: {fileID: 8779109520086701738, guid: 8eeada5d13c3b494ca8ff8d354b9d1c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8779109520086701738, guid: 8eeada5d13c3b494ca8ff8d354b9d1c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8779109520086701738, guid: 8eeada5d13c3b494ca8ff8d354b9d1c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8eeada5d13c3b494ca8ff8d354b9d1c4, type: 3}
+--- !u!4 &1406258963 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8779109520086701738, guid: 8eeada5d13c3b494ca8ff8d354b9d1c4, type: 3}
+  m_PrefabInstance: {fileID: 1406258959}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1406258965 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2895477879832634244, guid: 8eeada5d13c3b494ca8ff8d354b9d1c4, type: 3}
+  m_PrefabInstance: {fileID: 1406258959}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8ef2ec672f8b4b4589590ba901ec8d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Entrance
 --- !u!1001 &1406378459
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5511,6 +6219,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5664,6 +6380,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5729,6 +6453,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5796,6 +6528,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5862,6 +6602,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5922,6 +6670,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (72)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5989,6 +6745,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (83)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6054,6 +6818,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (69)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6126,6 +6898,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (95)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6192,6 +6972,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6252,6 +7040,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (75)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6314,6 +7110,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6374,6 +7178,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6511,6 +7323,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6577,6 +7397,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6592,12 +7420,24 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6328665737274535018, guid: b6f175014ebcb3349950da677e1b40e2, type: 3}
   m_PrefabInstance: {fileID: 111294359725811864}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 77004233}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b5ac670648549b48813c22754b15c88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerControlsOrchestrator
+--- !u!114 &1708922051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77004233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0ac12a05e2d60f4cb78178a183ea2b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerCamera
 --- !u!1 &1708945422
 GameObject:
   m_ObjectHideFlags: 0
@@ -6632,8 +7472,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.94, y: 3.71}
-  m_SizeDelta: {x: 494.27, y: 495.12}
+  m_AnchoredPosition: {x: -0.0014782, y: 0.00047302}
+  m_SizeDelta: {x: 407.06, y: 351.77}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1708945424
 MonoBehaviour:
@@ -6708,10 +7548,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 25.55
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -6817,6 +7657,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (79)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6888,6 +7736,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6949,6 +7805,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7009,6 +7873,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7091,6 +7963,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7152,11 +8032,112 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+--- !u!1 &1850841120
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1850841122}
+  - component: {fileID: 1850841121}
+  m_Layer: 0
+  m_Name: Area
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1850841121
+SpriteRenderer:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850841120}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -1
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Color: {r: 1, g: 0.99917835, b: 0.9264151, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.16, y: 0.16}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+  m_BlendShapeWeights: []
+--- !u!4 &1850841122
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850841120}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.2, y: 22.1, z: 0}
+  m_LocalScale: {x: 1087.2917, y: -1227.7263, z: 14.166}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1406258963}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1882405726
 GameObject:
   m_ObjectHideFlags: 0
@@ -7355,6 +8336,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (74)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7421,6 +8410,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (88)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7482,6 +8479,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (81)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7542,6 +8547,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7609,6 +8622,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7669,6 +8690,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7731,6 +8760,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7791,6 +8828,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7878,6 +8923,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (89)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7938,6 +8991,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8080,6 +9141,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8140,6 +9209,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8202,6 +9279,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8222,6 +9307,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2105599977}
   - component: {fileID: 2105599978}
+  - component: {fileID: 2105599979}
+  - component: {fileID: 2105599981}
+  - component: {fileID: 2105599980}
   m_Layer: 0
   m_Name: Mansion
   m_TagString: Untagged
@@ -8357,6 +9445,138 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   columns: 10
+--- !u!61 &2105599979
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105599976}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 1
+  m_CompositeOrder: 0
+  m_Offset: {x: -1.838665, y: 32.783306}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 100.028114, y: 100.019295}
+  m_EdgeRadius: 0
+--- !u!66 &2105599980
+CompositeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105599976}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_GeometryType: 0
+  m_GenerationType: 0
+  m_EdgeRadius: 0
+  m_ColliderPaths:
+  - m_Collider: {fileID: 2105599979}
+    m_ColliderPaths:
+    - - X: 481753920
+        Y: 827929536
+      - X: -518527232
+        Y: 827929536
+      - X: -518527232
+        Y: -172263408
+      - X: 481753920
+        Y: -172263408
+  m_CompositePaths:
+    m_Paths:
+    - - {x: 48.175365, y: -17.226341}
+      - {x: 48.175365, y: 82.79295}
+      - {x: -51.852722, y: 82.79292}
+      - {x: -51.852695, y: -17.226341}
+  m_VertexDistance: 0.0005
+  m_OffsetDistance: 0.00005
+  m_UseDelaunayMesh: 0
+  m_CompositeGameObject: {fileID: 2105599976}
+--- !u!50 &2105599981
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105599976}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!4 &2113929135 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
@@ -8433,6 +9653,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8469,7 +9697,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1748277036761774539, guid: b6f175014ebcb3349950da677e1b40e2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -14.8
+      value: -21.98
       objectReference: {fileID: 0}
     - target: {fileID: 1748277036761774539, guid: b6f175014ebcb3349950da677e1b40e2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8520,6 +9748,10 @@ PrefabInstance:
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6328665737274535018, guid: b6f175014ebcb3349950da677e1b40e2, type: 3}
+      propertyPath: _cameraComponent
+      value: 
+      objectReference: {fileID: 1708922051}
+    - target: {fileID: 6328665737274535018, guid: b6f175014ebcb3349950da677e1b40e2, type: 3}
       propertyPath: _playerIconOnZoomOut
       value: 
       objectReference: {fileID: 21300000, guid: aa2996cced76e784e850e55a94c08a59, type: 3}
@@ -8550,7 +9782,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2199235078008075064, guid: b6f175014ebcb3349950da677e1b40e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1708922051}
   m_SourcePrefab: {fileID: 100100000, guid: b6f175014ebcb3349950da677e1b40e2, type: 3}
 --- !u!1001 &631464038650342486
 PrefabInstance:
@@ -8750,92 +9985,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd8c698030ec6334fba2bb2c16f81df4, type: 3}
---- !u!1001 &2636347236848499144
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 536365296}
-    m_Modifications:
-    - target: {fileID: 1390793195463157210, guid: 5991aa9336563e0439ca2f1c8b9ff666, type: 3}
-      propertyPath: room
-      value: 
-      objectReference: {fileID: 6601515731665583386}
-    - target: {fileID: 1390793195463157210, guid: 5991aa9336563e0439ca2f1c8b9ff666, type: 3}
-      propertyPath: spawnPoint
-      value: 
-      objectReference: {fileID: 2636347236848499145}
-    - target: {fileID: 1390793195463157210, guid: 5991aa9336563e0439ca2f1c8b9ff666, type: 3}
-      propertyPath: connectedDoor
-      value: 
-      objectReference: {fileID: 1015663366}
-    - target: {fileID: 5042432784143536424, guid: 5991aa9336563e0439ca2f1c8b9ff666, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.018440008
-      objectReference: {fileID: 0}
-    - target: {fileID: 5042432784143536424, guid: 5991aa9336563e0439ca2f1c8b9ff666, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.8892399
-      objectReference: {fileID: 0}
-    - target: {fileID: 5042432784143536424, guid: 5991aa9336563e0439ca2f1c8b9ff666, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5042432784143536424, guid: 5991aa9336563e0439ca2f1c8b9ff666, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5042432784143536424, guid: 5991aa9336563e0439ca2f1c8b9ff666, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5042432784143536424, guid: 5991aa9336563e0439ca2f1c8b9ff666, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5042432784143536424, guid: 5991aa9336563e0439ca2f1c8b9ff666, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5042432784143536424, guid: 5991aa9336563e0439ca2f1c8b9ff666, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5042432784143536424, guid: 5991aa9336563e0439ca2f1c8b9ff666, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5042432784143536424, guid: 5991aa9336563e0439ca2f1c8b9ff666, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6363719405324232535, guid: 5991aa9336563e0439ca2f1c8b9ff666, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.87
-      objectReference: {fileID: 0}
-    - target: {fileID: 6363719405324232535, guid: 5991aa9336563e0439ca2f1c8b9ff666, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8026050403081281757, guid: 5991aa9336563e0439ca2f1c8b9ff666, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1.67
-      objectReference: {fileID: 0}
-    - target: {fileID: 9085106374387911889, guid: 5991aa9336563e0439ca2f1c8b9ff666, type: 3}
-      propertyPath: m_Name
-      value: r1d2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5991aa9336563e0439ca2f1c8b9ff666, type: 3}
---- !u!4 &2636347236848499145 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6363719405324232535, guid: 5991aa9336563e0439ca2f1c8b9ff666, type: 3}
-  m_PrefabInstance: {fileID: 2636347236848499144}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5116634761612122787
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9064,86 +10213,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 381d08a871d168f48ba9aed779997f25, type: 3}
---- !u!1001 &6601515731665583385
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 44114918}
-    m_Modifications:
-    - target: {fileID: 5940694771500366259, guid: 41a3823abd0f0654c818cc3a284d9938, type: 3}
-      propertyPath: m_Name
-      value: r1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6322102821030648926, guid: 41a3823abd0f0654c818cc3a284d9938, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.31941
-      objectReference: {fileID: 0}
-    - target: {fileID: 6322102821030648926, guid: 41a3823abd0f0654c818cc3a284d9938, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.31941
-      objectReference: {fileID: 0}
-    - target: {fileID: 6322102821030648926, guid: 41a3823abd0f0654c818cc3a284d9938, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.31941
-      objectReference: {fileID: 0}
-    - target: {fileID: 6322102821030648926, guid: 41a3823abd0f0654c818cc3a284d9938, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -7.65697
-      objectReference: {fileID: 0}
-    - target: {fileID: 6322102821030648926, guid: 41a3823abd0f0654c818cc3a284d9938, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.972285
-      objectReference: {fileID: 0}
-    - target: {fileID: 6322102821030648926, guid: 41a3823abd0f0654c818cc3a284d9938, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6322102821030648926, guid: 41a3823abd0f0654c818cc3a284d9938, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6322102821030648926, guid: 41a3823abd0f0654c818cc3a284d9938, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6322102821030648926, guid: 41a3823abd0f0654c818cc3a284d9938, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6322102821030648926, guid: 41a3823abd0f0654c818cc3a284d9938, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6322102821030648926, guid: 41a3823abd0f0654c818cc3a284d9938, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6322102821030648926, guid: 41a3823abd0f0654c818cc3a284d9938, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6322102821030648926, guid: 41a3823abd0f0654c818cc3a284d9938, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 41a3823abd0f0654c818cc3a284d9938, type: 3}
---- !u!114 &6601515731665583386 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8851409698215361280, guid: 41a3823abd0f0654c818cc3a284d9938, type: 3}
-  m_PrefabInstance: {fileID: 6601515731665583385}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c84aace791f1b7e4a9ae29e2742aa91f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Room
 --- !u!1001 &6656767453680182464
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9274,6 +10343,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -9289,6 +10366,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 990664033}
   - {fileID: 111294359725811864}
+  - {fileID: 1850841122}
   - {fileID: 2105599977}
   - {fileID: 286053548}
   - {fileID: 418391258}
