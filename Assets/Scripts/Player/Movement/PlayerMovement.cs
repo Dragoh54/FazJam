@@ -21,6 +21,15 @@ namespace Movement
             _input.x = Input.GetAxisRaw("Horizontal");
             _input.y = Input.GetAxisRaw("Vertical");
             _input = _input.normalized;
+
+            if(_input.magnitude >= 0.01)
+            {
+                SoundManager.Instance.StartWalkingSound();
+            }
+            else
+            {
+                SoundManager.Instance.StopWalkingSound();
+            }
         }
 
         private void FixedUpdate()

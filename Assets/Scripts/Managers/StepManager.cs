@@ -1,4 +1,3 @@
-using TMPro;
 using UnityEngine;
 
 public class StepManager : MonoBehaviour
@@ -9,11 +8,12 @@ public class StepManager : MonoBehaviour
     [field: SerializeField]
     public int MaxSteps { get; private set; } = 30;
 
-    [SerializeField]
-    private TextMeshProUGUI _uiCounter;
 
-    [SerializeField]
-    private TextMeshProUGUI _uiMaxCounter;
+    [field: SerializeField]
+    private UIManager _uiManager;
+
+    public delegate void StepsEnded();
+    public event StepsEnded OnStepsEnded;
 
     private void Awake()
     {
@@ -24,8 +24,8 @@ public class StepManager : MonoBehaviour
             door.OnRoomVisited += HandleRoomVisited;
         }
 
-        UpdateUICounter();
-        UpdateUIMaxSteps();
+        _uiManager.UpdateUICounter(CurrentSteps);
+        _uiManager.UpdateUIMaxSteps(MaxSteps);
     }
 
     private void HandleRoomVisited(Room room, Door door)
@@ -42,40 +42,31 @@ public class StepManager : MonoBehaviour
 
         CurrentSteps--;
 
-        UpdateUICounter();
+        if(CurrentSteps == 0)
+        {
+            OnStepsEnded?.Invoke();
+        }
+
+        _uiManager.UpdateUICounter(CurrentSteps);
     }
 
     public void AddSteps(int steps)
     {
+        int previousSteps = CurrentSteps;
         CurrentSteps = Mathf.Clamp(CurrentSteps + steps, 0, MaxSteps);
-        UpdateUICounter();
+
+        _uiManager.AnimateStepsChange(previousSteps, CurrentSteps);
     }
 
     public void RestoreToMaxSteps()
     {
         CurrentSteps = MaxSteps;
-        UpdateUICounter();
+        _uiManager.UpdateUICounter(CurrentSteps);
     }
 
     public void IncreaseMaxSteps(int steps)
     {
         MaxSteps += steps;
-        UpdateUIMaxSteps();
-    }
-
-    private void UpdateUICounter()
-    {
-        if (_uiCounter is not null)
-        {
-            _uiCounter.text = CurrentSteps.ToString();
-        }
-    }
-
-    private void UpdateUIMaxSteps()
-    {
-        if (_uiMaxCounter is not null)
-        {
-            _uiMaxCounter.text = MaxSteps.ToString();
-        }
+        _uiManager.UpdateUIMaxSteps(MaxSteps);
     }
 }
