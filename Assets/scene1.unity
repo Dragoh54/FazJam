@@ -11933,6 +11933,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 347692405}
     - target: {fileID: 2580523323799138459, guid: 856b1efc16d8a234aa418a6fda37d2d0, type: 3}
+      propertyPath: _uiManager
+      value: 
+      objectReference: {fileID: 559661242}
+    - target: {fileID: 2580523323799138459, guid: 856b1efc16d8a234aa418a6fda37d2d0, type: 3}
       propertyPath: _uiMaxCounter
       value: 
       objectReference: {fileID: 1882405728}
