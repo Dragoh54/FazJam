@@ -19,12 +19,13 @@ public class ZoomOutHandler : MonoBehaviour
     private InputManager _inputManager;
 
     private Camera _camera;
-    private Vector3 _prevPosition;
+    private GameManager _gameManager;
     private Coroutine _zoomCoroutine;
 
     private void Awake()
     {
         _camera = GetComponent<Camera>();
+        _gameManager = FindAnyObjectByType<GameManager>();
 
         _inputManager.OnMapOpened += ZoomOut;
         _inputManager.OnMapClosed += RevertZoom;
@@ -32,8 +33,6 @@ public class ZoomOutHandler : MonoBehaviour
 
     public void ZoomOut()
     {
-        _prevPosition = _camera.transform.position;
-
         StartCameraTransition(
             _mansion.GetCenter(),
             _zoomFactor,
@@ -42,8 +41,12 @@ public class ZoomOutHandler : MonoBehaviour
 
     public void RevertZoom()
     {
+        var roomPosition = _gameManager.CurrentRoom ? 
+            _gameManager.CurrentRoom.GetCenter() : 
+            GameObject.FindGameObjectWithTag("Player").transform.position;
+
         StartCameraTransition(
-            _prevPosition,
+            roomPosition,
             _baseZoom,
             _zoomDuration);
     }

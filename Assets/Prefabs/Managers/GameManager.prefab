@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8159057671672037458}
+  - component: {fileID: 7120619723892078981}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -36,6 +37,21 @@ Transform:
   - {fileID: 7090187086189914846}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7120619723892078981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5557969618249174892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 117448c87776c5d4e9041171ca70c240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  _stepManager: {fileID: 9176635173527979188}
+  _inventoryManager: {fileID: 3940274209822013363}
+  _uiManager: {fileID: 952845464228014927}
 --- !u!1001 &752170193565196378
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -237,6 +253,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8035955824507721951, guid: 41e8c292a397222439242a1f74c60112, type: 3}
   m_PrefabInstance: {fileID: 3452200984935684732}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &9176635173527979188 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5814529282426658504, guid: 41e8c292a397222439242a1f74c60112, type: 3}
+  m_PrefabInstance: {fileID: 3452200984935684732}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e59e5dd41225144193a559b9b394247, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1001 &3854511438770932414
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -356,6 +383,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61d793a5e30735748aa30f254deb07eb, type: 3}
+--- !u!114 &3940274209822013363 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6368581617390560952, guid: 61d793a5e30735748aa30f254deb07eb, type: 3}
+  m_PrefabInstance: {fileID: 7984624550035280139}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dec427c1cf44f4ba3b188ea98df138a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Managers.InventoryManager
 --- !u!4 &7090187086189914846 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 912667423752993749, guid: 61d793a5e30735748aa30f254deb07eb, type: 3}

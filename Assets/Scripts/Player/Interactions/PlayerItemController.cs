@@ -11,8 +11,8 @@ namespace Player.Interactions
 
         private void Awake()
         {
-            _stepManager = FindFirstObjectByType<StepManager>();
-            _inventoryManager = FindFirstObjectByType<InventoryManager>();
+            _stepManager = FindAnyObjectByType<StepManager>();
+            _inventoryManager = FindAnyObjectByType<InventoryManager>();
         }
 
         private void Update()

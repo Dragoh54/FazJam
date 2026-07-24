@@ -14,12 +14,14 @@ public class Door : MonoBehaviour, IInteractable
     [SerializeField] protected Room room;
 
     private StepManager _stepManager;
+    private GameManager _gameManager;
 
     public delegate void RoomVisited(Room room, Door door);
     public event RoomVisited OnRoomVisited;
 
     private void Awake()
     {
+        _gameManager = FindAnyObjectByType<GameManager>();
         _stepManager = FindAnyObjectByType<StepManager>();
     }
 
@@ -32,6 +34,8 @@ public class Door : MonoBehaviour, IInteractable
             player.transform.position = connectedDoor.spawnPoint.position;
 
             connectedDoor.OnRoomVisited?.Invoke(connectedDoor.room, connectedDoor);
+
+            _gameManager.CurrentRoom = connectedDoor.room;
 
             var roomCenter = connectedDoor.room.GetCenter();
 

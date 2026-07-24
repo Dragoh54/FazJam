@@ -1,8 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Items;
-using Microsoft.Unity.VisualStudio.Editor;
-using NUnit.Framework;
 using UnityEngine;
 using Image = UnityEngine.UI.Image;
 
@@ -16,7 +14,7 @@ namespace Managers
         
         [Header("Items")]
         private readonly List<ItemData> _valuables = new();
-        private ItemData _consumeItem;
+        public ItemData ConsumeItem { get; private set; }
 
         private void Start()
         {
@@ -41,11 +39,11 @@ namespace Managers
         
         public ItemData SetConsumable(ItemData newItem)
         {
-            var oldItem = _consumeItem;
+            var oldItem = ConsumeItem;
 
-            _consumeItem = newItem;
+            ConsumeItem = newItem;
 
-            Debug.Log($"Consumable: {_consumeItem.itemName}");
+            Debug.Log($"Consumable: {ConsumeItem.itemName}");
             
             UpdateConsumableUI();
 
@@ -54,11 +52,11 @@ namespace Managers
         
         public ItemData UseConsumable()
         {
-            if (_consumeItem == null)
+            if (ConsumeItem == null)
                 return null;
 
-            var item = _consumeItem;
-            _consumeItem = null;
+            var item = ConsumeItem;
+            ConsumeItem = null;
             
             UpdateConsumableUI();
 
@@ -67,7 +65,7 @@ namespace Managers
         
         private void UpdateConsumableUI()
         {
-            if (_consumeItem == null)
+            if (ConsumeItem == null)
             {
                 consumableIcon.sprite = null;
                 consumablePrompt.enabled = false;
@@ -75,19 +73,19 @@ namespace Managers
                 return;
             }
 
-            consumableIcon.sprite = _consumeItem.icon;
+            consumableIcon.sprite = ConsumeItem.icon;
             consumableIcon.enabled = true;
             consumablePrompt.enabled = true;
         }
         
         public void RemoveConsumable()
         {
-            if (_consumeItem == null)
+            if (ConsumeItem == null)
                 return;
 
-            Debug.Log($"Consumable used: {_consumeItem.itemName}");
+            Debug.Log($"Consumable used: {ConsumeItem.itemName}");
 
-            _consumeItem = null;
+            ConsumeItem = null;
         }
         
         private void PrintInventory()

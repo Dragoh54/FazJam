@@ -152,4 +152,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3759c6239eaf47e8a66b3977db8cde64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Items.Item
-  itemData: {fileID: 11400000, guid: 85f82349ace14194a83a5082922834aa, type: 2}
+  <ItemData>k__BackingField: {fileID: 11400000, guid: 85f82349ace14194a83a5082922834aa, type: 2}

@@ -6,7 +6,8 @@ namespace Items
 {
     public class Item : MonoBehaviour, IInteractable
     {
-        [SerializeField] private ItemData itemData;
+        [field: SerializeField]
+        public ItemData ItemData { get; private set; }
         
         [Header("Managers")]
         private StepManager _stepManager;
@@ -21,15 +22,15 @@ namespace Items
         
         public void Interact()
         {
-            switch (itemData.categoryType)
+            switch (ItemData.categoryType)
             {
                 case ItemCategoryType.Valuable:
-                    _inventoryManager.AddValuable(itemData);
+                    _inventoryManager.AddValuable(ItemData);
                     gameObject.SetActive(false);
                     break;
 
                 case ItemCategoryType.Consumable:
-                    var oldItem = _inventoryManager.SetConsumable(itemData);
+                    var oldItem = _inventoryManager.SetConsumable(ItemData);
 
                     if (oldItem != null)
                     {
@@ -49,7 +50,7 @@ namespace Items
 
         private void ApplyEffects()
         {
-            foreach (var effect in itemData.effects)
+            foreach (var effect in ItemData.effects)
             {
                 switch (effect.effectType)
                 {

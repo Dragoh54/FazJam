@@ -14,6 +14,9 @@ public class UIManager : MonoBehaviour
     private GameObject _successPanel;
 
     [SerializeField]
+    private GameObject _shopPanel;
+
+    [SerializeField]
     private TextMeshProUGUI _counter;
 
     [SerializeField]
@@ -24,14 +27,32 @@ public class UIManager : MonoBehaviour
 
     private Coroutine _stepsAnimation;
 
+    public delegate void ShopClosed();
+    public event ShopClosed OnShopClosed;
+
     private void Awake()
     {
         _instructionPanel.SetActive(false);
 
         var inputManager = FindAnyObjectByType<InputManager>();
+        var shop = FindAnyObjectByType<Shop>();
 
         inputManager.OnInstructionOpened += HandleInstructionOpened;
         inputManager.OnInstructionClosed += HandleInstructionClosed;
+
+        shop.OnShopOpened += HandleShopOpened;
+    }
+
+    public void HandleShopOpened()
+    {
+        _shopPanel.SetActive(true);
+    }
+
+    public void HandleShopClosed()
+    {
+        OnShopClosed?.Invoke();
+
+        _shopPanel.SetActive(false);
     }
 
     public void ShowFailScreen()

@@ -13,8 +13,10 @@ public class StepManager : MonoBehaviour
     [field: SerializeField]
     private UIManager _uiManager;
 
-    public delegate void StepsEnded();
+    public delegate void StepsEnded(Room room);
     public event StepsEnded OnStepsEnded;
+
+    private Room _currentRoom;
 
     private void Awake()
     {
@@ -31,6 +33,7 @@ public class StepManager : MonoBehaviour
 
     private void HandleRoomVisited(Room room, Door door)
     {
+        _currentRoom = room;
         SubtractStep();
     }
 
@@ -45,7 +48,7 @@ public class StepManager : MonoBehaviour
 
         if(CurrentSteps == 0)
         {
-            OnStepsEnded?.Invoke();
+            OnStepsEnded?.Invoke(_currentRoom);
         }
 
         _uiManager.UpdateUICounter(CurrentSteps);

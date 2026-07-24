@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3759c6239eaf47e8a66b3977db8cde64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Items.Item
-  itemData: {fileID: 11400000, guid: c161de89cb64c68498ef74c868029a51, type: 2}
+  <ItemData>k__BackingField: {fileID: 11400000, guid: c161de89cb64c68498ef74c868029a51, type: 2}
 --- !u!61 &2607148911252043541
 BoxCollider2D:
   m_ObjectHideFlags: 0
