@@ -15,6 +15,9 @@ public class StepManager : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI _uiMaxCounter;
 
+    public delegate void StepsEnded();
+    public event StepsEnded OnStepsEnded;
+
     private void Awake()
     {
         var doors = FindObjectsByType<Door>(FindObjectsInactive.Exclude);
@@ -41,6 +44,11 @@ public class StepManager : MonoBehaviour
         }
 
         CurrentSteps--;
+
+        if(CurrentSteps == 0)
+        {
+            OnStepsEnded?.Invoke();
+        }
 
         UpdateUICounter();
     }

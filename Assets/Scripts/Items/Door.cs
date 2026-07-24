@@ -12,14 +12,21 @@ public class Door : MonoBehaviour, IInteractable
     [Header("Room")]
     [SerializeField] protected Room room;
 
+    private StepManager _stepManager;
+
     public delegate void RoomVisited(Room room, Door door);
     public event RoomVisited OnRoomVisited;
+
+    private void Awake()
+    {
+        _stepManager = FindAnyObjectByType<StepManager>();
+    }
 
     public virtual void Interact()
     {
         GameObject player = GameObject.FindGameObjectWithTag("Player");
 
-        if (player != null && connectedDoor != null)
+        if (player != null && connectedDoor != null && _stepManager.CurrentSteps > 0)
         {
             player.transform.position = connectedDoor.spawnPoint.position;
 
