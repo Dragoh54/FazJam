@@ -1,10 +1,10 @@
-﻿using System;
+﻿using Assets.Scripts.Player.Orchestrator;
 using Items;
 using UnityEngine;
 
 namespace Player.Interactions
 {
-    public class PlayerInteraction : MonoBehaviour
+    public class PlayerInteraction : MonoBehaviour, IInputHandler
     {
         private IInteractable _currentInteractable;
         private InteractionPrompt _prompt;
@@ -14,7 +14,7 @@ namespace Player.Interactions
             _prompt = GetComponentInChildren<InteractionPrompt>();
         }
         
-        private void Update()
+        public void HandleInput()
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
