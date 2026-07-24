@@ -17,5 +17,5 @@ MonoBehaviour:
   categoryType: 0
   description: Bible 2
   price: 100
-  spawnLocationType: 2
+  itemPrefab: {fileID: 6062730200170658143, guid: 7030f331dcc4ae04b837a3154cc8d7a5, type: 3}
   effects: []

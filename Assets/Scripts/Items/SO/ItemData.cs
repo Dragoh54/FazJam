@@ -9,7 +9,7 @@ namespace Items
         [Header("General")] 
         public string itemName;
         public Sprite icon;
-        [FormerlySerializedAs("category")] public ItemCategoryType categoryType;
+        public ItemCategoryType categoryType;
         
         [TextArea]
         public string description;
@@ -17,8 +17,8 @@ namespace Items
         [Header("Shop")] 
         public int price;
         
-        [FormerlySerializedAs("spawnLocation")] [Header("Spawn")]
-        public SpawnLocationType spawnLocationType;
+        [Header("Spawn")]
+        public GameObject itemPrefab;
         
         [Header("Effect")]
         public ItemEffectData[] effects; 

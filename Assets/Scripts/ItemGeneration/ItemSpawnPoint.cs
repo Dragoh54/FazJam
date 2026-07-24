@@ -1,4 +1,5 @@
 ﻿using ItemGeneration;
+using Rooms;
 using UnityEngine;
 
 namespace Items
@@ -11,6 +12,19 @@ namespace Items
         public SpawnPointType AllowedTypes => allowedTypes;
 
         public bool IsOccupied { get; private set; }
+        
+        public RoomSpawnPoints RoomSpawnPoints { get; private set; }
+        
+        private void Awake()
+        {
+            RoomSpawnPoints = GetComponentInParent<RoomSpawnPoints>();
+            Debug.Log(RoomSpawnPoints.SpawnedItems);
+        }
+        
+        public void Occupy()
+        {
+            IsOccupied = true;
+        }
 
         public bool CanSpawn(ItemCategoryType category)
         {

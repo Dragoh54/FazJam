@@ -1,3 +1,4 @@
+using Rooms;
 using UnityEngine;
 
 public class StepManager : MonoBehaviour

@@ -1,4 +1,5 @@
 using Items;
+using Rooms;
 using UnityEngine;
 
 public class Door : MonoBehaviour, IInteractable
