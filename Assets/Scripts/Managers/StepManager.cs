@@ -45,13 +45,19 @@ public class StepManager : MonoBehaviour
         UpdateUICounter();
     }
 
-    private void AddSteps(int steps)
+    public void AddSteps(int steps)
     {
         CurrentSteps = Mathf.Clamp(CurrentSteps + steps, 0, MaxSteps);
         UpdateUICounter();
     }
 
-    private void IncreaseMaxSteps(int steps)
+    public void RestoreToMaxSteps()
+    {
+        CurrentSteps = MaxSteps;
+        UpdateUICounter();
+    }
+
+    public void IncreaseMaxSteps(int steps)
     {
         MaxSteps += steps;
         UpdateUIMaxSteps();

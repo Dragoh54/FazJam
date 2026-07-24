@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcc9f3fc130c49fcafa5b7a3183093cc, type: 3}
+  m_Name: Shoes
+  m_EditorClassIdentifier: Assembly-CSharp::Items.ItemData
+  itemName: Mommy shoes
+  icon: {fileID: 0}
+  categoryType: 2
+  description: Used by goth babe 10/10. Still smells
+  price: 1000
+  spawnLocationType: 1
+  effects:
+  - effectType: 2
+    value: 3
