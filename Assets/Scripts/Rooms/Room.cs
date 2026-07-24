@@ -1,13 +1,19 @@
+using System.Collections.Generic;
+using Items;
 using UnityEngine;  
 
 public class Room : MonoBehaviour
 {
+    [Header("Doors")]
     [field: SerializeField] public Door UpDoor;
     [field: SerializeField] public Door DownDoor;
     [field: SerializeField] public Door LeftDoor;
     [field: SerializeField] public Door RightDoor;
 
     [field: SerializeField] public int doorSetup;
+    
+    [Header("Item spawning")]
+    [SerializeField] private List<ItemSpawnPoint> spawnPoints;
 
     private static readonly (bool Up, bool Down, bool Left, bool Right)[] DoorLookup =
     {

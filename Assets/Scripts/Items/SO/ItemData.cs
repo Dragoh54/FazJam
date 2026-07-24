@@ -3,7 +3,7 @@ using UnityEngine.Serialization;
 
 namespace Items
 {
-    [CreateAssetMenu(menuName = "Items")]
+    [CreateAssetMenu(menuName = "Items/Item")]
     public class ItemData : ScriptableObject
     {
         [Header("General")] 
