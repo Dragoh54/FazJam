@@ -1,7 +1,5 @@
-using System;
 using Items;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 public class Door : MonoBehaviour, IInteractable
 {
@@ -14,6 +12,9 @@ public class Door : MonoBehaviour, IInteractable
     [Header("Room")]
     [SerializeField] private Room room;
 
+    public delegate void RoomVisited(Room room, Door door);
+    public event RoomVisited OnRoomVisited;
+
     public void Interact()
     {
         GameObject player = GameObject.FindGameObjectWithTag("Player");
@@ -21,7 +22,9 @@ public class Door : MonoBehaviour, IInteractable
         if (player != null && connectedDoor != null)
         {
             player.transform.position = connectedDoor.spawnPoint.position;
-            
+
+            connectedDoor.OnRoomVisited?.Invoke(connectedDoor.room, connectedDoor);
+
             var roomCenter = connectedDoor.room.GetCenter();
             
             Camera.main.transform.position = new Vector3(

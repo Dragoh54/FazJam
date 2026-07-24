@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a10cfd54c00478943b105f6621283ab3
+guid: aa2996cced76e784e850e55a94c08a59
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8197047826604361390
-    second: bedroom_0
+      213: -4635405039424541541
+    second: bedroom (2)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bedroom_0
+      name: bedroom (2)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ea604a78193c1c170800000000000000
-      internalID: 8197047826604361390
+      spriteID: b9c6b031dabbbafb0800000000000000
+      internalID: -4635405039424541541
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bedroom_0: 8197047826604361390
+      bedroom (2)_0: -4635405039424541541
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
