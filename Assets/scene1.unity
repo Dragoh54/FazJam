@@ -961,9 +961,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: bedroom (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 4151853779671809129, guid: 4618000d28205ce4a932bc81eadfc04d, type: 3}
+      propertyPath: doorSetup
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4337860229966103560, guid: 4618000d28205ce4a932bc81eadfc04d, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866769691216145667, guid: 4618000d28205ce4a932bc81eadfc04d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4031,9 +4039,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: bedroom (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 2200293392211984063, guid: 4618000d28205ce4a932bc81eadfc04d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4151853779671809129, guid: 4618000d28205ce4a932bc81eadfc04d, type: 3}
+      propertyPath: doorSetup
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 4337860229966103560, guid: 4618000d28205ce4a932bc81eadfc04d, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4541013900055862403, guid: 4618000d28205ce4a932bc81eadfc04d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866769691216145667, guid: 4618000d28205ce4a932bc81eadfc04d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7400089804485017282, guid: 4618000d28205ce4a932bc81eadfc04d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4763,9 +4791,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: bedroom (84)
       objectReference: {fileID: 0}
+    - target: {fileID: 2200293392211984063, guid: 4618000d28205ce4a932bc81eadfc04d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4151853779671809129, guid: 4618000d28205ce4a932bc81eadfc04d, type: 3}
+      propertyPath: doorSetup
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4337860229966103560, guid: 4618000d28205ce4a932bc81eadfc04d, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866769691216145667, guid: 4618000d28205ce4a932bc81eadfc04d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7400089804485017282, guid: 4618000d28205ce4a932bc81eadfc04d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4894,6 +4938,10 @@ PrefabInstance:
     - target: {fileID: 1045370490071997563, guid: 4618000d28205ce4a932bc81eadfc04d, type: 3}
       propertyPath: m_Name
       value: bedroom (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4151853779671809129, guid: 4618000d28205ce4a932bc81eadfc04d, type: 3}
+      propertyPath: doorSetup
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4337860229966103560, guid: 4618000d28205ce4a932bc81eadfc04d, type: 3}
       propertyPath: connectedDoor
@@ -9341,6 +9389,10 @@ PrefabInstance:
       propertyPath: m_Mass
       value: 0.0001
       objectReference: {fileID: 0}
+    - target: {fileID: 6494311903857454234, guid: b6f175014ebcb3349950da677e1b40e2, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7233257038790650202, guid: b6f175014ebcb3349950da677e1b40e2, type: 3}
       propertyPath: moveSpeed
       value: 6
@@ -9576,9 +9628,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: bedroom (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2200293392211984063, guid: 4618000d28205ce4a932bc81eadfc04d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4151853779671809129, guid: 4618000d28205ce4a932bc81eadfc04d, type: 3}
+      propertyPath: doorSetup
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4337860229966103560, guid: 4618000d28205ce4a932bc81eadfc04d, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4541013900055862403, guid: 4618000d28205ce4a932bc81eadfc04d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866769691216145667, guid: 4618000d28205ce4a932bc81eadfc04d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7400089804485017282, guid: 4618000d28205ce4a932bc81eadfc04d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

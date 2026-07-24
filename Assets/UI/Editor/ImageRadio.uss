@@ -1,0 +1,10 @@
+:root {
+}
+
+.imageRadio > .unity-radio-button__label {
+    display: none;
+}
+
+.imageRadio {
+    flex-direction: row-reverse;
+}

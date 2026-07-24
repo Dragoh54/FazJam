@@ -1,0 +1,56 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/UI/Editor/ImageRadio.uss?fileID=7433441132597879392&amp;guid=5463c40caaa7a1b43a21417bf7627dbb&amp;type=3#ImageRadio"/>
+    <ui:VisualElement style="flex-grow: 1;">
+        <uie:ObjectField label="Up Door" binding-path="UpDoor"/>
+        <uie:ObjectField label="Down Door" binding-path="DownDoor"/>
+        <uie:ObjectField label="Left Door" binding-path="LeftDoor"/>
+        <uie:ObjectField label="Right Door" binding-path="RightDoor"/>
+        <ui:RadioButtonGroup label="Door Setup" binding-path="doorSetup" choices="" name="DoorSetup">
+            <ui:RadioButton label="Radio Button" value="false" class="imageRadio">
+                <ui:Image source="project://database/Assets/UI/Editor/4.png?fileID=2800000&amp;guid=a37a105579cded94b85c6f2d2236a935&amp;type=3#4" style="height: 30px; width: 34px; margin-right: 7px;"/>
+            </ui:RadioButton>
+            <ui:RadioButton label="Radio Button" class="imageRadio">
+                <ui:Image source="project://database/Assets/UI/Editor/3_4.png?fileID=2800000&amp;guid=728c974d72aaf0149ba1e229502e39b3&amp;type=3#3_4" style="height: 30px; width: 34px; margin-right: 7px;"/>
+            </ui:RadioButton>
+            <ui:RadioButton label="Radio Button" class="imageRadio">
+                <ui:Image source="project://database/Assets/UI/Editor/3_3.png?fileID=2800000&amp;guid=a31497bd6dba1094e9c064ddda1ae4d8&amp;type=3#3_3" style="height: 30px; width: 34px; margin-right: 7px;"/>
+            </ui:RadioButton>
+            <ui:RadioButton label="Radio Button" class="imageRadio">
+                <ui:Image source="project://database/Assets/UI/Editor/3_2.png?fileID=2800000&amp;guid=d3af796ea297bf34c95035d473598b62&amp;type=3#3_2" style="height: 30px; width: 34px; margin-right: 7px;"/>
+            </ui:RadioButton>
+            <ui:RadioButton label="Radio Button" class="imageRadio">
+                <ui:Image source="project://database/Assets/UI/Editor/3_1.png?fileID=2800000&amp;guid=e8254b738c188fd4ea5428416828a0ae&amp;type=3#3_1" style="height: 30px; width: 34px; margin-right: 7px;"/>
+            </ui:RadioButton>
+            <ui:RadioButton label="Radio Button" class="imageRadio">
+                <ui:Image source="project://database/Assets/UI/Editor/2_6.png?fileID=2800000&amp;guid=f98ac486e67a7384295b3821d8d103f0&amp;type=3#2_6" style="height: 30px; width: 34px; margin-right: 7px;"/>
+            </ui:RadioButton>
+            <ui:RadioButton label="Radio Button" class="imageRadio">
+                <ui:Image source="project://database/Assets/UI/Editor/2_5.png?fileID=2800000&amp;guid=d1f6d0c5cd38ba84b96b04e2cf8b18e8&amp;type=3#2_5" style="height: 30px; width: 34px; margin-right: 7px;"/>
+            </ui:RadioButton>
+            <ui:RadioButton label="Radio Button" class="imageRadio">
+                <ui:Image source="project://database/Assets/UI/Editor/2_4.png?fileID=2800000&amp;guid=3ce18331a07b5584bbab44a34ff18c83&amp;type=3#2_4" style="height: 30px; width: 34px; margin-right: 7px;"/>
+            </ui:RadioButton>
+            <ui:RadioButton label="Radio Button" class="imageRadio">
+                <ui:Image source="project://database/Assets/UI/Editor/2_3.png?fileID=2800000&amp;guid=e81ed78c2c7350449bf2787cca6b009b&amp;type=3#2_3" style="height: 30px; width: 34px; margin-right: 7px;"/>
+            </ui:RadioButton>
+            <ui:RadioButton label="Radio Button" class="imageRadio">
+                <ui:Image source="project://database/Assets/UI/Editor/2_2.png?fileID=2800000&amp;guid=2df424fb8b596ed4aa04c4f3bce37b52&amp;type=3#2_2" scale-mode="ScaleToFit" picking-mode="Position" style="height: 32px; width: 30px; margin-right: 9px; margin-left: 1.5px;"/>
+            </ui:RadioButton>
+            <ui:RadioButton label="Radio Button" class="imageRadio">
+                <ui:Image source="project://database/Assets/UI/Editor/2_1.png?fileID=2800000&amp;guid=135b1ba0c3e6dbe4187f6d1171171611&amp;type=3#2_1" style="height: 30px; width: 34px; margin-right: 7px;"/>
+            </ui:RadioButton>
+            <ui:RadioButton label="Radio Button" class="imageRadio">
+                <ui:Image source="project://database/Assets/UI/Editor/1_4.png?fileID=2800000&amp;guid=88329ab1f9f645045a2b5178d9ebef61&amp;type=3#1_4" style="height: 30px; width: 34px; margin-right: 7px;"/>
+            </ui:RadioButton>
+            <ui:RadioButton label="Radio Button" class="imageRadio">
+                <ui:Image source="project://database/Assets/UI/Editor/1_3.png?fileID=2800000&amp;guid=a52e2366afae6804cb9f87a4f609fe53&amp;type=3#1_3" style="height: 30px; width: 34px; margin-right: 7px;"/>
+            </ui:RadioButton>
+            <ui:RadioButton label="Radio Button" class="imageRadio">
+                <ui:Image source="project://database/Assets/UI/Editor/1_2.png?fileID=2800000&amp;guid=11455a66515a57e4293101c3ff4548fd&amp;type=3#1_2" style="height: 30px; width: 34px; margin-right: 7px;"/>
+            </ui:RadioButton>
+            <ui:RadioButton label="Radio Button" class="imageRadio">
+                <ui:Image source="project://database/Assets/UI/Editor/1_1.png?fileID=2800000&amp;guid=f4fddb58b80ddb745b22a8bb1cb0abad&amp;type=3#1_1" style="height: 30px; width: 34px; margin-right: 7px;"/>
+            </ui:RadioButton>
+        </ui:RadioButtonGroup>
+    </ui:VisualElement>
+</ui:UXML>
