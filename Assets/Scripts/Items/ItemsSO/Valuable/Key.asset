@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Items.ItemData
   itemName: Key
   icon: {fileID: -7511967566865430983, guid: b649c99901922204989900c2c88de45b, type: 3}
-  categoryType: 0
+  categoryType: 3
   description: Key
   price: 0
   spawnLocationType: 2

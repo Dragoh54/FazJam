@@ -4,6 +4,7 @@
     {
         Valuable,
         Consumable,
-        Upgrade
+        Upgrade,
+        Story
     }
 }

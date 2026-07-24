@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Items.ItemData
   itemName: Main Item
   icon: {fileID: 5962689061485224524, guid: cd1178e4113efe54394834d686a4f5d2, type: 3}
-  categoryType: 0
+  categoryType: 3
   description: Main item
   price: 0
   spawnLocationType: 2
