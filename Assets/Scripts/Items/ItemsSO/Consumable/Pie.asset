@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Pie
   m_EditorClassIdentifier: Assembly-CSharp::Items.ItemData
   itemName: Pie
-  icon: {fileID: 0}
+  icon: {fileID: 204608602259608170, guid: 40eca46353af87d4a9e80e5ec7e2421a, type: 3}
   categoryType: 1
   description: 'Sweet pie from Sweety friend '
   price: 1500

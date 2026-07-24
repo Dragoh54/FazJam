@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Coffee
   m_EditorClassIdentifier: Assembly-CSharp::Items.ItemData
   itemName: Coffee
-  icon: {fileID: 0}
+  icon: {fileID: 4369098806548012131, guid: acfbdc6c0e82432409591886d58dc29c, type: 3}
   categoryType: 1
   description: Perfect shit
   price: 4000

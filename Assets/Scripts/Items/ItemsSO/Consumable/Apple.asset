@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Apple
   m_EditorClassIdentifier: Assembly-CSharp::Items.ItemData
   itemName: Apple
-  icon: {fileID: 0}
+  icon: {fileID: 3133344535812834036, guid: 598ad58396c4a72469ec0618a908fd13, type: 3}
   categoryType: 1
   description: Wow! Farmer Team really Cook
   price: 500

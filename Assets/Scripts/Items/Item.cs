@@ -1,4 +1,5 @@
 ﻿using System;
+using Managers;
 using UnityEngine;
 
 namespace Items
@@ -7,15 +8,15 @@ namespace Items
     {
         [SerializeField] private ItemData itemData;
         
-        [Header("Step Manager")]
+        [Header("Managers")]
         private StepManager _stepManager;
-        
-        //todo: add sellManager
+        private InventoryManager _inventoryManager;
 
         [Obsolete("Obsolete")]
         private void Awake()
         {
             _stepManager = FindFirstObjectByType<StepManager>();
+            _inventoryManager = FindFirstObjectByType<InventoryManager>();
         }
         
         public void Interact()
@@ -23,17 +24,27 @@ namespace Items
             switch (itemData.categoryType)
             {
                 case ItemCategoryType.Valuable:
-                    // sellManager.Add(itemData);
-                    Debug.Log("Fur fur fur");
+                    _inventoryManager.AddValuable(itemData);
+                    gameObject.SetActive(false);
                     break;
 
                 case ItemCategoryType.Consumable:
+                    var oldItem = _inventoryManager.SetConsumable(itemData);
+
+                    if (oldItem != null)
+                    {
+                        // TODO:
+                        // create old item instead old
+                    }
+
+                    gameObject.SetActive(false);
+                    break;
+                
                 case ItemCategoryType.Upgrade:
                     ApplyEffects();
+                    gameObject.SetActive(false);
                     break;
             }
-
-            gameObject.SetActive(false);
         }
 
         private void ApplyEffects()
