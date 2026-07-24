@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bcc9f3fc130c49fcafa5b7a3183093cc, type: 3}
-  m_Name: Book
+  m_Name: Diamond
   m_EditorClassIdentifier: Assembly-CSharp::Items.ItemData
-  itemName: Book
-  icon: {fileID: 3843231544584785974, guid: 49e82a068d9dfd44b87bea7a230552d1, type: 3}
+  itemName: Diamond
+  icon: {fileID: 6586461156150141773, guid: 5c85e867d94a36b4face2494885c8cbd, type: 3}
   categoryType: 0
-  description: Bible 2
-  price: 100
-  itemPrefab: {fileID: 6062730200170658143, guid: 7030f331dcc4ae04b837a3154cc8d7a5, type: 3}
+  description: New feastables with child terars of joy
+  price: 500
+  itemPrefab: {fileID: 2564652061305104584, guid: f8befe8f01f595d4ca979e5074f52130, type: 3}
   effects: []

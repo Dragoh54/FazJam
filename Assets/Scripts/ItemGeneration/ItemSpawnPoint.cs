@@ -8,7 +8,6 @@ namespace Items
     {
         [Header("Spawn point type")]
         [SerializeField] private SpawnPointType allowedTypes;
-
         public SpawnPointType AllowedTypes => allowedTypes;
 
         public bool IsOccupied { get; private set; }
@@ -18,7 +17,6 @@ namespace Items
         private void Awake()
         {
             RoomSpawnPoints = GetComponentInParent<RoomSpawnPoints>();
-            Debug.Log(RoomSpawnPoints.SpawnedItems);
         }
         
         public void Occupy()
@@ -31,9 +29,7 @@ namespace Items
             var requiredType = category switch
             {
                 ItemCategoryType.Valuable => SpawnPointType.Valuable,
-
                 ItemCategoryType.Consumable => SpawnPointType.Item,
-
                 _ => SpawnPointType.None
             };
 

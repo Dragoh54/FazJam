@@ -6,7 +6,6 @@ namespace Rooms
 {
     public class Room : MonoBehaviour
     {
-        [Header("Doors")]
         [field: SerializeField] public Door UpDoor;
         [field: SerializeField] public Door DownDoor;
         [field: SerializeField] public Door LeftDoor;

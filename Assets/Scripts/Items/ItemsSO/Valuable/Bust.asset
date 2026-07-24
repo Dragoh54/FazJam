@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bcc9f3fc130c49fcafa5b7a3183093cc, type: 3}
-  m_Name: Book
+  m_Name: Bust
   m_EditorClassIdentifier: Assembly-CSharp::Items.ItemData
-  itemName: Book
-  icon: {fileID: 3843231544584785974, guid: 49e82a068d9dfd44b87bea7a230552d1, type: 3}
+  itemName: Bust
+  icon: {fileID: 3332539659357973396, guid: 4faaa01fa58dcee45a64af5dbccde876, type: 3}
   categoryType: 0
-  description: Bible 2
-  price: 100
-  itemPrefab: {fileID: 6062730200170658143, guid: 7030f331dcc4ae04b837a3154cc8d7a5, type: 3}
+  description: Zalupa
+  price: 400
+  itemPrefab: {fileID: 2156737531629103405, guid: f5bf415a9f87a91459608cd8c484f84c, type: 3}
   effects: []

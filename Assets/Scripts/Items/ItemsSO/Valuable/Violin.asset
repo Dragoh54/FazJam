@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bcc9f3fc130c49fcafa5b7a3183093cc, type: 3}
-  m_Name: Book
+  m_Name: Violin
   m_EditorClassIdentifier: Assembly-CSharp::Items.ItemData
-  itemName: Book
-  icon: {fileID: 3843231544584785974, guid: 49e82a068d9dfd44b87bea7a230552d1, type: 3}
+  itemName: Violin
+  icon: {fileID: -1445942386714145898, guid: 56ce7ca8b8f2cba4c99265b1bb9a1b92, type: 3}
   categoryType: 0
-  description: Bible 2
-  price: 100
-  itemPrefab: {fileID: 6062730200170658143, guid: 7030f331dcc4ae04b837a3154cc8d7a5, type: 3}
+  description: Omori
+  price: 300
+  itemPrefab: {fileID: 295537343177470758, guid: 2de4929340dfa154d95f0f68aaf82305, type: 3}
   effects: []
