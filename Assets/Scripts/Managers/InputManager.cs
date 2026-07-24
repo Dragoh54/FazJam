@@ -2,9 +2,13 @@ using UnityEngine;
 
 public class InputManager : MonoBehaviour
 {
-    public delegate void MapInteraction(Vector3? currentPosition);
+    public delegate void MapInteraction();
     public event MapInteraction OnMapOpened;
     public event MapInteraction OnMapClosed;
+
+    public delegate void InstructructionInteraction();
+    public event InstructructionInteraction OnInstructionOpened;
+    public event InstructructionInteraction OnInstructionClosed;
 
     [SerializeField]
     private PlayerControlsOrchestrator _orchestrator;
@@ -13,21 +17,43 @@ public class InputManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Tab))
         {
-            OnMapOpened?.Invoke(Camera.main.transform.position);
+            OnMapOpened?.Invoke();
 
-            if (_orchestrator)
-            {
-                _orchestrator.IsBlocked = true;
-            }
+            BlockInput();
         }
         else if (Input.GetKeyUp(KeyCode.Tab))
         {
-            OnMapClosed?.Invoke(null);
+            OnMapClosed?.Invoke();
 
-            if (_orchestrator)
-            {
-                _orchestrator.IsBlocked = false;
-            }
+            EnableInput();
+        } 
+        else if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            OnInstructionOpened?.Invoke();
+
+            BlockInput();
+        }
+        else if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            OnInstructionClosed?.Invoke();
+
+            EnableInput();
+        }
+    }
+
+    private void BlockInput()
+        {
+        if (_orchestrator)
+        {
+            _orchestrator.IsBlocked = true;
+        }
+    }
+
+    private void EnableInput()
+    {
+        if (_orchestrator)
+        {
+            _orchestrator.IsBlocked = false;
         }
     }
 }

@@ -21,14 +21,18 @@ public class PlayerControlsOrchestrator : MonoBehaviour
 
     private void Update()
     {
-        if (IsBlocked && !_prevSprite)
+        if (IsBlocked)
         {
-            _prevSprite = _spriteRenderer.sprite;
-            _spriteRenderer.sprite = _playerIconOnZoomOut;
+            if (!_prevSprite)
+            {
+                _prevSprite = _spriteRenderer.sprite;
+                _spriteRenderer.sprite = _playerIconOnZoomOut;
+            }
 
             return;
-        } 
-        else if (!IsBlocked && _prevSprite)
+        }
+
+        if (!IsBlocked && _prevSprite)
         {
             _spriteRenderer.sprite = _prevSprite;
             _prevSprite = null;

@@ -30,9 +30,9 @@ public class ZoomOutHandler : MonoBehaviour
         _inputManager.OnMapClosed += RevertZoom;
     }
 
-    public void ZoomOut(Vector3? currentPosition)
+    public void ZoomOut()
     {
-        _prevPosition = currentPosition ?? Vector3.zero;
+        _prevPosition = _camera.transform.position;
 
         StartCameraTransition(
             _mansion.GetCenter(),
@@ -40,7 +40,7 @@ public class ZoomOutHandler : MonoBehaviour
             _zoomDuration);
     }
 
-    public void RevertZoom(Vector3? currentPosition)
+    public void RevertZoom()
     {
         StartCameraTransition(
             _prevPosition,
