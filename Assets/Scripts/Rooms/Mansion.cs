@@ -11,6 +11,23 @@ public class Mansion : MonoBehaviour
         SetDoorsConnection();
     }
 
+    public Vector3 GetCenter()
+    {
+        var centroid = new Vector3(0, 0, 0);
+
+        if (transform.childCount > 0)
+        {
+            foreach (var child in _gridArray)
+            {
+                centroid += child.transform.position;
+            }
+
+            centroid /= (transform.childCount + 1);
+        }
+
+        return centroid;
+    }
+
     void PlaceChildrenInGrid()
     {
         int totalChildren = transform.childCount;

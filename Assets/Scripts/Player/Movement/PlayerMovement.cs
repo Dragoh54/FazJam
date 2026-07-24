@@ -1,8 +1,9 @@
+using Assets.Scripts.Player.Orchestrator;
 using UnityEngine;
 
 namespace Movement
 {
-    public class PlayerMovement : MonoBehaviour
+    public class PlayerMovement : MonoBehaviour, IInputHandler 
     {
         [Header("Movement settings")]
         [SerializeField] private float moveSpeed = 5f;
@@ -15,7 +16,7 @@ namespace Movement
             _rb = GetComponent<Rigidbody2D>();
         }
 
-        private void Update()
+        public void HandleInput()
         {
             _input.x = Input.GetAxisRaw("Horizontal");
             _input.y = Input.GetAxisRaw("Vertical");
