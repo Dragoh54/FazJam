@@ -127,6 +127,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -175,6 +179,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -196,9 +208,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -244,6 +264,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -251,6 +275,10 @@ PrefabInstance:
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -270,9 +298,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -318,6 +354,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -325,6 +365,10 @@ PrefabInstance:
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -349,6 +393,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -397,6 +445,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -428,6 +484,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -476,6 +536,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -483,6 +547,10 @@ PrefabInstance:
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -512,6 +580,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -560,6 +632,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (70)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -586,6 +666,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -634,6 +718,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -641,6 +729,10 @@ PrefabInstance:
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -655,9 +747,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -702,6 +802,10 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
@@ -790,9 +894,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -838,6 +950,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -869,9 +985,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -917,6 +1041,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -945,7 +1073,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: doorSetup
-      value: 4
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
@@ -994,6 +1122,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (99)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
@@ -1157,9 +1293,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1204,6 +1348,10 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (78)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
@@ -1251,6 +1399,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -1298,6 +1450,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
@@ -1431,6 +1591,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -1479,6 +1643,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -1486,6 +1654,10 @@ PrefabInstance:
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1510,6 +1682,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -1558,6 +1734,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (86)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -1579,6 +1763,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -1635,6 +1823,10 @@ PrefabInstance:
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1648,9 +1840,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1704,6 +1904,10 @@ PrefabInstance:
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1722,6 +1926,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -1770,6 +1978,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (94)
       objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -1777,6 +1989,10 @@ PrefabInstance:
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1796,6 +2012,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -1851,6 +2071,10 @@ PrefabInstance:
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2007,9 +2231,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2062,6 +2294,10 @@ PrefabInstance:
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2151,9 +2387,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2198,6 +2442,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
@@ -2309,9 +2561,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2357,6 +2617,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -2383,9 +2647,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2431,6 +2703,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -2457,9 +2733,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2505,6 +2789,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -2526,9 +2814,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2574,6 +2870,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -2595,6 +2895,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -2643,6 +2947,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -2664,6 +2976,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -2712,6 +3028,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -2719,6 +3039,10 @@ PrefabInstance:
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2748,9 +3072,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2804,6 +3136,10 @@ PrefabInstance:
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2817,9 +3153,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2865,6 +3209,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -2901,6 +3249,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -2949,6 +3301,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (92)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -2956,6 +3316,10 @@ PrefabInstance:
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2975,9 +3339,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3023,6 +3395,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -3049,9 +3425,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3097,6 +3481,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -3104,6 +3492,10 @@ PrefabInstance:
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3118,6 +3510,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -3166,6 +3562,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -3173,6 +3573,10 @@ PrefabInstance:
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3192,9 +3596,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3247,6 +3659,10 @@ PrefabInstance:
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3353,9 +3769,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3409,6 +3833,10 @@ PrefabInstance:
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3422,9 +3850,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3477,6 +3913,10 @@ PrefabInstance:
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3586,6 +4026,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -3634,6 +4078,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (97)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -3641,6 +4089,10 @@ PrefabInstance:
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3655,9 +4107,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3703,6 +4163,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -3710,6 +4174,10 @@ PrefabInstance:
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3759,6 +4227,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -3807,6 +4279,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -3843,6 +4323,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -3899,6 +4383,10 @@ PrefabInstance:
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3937,6 +4425,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -3985,6 +4477,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -3992,6 +4488,10 @@ PrefabInstance:
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4006,6 +4506,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -4054,6 +4558,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -4061,6 +4569,10 @@ PrefabInstance:
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4332,7 +4844,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9183282115071752361, guid: f9f425a2e9185594ca603cd95799e476, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.829941
+      value: 3.1700592
       objectReference: {fileID: 0}
     - target: {fileID: 9183282115071752361, guid: f9f425a2e9185594ca603cd95799e476, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4451,9 +4963,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4507,6 +5027,10 @@ PrefabInstance:
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4525,6 +5049,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -4581,6 +5109,10 @@ PrefabInstance:
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4594,9 +5126,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4642,6 +5182,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -4649,6 +5193,10 @@ PrefabInstance:
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4663,9 +5211,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4711,6 +5267,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -4718,6 +5278,10 @@ PrefabInstance:
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4732,9 +5296,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4780,6 +5352,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -4801,6 +5377,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -4849,6 +5429,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -4856,6 +5440,10 @@ PrefabInstance:
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4947,7 +5535,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: doorSetup
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
@@ -5003,7 +5591,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
@@ -5015,7 +5603,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5040,6 +5628,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -5088,6 +5680,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -5095,6 +5691,10 @@ PrefabInstance:
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5111,7 +5711,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: doorSetup
-      value: 1
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
@@ -5161,6 +5761,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (80)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -5168,6 +5772,10 @@ PrefabInstance:
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5182,6 +5790,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -5230,6 +5842,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -5256,9 +5876,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5304,6 +5932,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -5311,6 +5943,10 @@ PrefabInstance:
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5335,9 +5971,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5390,6 +6034,10 @@ PrefabInstance:
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5446,13 +6094,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.1700592
+      value: -6.829941
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5494,6 +6146,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -5515,9 +6171,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5563,6 +6227,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -5584,9 +6252,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5632,6 +6308,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -5653,9 +6333,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5701,6 +6389,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -5708,6 +6400,10 @@ PrefabInstance:
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5722,9 +6418,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5770,6 +6474,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (87)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -5791,9 +6503,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5860,6 +6580,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -5908,6 +6632,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -5929,6 +6657,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -5977,12 +6709,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (90)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -5998,9 +6742,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6054,6 +6806,10 @@ PrefabInstance:
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6105,7 +6861,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8779109520086701738, guid: 8eeada5d13c3b494ca8ff8d354b9d1c4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.0053049233
+      value: 0.00406
       objectReference: {fileID: 0}
     - target: {fileID: 8779109520086701738, guid: 8eeada5d13c3b494ca8ff8d354b9d1c4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6172,9 +6928,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6227,6 +6991,10 @@ PrefabInstance:
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6332,9 +7100,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6380,12 +7156,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -6406,6 +7194,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -6454,6 +7246,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -6461,6 +7257,10 @@ PrefabInstance:
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6480,9 +7280,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6528,6 +7336,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -6535,6 +7347,10 @@ PrefabInstance:
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6554,9 +7370,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6602,6 +7426,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -6623,6 +7451,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -6671,6 +7503,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (72)
       objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -6678,6 +7514,10 @@ PrefabInstance:
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6697,6 +7537,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -6745,6 +7589,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (83)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -6771,9 +7623,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6827,6 +7687,10 @@ PrefabInstance:
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6850,6 +7714,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -6898,6 +7766,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (95)
       objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -6905,6 +7777,10 @@ PrefabInstance:
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6924,6 +7800,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -6972,6 +7852,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -6979,6 +7863,10 @@ PrefabInstance:
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6993,9 +7881,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7041,6 +7937,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (75)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -7062,9 +7966,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7110,6 +8022,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -7131,9 +8047,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7178,6 +8102,10 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
@@ -7275,6 +8203,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -7323,6 +8255,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -7349,6 +8289,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -7397,6 +8341,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -7404,6 +8356,10 @@ PrefabInstance:
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7609,9 +8565,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7657,6 +8621,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (79)
       objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -7688,9 +8656,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7736,6 +8712,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -7757,6 +8737,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -7805,6 +8789,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -7826,9 +8818,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7874,6 +8874,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -7881,6 +8885,10 @@ PrefabInstance:
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7915,6 +8923,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -7963,6 +8975,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -7984,9 +9004,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8031,6 +9059,10 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
@@ -8288,6 +9320,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -8336,6 +9372,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (74)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -8362,9 +9406,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8410,6 +9462,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (88)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -8431,9 +9487,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8500,9 +9564,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8548,6 +9620,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -8574,6 +9650,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -8622,12 +9702,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -8643,9 +9735,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8691,6 +9791,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -8712,6 +9816,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -8760,6 +9868,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -8781,9 +9893,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8828,6 +9948,10 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
@@ -8875,9 +9999,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8931,6 +10063,10 @@ PrefabInstance:
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8944,9 +10080,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8991,6 +10135,10 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
@@ -9093,6 +10241,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -9141,6 +10293,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -9148,6 +10304,10 @@ PrefabInstance:
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9162,9 +10322,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9210,6 +10378,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -9217,6 +10389,10 @@ PrefabInstance:
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163112206635150846, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9231,6 +10407,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -9278,6 +10458,14 @@ PrefabInstance:
     - target: {fileID: 3360290406049324166, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_Name
       value: BedRoom (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
@@ -9424,8 +10612,8 @@ Transform:
   - {fileID: 641836739}
   - {fileID: 732616796}
   - {fileID: 525757930}
-  - {fileID: 717066011}
   - {fileID: 246862572}
+  - {fileID: 717066011}
   - {fileID: 197125857}
   - {fileID: 755895164}
   - {fileID: 1811287324}
@@ -9605,6 +10793,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2105599977}
     m_Modifications:
+    - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: doorSetup
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
       value: 
@@ -9653,6 +10845,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BedRoom (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4515636602482785858, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085028825012796991, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6772240121651611339, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -9693,11 +10893,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1748277036761774539, guid: b6f175014ebcb3349950da677e1b40e2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7
+      value: 3.24
       objectReference: {fileID: 0}
     - target: {fileID: 1748277036761774539, guid: b6f175014ebcb3349950da677e1b40e2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -21.98
+      value: -21.42
       objectReference: {fileID: 0}
     - target: {fileID: 1748277036761774539, guid: b6f175014ebcb3349950da677e1b40e2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10281,7 +11481,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1854807662691138708, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: doorSetup
-      value: 8
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 2022376110318109941, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: connectedDoor
@@ -10289,7 +11489,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2244812052841569406, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: m_LocalPosition.x
