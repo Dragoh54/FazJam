@@ -13,6 +13,12 @@ public class Door : MonoBehaviour, IInteractable
     [Header("Room")]
     [SerializeField] protected Room room;
 
+    [Header("Zoom out")]
+    [SerializeField] protected Sprite _zoomOutSprite;
+
+    private SpriteRenderer _spriteRenderer;
+    private Sprite _originalSprite;
+
     private StepManager _stepManager;
     private GameManager _gameManager;
 
@@ -21,8 +27,16 @@ public class Door : MonoBehaviour, IInteractable
 
     protected virtual void Awake()
     {
+        _spriteRenderer = GetComponent<SpriteRenderer>();
+        _originalSprite = _spriteRenderer.sprite;
+
         _gameManager = FindAnyObjectByType<GameManager>();
         _stepManager = FindAnyObjectByType<StepManager>();
+
+        var inputManager = FindAnyObjectByType<InputManager>();
+
+        inputManager.OnMapOpened += HandleZoomOut;
+        inputManager.OnMapClosed += HandleZoomIn;
     }
 
     public virtual void Interact()
@@ -45,5 +59,15 @@ public class Door : MonoBehaviour, IInteractable
                 Camera.main.transform.position.z
             );
         }
+    }
+
+    public void HandleZoomOut()
+    {
+        _spriteRenderer.sprite = _zoomOutSprite;
+    }
+
+    public void HandleZoomIn()
+    {
+        _spriteRenderer.sprite = _originalSprite;
     }
 }

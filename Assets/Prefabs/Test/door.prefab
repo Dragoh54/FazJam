@@ -164,7 +164,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.13875, y: 0.2675}
+    oldSize: {x: 0.111, y: 0.214}
     newSize: {x: 0.13875, y: 0.2675}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -187,3 +187,4 @@ MonoBehaviour:
   connectedDoor: {fileID: 0}
   spawnPoint: {fileID: 6363719405324232535}
   room: {fileID: 0}
+  _zoomOutSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}

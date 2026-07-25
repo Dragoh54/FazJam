@@ -60,7 +60,6 @@ namespace ItemGeneration
         {
             List<ItemSpawnPoint> possiblePoints = new();
 
-
             foreach (var room in _rooms)
             {
                 if (!room.CanSpawn(generationSettings.maxItemsPerRoom))

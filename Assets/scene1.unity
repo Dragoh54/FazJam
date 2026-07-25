@@ -4084,17 +4084,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 541108333}
   m_CullTransparentMesh: 1
---- !u!114 &549965698 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1803461604502969617, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
-  m_PrefabInstance: {fileID: 8011206327999237044}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bef3c647e3f4227959c367a540b58c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Items.ItemSpawnPoint
 --- !u!4 &580272159 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3227445617036924657, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
@@ -7848,6 +7837,7 @@ MonoBehaviour:
   connectedDoor: {fileID: 0}
   spawnPoint: {fileID: 319495133}
   room: {fileID: 1697232256}
+  _zoomOutSprite: {fileID: 0}
   requirement: {fileID: 11400000, guid: ffcc8c347f4de4c458957edfccdc3626, type: 2}
 --- !u!4 &1181355633 stripped
 Transform:
@@ -15551,12 +15541,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2268422585519332297, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: spawnPoints.Array.size
-      value: 7
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2268422585519332297, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: 'spawnPoints.Array.data[6]'
       value: 
-      objectReference: {fileID: 549965698}
+      objectReference: {fileID: 0}
     - target: {fileID: 2268422585519332297, guid: b5968213743f28449ba22487a9e22eb3, type: 3}
       propertyPath: 'spawnPoints.Array.data[7]'
       value: 
