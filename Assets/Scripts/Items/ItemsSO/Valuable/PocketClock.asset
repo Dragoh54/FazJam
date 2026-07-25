@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: PocketClock
   m_EditorClassIdentifier: Assembly-CSharp::Items.ValuableItemData
   itemName: Pocket Clock
-  icon: {fileID: 8581363780399802525, guid: 3880fe0f992ded04fb5cdcfce486a120, type: 3}
+  icon: {fileID: 21300000, guid: fee2d21acf601e94fa8580ac3a0b4458, type: 3}
   description: summus cultus
   itemPrefab: {fileID: 3356990537620989881, guid: 4726c7f18b3a06d498c07ba558e38008, type: 3}
   sellPrice: 200

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Sword
   m_EditorClassIdentifier: Assembly-CSharp::Items.ValuableItemData
   itemName: Sword
-  icon: {fileID: -3753825769889500098, guid: a3205f10aa05f3a438e7cfe6fe3bbc0c, type: 3}
+  icon: {fileID: 21300000, guid: ce6ca6edaf7cb9d419d4cc78cd81882a, type: 3}
   description: Asian sword
   itemPrefab: {fileID: 3766128364901188695, guid: dee114cdccc889e428e1dda6ebbc0673, type: 3}
   sellPrice: 200

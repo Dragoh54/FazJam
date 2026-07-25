@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Cup
   m_EditorClassIdentifier: Assembly-CSharp::Items.ValuableItemData
   itemName: Cup
-  icon: {fileID: 9103656482713568619, guid: ee8213f3542be7a42b476052eaf12d47, type: 3}
+  icon: {fileID: 21300000, guid: fa22be3841f6602488046e3fac42ca16, type: 3}
   description: It looks magic
   itemPrefab: {fileID: 6134611538225561799, guid: 5cd88fe6fc1d2ac459bd1106ff8572a3, type: 3}
   sellPrice: 150

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Pie
   m_EditorClassIdentifier: Assembly-CSharp::Items.ConsumableItemData
   itemName: Pie
-  icon: {fileID: 204608602259608170, guid: 40eca46353af87d4a9e80e5ec7e2421a, type: 3}
+  icon: {fileID: 21300000, guid: c456b360543b61342938313b4a3181a2, type: 3}
   description: Restore 12 steps
   itemPrefab: {fileID: 7537333843279433292, guid: 914e6b4ae8da5db4b88d0769e089901f, type: 3}
   effects:

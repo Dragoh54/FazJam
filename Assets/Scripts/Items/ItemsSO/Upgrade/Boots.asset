@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Boots
   m_EditorClassIdentifier: Assembly-CSharp::Items.UpgradeItemData
   itemName: Boots
-  icon: {fileID: -4609764937589784581, guid: 4e58a07a893d78b4892fd6de00b1bb2e, type: 3}
+  icon: {fileID: 21300000, guid: a6c8fa2dbdb4b1443a66b8c0bad0fc1f, type: 3}
   description: Increase max steps by 3
   itemPrefab: {fileID: 4952338011461172107, guid: 381d08a871d168f48ba9aed779997f25, type: 3}
   effects:
