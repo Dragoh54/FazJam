@@ -14125,7 +14125,7 @@ GameObject:
   - component: {fileID: 1733428515}
   - component: {fileID: 1733428516}
   - component: {fileID: 1733428517}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14755,7 +14755,7 @@ GameObject:
   - component: {fileID: 1835259160}
   - component: {fileID: 1835259157}
   - component: {fileID: 1835259156}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Shop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17373,6 +17373,10 @@ PrefabInstance:
     - target: {fileID: 4093484711962500951, guid: b6f175014ebcb3349950da677e1b40e2, type: 3}
       propertyPath: interactionRadius
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4093484711962500951, guid: b6f175014ebcb3349950da677e1b40e2, type: 3}
+      propertyPath: interactableLayer.m_Bits
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6328665737274535018, guid: b6f175014ebcb3349950da677e1b40e2, type: 3}
       propertyPath: m_Enabled
