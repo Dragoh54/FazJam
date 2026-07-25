@@ -20,12 +20,20 @@ public class UIManager : MonoBehaviour
     private TextMeshProUGUI _counter;
 
     [SerializeField]
+    private TextMeshProUGUI _moneyCounter;
+
+    [SerializeField]
     private TextMeshProUGUI _maxCounter;
 
     [SerializeField]
     private TextMeshProUGUI _addSteps;
 
+    [SerializeField]
+    private TextMeshProUGUI _addMoney;
+
     private Coroutine _stepsAnimation;
+    private Coroutine _moneyChangeAnimation;
+    private Coroutine _moneyAnimation;
 
     public delegate void ShopClosed();
     public event ShopClosed OnShopClosed;
@@ -158,5 +166,121 @@ public class UIManager : MonoBehaviour
         UpdateUICounter(to);
 
         _stepsAnimation = null;
+    }
+
+    public void AnimateMoneyChange(int start, int finish)
+    {
+        if (_moneyChangeAnimation != null)
+            StopCoroutine(_moneyChangeAnimation);
+
+        _moneyChangeAnimation = StartCoroutine(UpdateMoneyChangeUI(start, finish));
+    }
+
+    public void UpdateAddMoneyCounter(int money)
+    {
+        if (_addMoney is not null)
+        {
+            _addMoney.text = "+" + money.ToString();
+        }
+    }
+
+    public void UpdateMoneyCounter(int money)
+    {
+        if (_moneyCounter is not null)
+        {
+            _moneyCounter.text = money.ToString();
+        }
+    }
+
+    public IEnumerator UpdateMoneyChangeUI(int from, int to)
+    {
+        const float counterDuration = 0.5f;
+
+        int difference = to - from;
+
+        _addMoney.gameObject.SetActive(true);
+
+        float elapsed = 0f;
+
+        while (elapsed < counterDuration)
+        {
+            elapsed += Time.deltaTime;
+
+            int displayedMoney = Mathf.RoundToInt(
+                Mathf.Lerp(from, to, elapsed / counterDuration));
+
+            UpdateAddMoneyCounter(displayedMoney);
+
+            yield return null;
+        }
+
+        UpdateAddMoneyCounter(to);
+
+        _moneyChangeAnimation = null;
+    }
+
+    public void AnimateMoneyCounter(int start, int finish)
+    {
+        if (_moneyAnimation != null)
+            StopCoroutine(_moneyAnimation);
+
+        _moneyAnimation = StartCoroutine(UpdateMoneyUI(start, finish));
+    }
+
+    public IEnumerator UpdateMoneyUI(int from, int to)
+    {
+        const float popupDuration = 0.35f;
+        const float counterDuration = 0.5f;
+        const float popupDistance = 40f;
+
+        int difference = to - from;
+
+        RectTransform rect = _addMoney.rectTransform;
+        Vector2 startPos = rect.anchoredPosition;
+
+        Color color = _addMoney.color;
+
+        rect.anchoredPosition = startPos;
+        color.a = 1f;
+        _addMoney.color = color;
+        _addMoney.text = $"+{difference}";
+
+        float elapsed = 0f;
+
+        while (elapsed < popupDuration)
+        {
+            elapsed += Time.deltaTime;
+            float t = Mathf.Clamp01(elapsed / popupDuration);
+
+            rect.anchoredPosition = startPos + Vector2.down * popupDistance * t;
+
+            color.a = 1f - t;
+            _addMoney.color = color;
+
+            yield return null;
+        }
+
+        rect.anchoredPosition = startPos;
+        color.a = 1f;
+        _addMoney.color = color;
+        _addMoney.gameObject.SetActive(false);
+
+        elapsed = 0f;
+
+        while (elapsed < counterDuration)
+        {
+            elapsed += Time.deltaTime;
+
+            int displayedMoney = Mathf.RoundToInt(
+                Mathf.Lerp(from, to, elapsed / counterDuration));
+
+            UpdateMoneyCounter(displayedMoney);
+
+            yield return null;
+        }
+
+        UpdateMoneyCounter(to);
+
+        _moneyAnimation = null;
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using Items;
 using UnityEngine;
 using Image = UnityEngine.UI.Image;
@@ -15,6 +16,9 @@ namespace Managers
         [Header("Items")]
         private readonly List<ItemData> _valuables = new();
         public ItemData ConsumeItem { get; private set; }
+
+        [SerializeField]
+        private ShopManager _shopManager;
 
         private void Start()
         {
@@ -33,7 +37,9 @@ namespace Managers
         public void AddValuable(ItemData item)
         {
             _valuables.Add(item);
-            
+
+            _shopManager.AddMoneyChange(item.price);
+
             Debug.Log($"Added: {item.itemName}");
         }
         
@@ -101,6 +107,20 @@ namespace Managers
         public int GetTotalValue()
         {
             return _valuables.Sum(item => item.price);
+        }
+
+        public int SellValuables()
+        {
+            var totalValue = 0;
+
+            foreach (var item in _valuables)
+            {
+                totalValue += item.price;
+            }
+
+            _valuables.Clear();
+
+            return totalValue;
         }
     }
 }
