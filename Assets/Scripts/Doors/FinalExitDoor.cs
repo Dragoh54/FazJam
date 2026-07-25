@@ -1,16 +1,16 @@
-﻿using UnityEngine;
-
-namespace Doors
+﻿namespace Doors
 {
     public class FinalExitDoor : StoryDoor
     {
+        public delegate void Escaped();
+        public event Escaped OnEscaped;
+
         public override void Interact()
         {
             if (!CanInteract())
                 return;
 
-            //TODO: WIN
-            Debug.Log("Win!");
+            OnEscaped?.Invoke();
         }
     }
 }

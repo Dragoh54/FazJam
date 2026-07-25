@@ -1,3 +1,4 @@
+using Doors;
 using Items;
 using Managers;
 using Rooms;
@@ -19,9 +20,13 @@ public class GameManager : MonoBehaviour
 
     public Room CurrentRoom { get; set; }
 
+    [SerializeField]
+    private FinalExitDoor _finalExitDoor;
+
     private void Awake()
     {
         _stepManager.OnStepsEnded += HandleStepsEnded;
+        _finalExitDoor.OnEscaped += HandleEscape;
     }
 
     private void HandleStepsEnded(Room room)
@@ -37,13 +42,20 @@ public class GameManager : MonoBehaviour
         }
 
         _uiManager.ShowFailScreen();
-        StartCoroutine(RestartScene());
+        StartCoroutine(FailGame());
     }
 
     private void HandleEscape()
     {
         _uiManager.ShowWinScreen();
         StartCoroutine(RestartScene());
+    }
+
+    private IEnumerator FailGame()
+    {
+        yield return new WaitForSeconds(2);
+
+        yield return RestartScene();
     }
 
     private IEnumerator RestartScene()
