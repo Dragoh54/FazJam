@@ -17,8 +17,7 @@ namespace Items
 
             if (oldItem != null)
             {
-                // TODO: выбросить старый предмет
-                // TODO: сделать в конце
+                SpawnOldItem(oldItem, item.transform.position);
             }
 
             item.PickedUp();
@@ -27,6 +26,15 @@ namespace Items
         public void Use(StepManager stepManager)
         {
             ApplyEffects(stepManager);
+        }
+        
+        private void SpawnOldItem(ConsumableItemData oldItem, Vector3 position)
+        {
+            Instantiate(
+                oldItem.itemPrefab,
+                position,
+                Quaternion.identity
+            );
         }
     }
 }

@@ -42,27 +42,26 @@ namespace Managers
             Debug.Log($"Added: {item.itemName}");
         }
         
-        public ItemData SetConsumable(ConsumableItemData newItem)
+        public ConsumableItemData SetConsumable(ConsumableItemData newItem)
         {
             var oldItem = ConsumeItem;
 
             ConsumeItem = newItem;
 
-            Debug.Log($"Consumable: {ConsumeItem.itemName}");
-            
+            Debug.Log($"Current consumable: {ConsumeItem.itemName}");
+
             UpdateConsumableUI();
 
             return oldItem;
         }
         
-        //TODO: REMOVE COMMENTED
         public ConsumableItemData UseConsumable()
         {
             if (ConsumeItem == null)
                 return null;
 
             var item = ConsumeItem;
-            //ConsumeItem = null;
+            ConsumeItem = null;
             
             UpdateConsumableUI();
 
