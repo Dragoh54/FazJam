@@ -18,4 +18,4 @@ MonoBehaviour:
   itemPrefab: {fileID: 6292622422727524720, guid: 238bdd7504419064e9c1a0a4a438db4d, type: 3}
   effects:
   - {fileID: 11400000, guid: cd5b4e1e13b476b489a05cc1b14ef1c6, type: 2}
-  price: 3500
+  price: 3300
