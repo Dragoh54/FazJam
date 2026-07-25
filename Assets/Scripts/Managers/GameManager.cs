@@ -4,6 +4,7 @@ using Managers;
 using Rooms;
 using System.Collections;
 using System.Linq;
+using Cutscene;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -24,7 +25,7 @@ public class GameManager : MonoBehaviour
     private FinalExitDoor _finalExitDoor;
 
     [SerializeField]
-    private IntroCutscene _cutscene;
+    private Cutscene.Cutscene _cutscene;
 
     private void Awake()
     {
@@ -51,13 +52,15 @@ public class GameManager : MonoBehaviour
         }
 
         _uiManager.ShowFailScreen();
-        StartCoroutine(FailGame());
+        //StartCoroutine(FailGame());
     }
+
+    
 
     private void HandleEscape()
     {
         _uiManager.ShowWinScreen();
-        StartCoroutine(RestartScene());
+        //StartCoroutine(RestartScene());
     }
 
     private IEnumerator FailGame()
@@ -71,7 +74,12 @@ public class GameManager : MonoBehaviour
     {
         yield return new WaitForSeconds(5);
 
-        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        RestartGame();
+    }
+    
+    public void RestartGame()
+    {
+        var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex);
     }
 }
