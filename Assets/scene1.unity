@@ -1972,6 +1972,7 @@ MonoBehaviour:
   continueDelay: 3
   continueFadeDuration: 0.5
   player: {fileID: 77004233}
+  isEnding: 1
 --- !u!1 &286053544
 GameObject:
   m_ObjectHideFlags: 0
@@ -3755,6 +3756,7 @@ MonoBehaviour:
   continueDelay: 3
   continueFadeDuration: 0.5
   player: {fileID: 77004233}
+  isEnding: 0
 --- !u!225 &491286363
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -4334,7 +4336,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6122526, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.61176467, g: 1, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4376,6 +4378,7 @@ MonoBehaviour:
   continueDelay: 3
   continueFadeDuration: 0.5
   player: {fileID: 77004233}
+  isEnding: 1
 --- !u!1 &541108333
 GameObject:
   m_ObjectHideFlags: 0
@@ -5583,7 +5586,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9eb6c2161454a20a12de4a4cff82e6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Text.TypewriterText
-  textComponent: {fileID: 1305840470}
+  textComponent: {fileID: 691343217}
   letterDelay: 0.03
   audioSource: {fileID: 691343219}
   typingSound: {fileID: 8300000, guid: dc7b3c8f7b73df64a89d1a9c9ac306d0, type: 3}
@@ -11526,7 +11529,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9eb6c2161454a20a12de4a4cff82e6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Text.TypewriterText
-  textComponent: {fileID: 1305840470}
+  textComponent: {fileID: 1357801372}
   letterDelay: 0.03
   audioSource: {fileID: 1357801374}
   typingSound: {fileID: 8300000, guid: dc7b3c8f7b73df64a89d1a9c9ac306d0, type: 3}
