@@ -18,6 +18,7 @@ namespace Items
             if (oldItem != null)
             {
                 // TODO: выбросить старый предмет
+                // TODO: сделать в конце
             }
 
             item.PickedUp();
