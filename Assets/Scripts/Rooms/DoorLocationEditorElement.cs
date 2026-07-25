@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using Rooms;
 using UnityEditor;
 using UnityEditor.UIElements;
@@ -28,3 +29,5 @@ public class DoorLocationEditorElement : Editor
         return root;
     }
 }
+
+#endif

@@ -223,7 +223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b5ac670648549b48813c22754b15c88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerControlsOrchestrator
-  _playerIconOnZoomOut: {fileID: 0}
+  _playerIconOnZoomOut: {fileID: 21300000, guid: e557ae39d3ba2dc48a7680f7b70bcfc9, type: 3}
 --- !u!114 &7454164495409719953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -262,7 +262,7 @@ Transform:
   m_GameObject: {fileID: 8196918886804580929}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.021, y: 1.556, z: 0}
+  m_LocalPosition: {x: 0.056, y: 0.831, z: 0}
   m_LocalScale: {x: 0.32981142, y: 0.32981142, z: 0.32981142}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -317,7 +317,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -2808032538189770046, guid: deff172441ed8934388799423274382a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d8d92a2ea53db0d4480ff4aff0efc2ac, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

@@ -4,6 +4,7 @@ using UnityEngine;
 public class PlayerControlsOrchestrator : MonoBehaviour
 {
     private SpriteRenderer _spriteRenderer;
+    private Animator _animator;
     private IInputHandler[] _playerInputHandlers;
 
     [SerializeField]
@@ -16,6 +17,7 @@ public class PlayerControlsOrchestrator : MonoBehaviour
     private void Awake()
     {
         _spriteRenderer = GetComponent<SpriteRenderer>();
+        _animator = GetComponent<Animator>();
         _playerInputHandlers = GetComponents<IInputHandler>();
     }
 
@@ -27,6 +29,7 @@ public class PlayerControlsOrchestrator : MonoBehaviour
             {
                 _prevSprite = _spriteRenderer.sprite;
                 _spriteRenderer.sprite = _playerIconOnZoomOut;
+                _animator.enabled = false;
             }
 
             return;
@@ -36,6 +39,7 @@ public class PlayerControlsOrchestrator : MonoBehaviour
         {
             _spriteRenderer.sprite = _prevSprite;
             _prevSprite = null;
+            _animator.enabled = true;
         }
 
         foreach (var inputHandler in _playerInputHandlers)
