@@ -1060,6 +1060,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Apple-Pie_0
       objectReference: {fileID: 0}
+    - target: {fileID: 7537333843279433292, guid: 914e6b4ae8da5db4b88d0769e089901f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8842776045953296708, guid: 914e6b4ae8da5db4b88d0769e089901f, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.025750782
@@ -3773,6 +3777,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: potion_0
       objectReference: {fileID: 0}
+    - target: {fileID: 6292622422727524720, guid: 238bdd7504419064e9c1a0a4a438db4d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4136,7 +4144,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 731806605160617493, guid: 73a81a773a9bd924ebb76f6667ae2f96, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 61f27a0f5eb6b654fa004e0a114d429a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5004,7 +5012,7 @@ RectTransform:
   m_GameObject: {fileID: 701284897}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0001249, y: 1.0001249, z: 1.0001249}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 180328830}
@@ -5012,8 +5020,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -162.84, y: 6.37}
-  m_SizeDelta: {x: 70.33, y: 52.73}
+  m_AnchoredPosition: {x: -121.5, y: 19.1}
+  m_SizeDelta: {x: 123.18, y: 92.35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &701284899
 MonoBehaviour:
@@ -5091,7 +5099,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 204608602259608170, guid: 40eca46353af87d4a9e80e5ec7e2421a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c456b360543b61342938313b4a3181a2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5954,6 +5962,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: magickBush_0
       objectReference: {fileID: 0}
+    - target: {fileID: 5301650465121654513, guid: c707d7b78b02bcc4f92ee7b9905acb5c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7832543643490158860, guid: c707d7b78b02bcc4f92ee7b9905acb5c, type: 3}
       propertyPath: m_LocalScale.x
       value: 7.2424064
@@ -6458,7 +6470,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -7154643226380819692, guid: 474082cefe611624f969e29d19dfd8f3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 662653299b348c74c86e9d0b008ac4b3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6512,8 +6524,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -282, y: 77}
-  m_SizeDelta: {x: 71.59, y: 59.05}
+  m_AnchoredPosition: {x: -262, y: 90.4}
+  m_SizeDelta: {x: 128.78, y: 106.22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &969182912
 MonoBehaviour:
@@ -6591,7 +6603,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 3133344535812834036, guid: 598ad58396c4a72469ec0618a908fd13, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 146b498cf9cee0e43a1d0dbb5007dce6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7851,8 +7863,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -275, y: -108}
-  m_SizeDelta: {x: 79.17, y: 57.79}
+  m_AnchoredPosition: {x: -265.3, y: -95.1}
+  m_SizeDelta: {x: 142.52, y: 104.03}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1107008653
 MonoBehaviour:
@@ -7930,7 +7942,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4369098806548012131, guid: acfbdc6c0e82432409591886d58dc29c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 787ece129318c2440a984dd5f1cde816, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8792,7 +8804,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4609764937589784581, guid: 4e58a07a893d78b4892fd6de00b1bb2e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a6c8fa2dbdb4b1443a66b8c0bad0fc1f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12894,6 +12906,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pngtree-hot-coffee-cup_0
       objectReference: {fileID: 0}
+    - target: {fileID: 5786044301261043197, guid: 4912e74e1f2d0fd4bbf361c2563ed360, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14354,6 +14370,10 @@ PrefabInstance:
     - target: {fileID: 8754239443811335123, guid: dd8c698030ec6334fba2bb2c16f81df4, type: 3}
       propertyPath: m_Name
       value: pngtree-fresh-apple_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8754239443811335123, guid: dd8c698030ec6334fba2bb2c16f81df4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16118,6 +16138,10 @@ PrefabInstance:
     - target: {fileID: 4952338011461172107, guid: 381d08a871d168f48ba9aed779997f25, type: 3}
       propertyPath: m_Name
       value: shoes_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4952338011461172107, guid: 381d08a871d168f48ba9aed779997f25, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5324984921811721396, guid: 381d08a871d168f48ba9aed779997f25, type: 3}
       propertyPath: stepManager

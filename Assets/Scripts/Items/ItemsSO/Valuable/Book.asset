@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Book
   m_EditorClassIdentifier: Assembly-CSharp::Items.ValuableItemData
   itemName: Book
-  icon: {fileID: 3843231544584785974, guid: 49e82a068d9dfd44b87bea7a230552d1, type: 3}
+  icon: {fileID: 21300000, guid: 4f66d0244146c4444b85fc3d7079408d, type: 3}
   description: 'I cannot read this '
   itemPrefab: {fileID: 6062730200170658143, guid: 7030f331dcc4ae04b837a3154cc8d7a5, type: 3}
   sellPrice: 100
