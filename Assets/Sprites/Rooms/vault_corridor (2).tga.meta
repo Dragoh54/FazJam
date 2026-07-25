@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c6dff2e414abd96468fb9c56fc844e6d
+guid: 194d8e885e6898444a6b124f61c98d35
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1115979453594080455
-    second: vault_corridor_0
+      213: 8461297968813576816
+    second: vault_corridor (2)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -38,7 +38,7 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: 3
+    aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: vault_corridor_0
+      name: vault_corridor (2)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 93be3e3899e3380f0800000000000000
-      internalID: -1115979453594080455
+      spriteID: 0721ed93ca19c6570800000000000000
+      internalID: 8461297968813576816
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      vault_corridor_0: -1115979453594080455
+      vault_corridor (2)_0: 8461297968813576816
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
