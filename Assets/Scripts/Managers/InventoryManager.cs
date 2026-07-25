@@ -109,18 +109,9 @@ namespace Managers
             return _valuables.Sum(item => item.sellPrice);
         }
 
-        public int SellValuables()
+        public void ClearValuables()
         {
-            var totalValue = 0;
-
-            foreach (var item in _valuables)
-            {
-                totalValue += item.sellPrice;
-            }
-
             _valuables.Clear();
-
-            return totalValue;
         }
     }
 }

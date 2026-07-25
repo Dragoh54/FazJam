@@ -31,6 +31,9 @@ public class UIManager : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI _addMoney;
 
+    [SerializeField]
+    private ShopPanel _shopPanelScript;
+
     private Coroutine _stepsAnimation;
     private Coroutine _moneyChangeAnimation;
     private Coroutine _moneyAnimation;
@@ -43,17 +46,15 @@ public class UIManager : MonoBehaviour
         _instructionPanel.SetActive(false);
 
         var inputManager = FindAnyObjectByType<InputManager>();
-        var shop = FindAnyObjectByType<Shop>();
 
         inputManager.OnInstructionOpened += HandleInstructionOpened;
         inputManager.OnInstructionClosed += HandleInstructionClosed;
-
-        shop.OnShopOpened += HandleShopOpened;
     }
 
-    public void HandleShopOpened()
+    public void HandleShopChange(bool hasConsumable, int currentMoney)
     {
         _shopPanel.SetActive(true);
+        _shopPanelScript.HandleVisibility(hasConsumable, currentMoney);
     }
 
     public void HandleShopClosed()
