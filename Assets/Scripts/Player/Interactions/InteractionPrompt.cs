@@ -1,3 +1,4 @@
+using Doors;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -8,6 +9,13 @@ public class InteractionPrompt : MonoBehaviour
     
     private void Awake()
     {
+        //var storyDoors = FindObjectsByType<StoryDoor>();
+
+        //foreach (var door in storyDoors)
+        //{
+        //    door.OnFailToInteract += Handle;
+        //}
+
         Hide();
     }
     

@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6762297156652234420}
   - component: {fileID: 4907954033756567574}
-  - component: {fileID: 3299805919793992027}
   - component: {fileID: 3289630039450952185}
+  - component: {fileID: 7234599032547144025}
   m_Layer: 3
   m_Name: violin_1
   m_TagString: Untagged
@@ -29,8 +29,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -29.6, y: -9.5, z: 0}
-  m_LocalScale: {x: 0.039665326, y: 0.039665326, z: 0.039665326}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.8, y: 1.8, z: 1.8}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -1445942386714145898, guid: 56ce7ca8b8f2cba4c99265b1bb9a1b92, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a180e5f679277f14c91a043168cd5fee, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -94,8 +94,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
---- !u!70 &3299805919793992027
-CapsuleCollider2D:
+--- !u!114 &3289630039450952185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295537343177470758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3759c6239eaf47e8a66b3977db8cde64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Items.Item
+  <ItemData>k__BackingField: {fileID: 11400000, guid: 7a25cfdae284f4146ae44fd6ea705794, type: 2}
+  stepManager: {fileID: 0}
+  inventoryManager: {fileID: 0}
+  storyProgressManager: {fileID: 0}
+--- !u!61 &7234599032547144025
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -128,22 +144,15 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.694122, y: 1.239538}
-  m_Size: {x: 22.523407, y: 29.753912}
-  m_Direction: 0
---- !u!114 &3289630039450952185
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 295537343177470758}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3759c6239eaf47e8a66b3977db8cde64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Items.Item
-  <ItemData>k__BackingField: {fileID: 11400000, guid: 7a25cfdae284f4146ae44fd6ea705794, type: 2}
-  stepManager: {fileID: 0}
-  inventoryManager: {fileID: 0}
-  storyProgressManager: {fileID: 0}
+  m_Offset: {x: -0.043319345, y: 0.07981515}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 14.590449, y: 24.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.300874, y: 2.3721151}
+  m_EdgeRadius: 0

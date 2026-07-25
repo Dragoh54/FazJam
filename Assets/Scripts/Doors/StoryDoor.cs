@@ -10,7 +10,10 @@ namespace Doors
         [SerializeField] private DoorRequirement requirement;
         
         private StoryProgressManager _storyProgressManager;
-        
+
+        public delegate void FailToInteract();
+        public event FailToInteract OnFailToInteract;
+
         protected override void Awake()
         {
             base.Awake();
@@ -34,7 +37,7 @@ namespace Doors
             if (_storyProgressManager.HasFlag(requirement.requiredFlag))
                 return true;
 
-            Debug.Log(requirement.lockedMessage);
+            OnFailToInteract?.Invoke();
 
             return false;
         }
