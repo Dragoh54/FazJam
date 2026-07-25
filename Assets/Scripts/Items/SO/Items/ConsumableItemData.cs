@@ -1,4 +1,5 @@
 ﻿using Items.SO.Effects;
+using Managers;
 using UnityEngine;
 
 namespace Items
@@ -10,6 +11,7 @@ namespace Items
         public int price;
 
         public override ItemCategoryType CategoryType => ItemCategoryType.Consumable;
+        public override Color NotificationColor => Color.green;
 
         public override void OnPickup(Item item)
         {

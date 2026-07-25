@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Managers;
+using UnityEngine;
 
 namespace Items
 {
@@ -9,6 +10,7 @@ namespace Items
         public int sellPrice;
 
         public override ItemCategoryType CategoryType => ItemCategoryType.Valuable;
+        public override Color NotificationColor => Color.yellow;
 
         public override void OnPickup(Item item)
         {

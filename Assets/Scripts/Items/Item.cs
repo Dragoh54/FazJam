@@ -14,6 +14,8 @@ namespace Items
         public StepManager stepManager;
         public InventoryManager inventoryManager;
         public StoryProgressManager storyProgressManager;
+        
+        private PickupNotificationManager _pickupNotificationManager;
 
         [Obsolete("Obsolete")]
         private void Awake()
@@ -21,17 +23,34 @@ namespace Items
             stepManager = FindFirstObjectByType<StepManager>();
             inventoryManager = FindFirstObjectByType<InventoryManager>();
             storyProgressManager = FindFirstObjectByType<StoryProgressManager>();
+            
+            _pickupNotificationManager = FindFirstObjectByType<PickupNotificationManager>();
         }
         
         public void Interact()
         {
-            Debug.Log(ItemData);
+            ShowPickupNotification();
+            
             ItemData.OnPickup(this);
         }
 
         public void PickedUp()
         {
             gameObject.SetActive(false);
+        }
+
+        private void ShowPickupNotification()
+        {
+            _pickupNotificationManager.AddMessage(
+                $"Collected {ItemData.itemName}",
+                ItemData.NotificationColor);
+
+            if (ItemData is StoryItemData story)
+            {
+                _pickupNotificationManager.AddMessage(
+                    story.description,
+                    Color.red);
+            }
         }
     }
 }

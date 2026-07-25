@@ -15,6 +15,9 @@ namespace Items
         [Header("Spawn")]
         public GameObject itemPrefab;
         
+        [Header("Notification color")]
+        public virtual Color NotificationColor => Color.white;
+        
         public abstract void OnPickup(Item item);
     }
 }

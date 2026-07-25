@@ -15,18 +15,18 @@ MonoBehaviour:
   maxItemsPerRoom: 2
   items:
   - item: {fileID: 11400000, guid: b848a80b92d4ea847aa621e10494f4f4, type: 2}
-    maxCount: 10
+    maxCount: 15
   - item: {fileID: 11400000, guid: dcc132e97669eca4681cdfc84473166d, type: 2}
-    maxCount: 10
+    maxCount: 15
   - item: {fileID: 11400000, guid: 85f82349ace14194a83a5082922834aa, type: 2}
-    maxCount: 8
+    maxCount: 12
   - item: {fileID: 11400000, guid: fb1d0b4b4fcc47741b66b552ffd255dd, type: 2}
-    maxCount: 5
+    maxCount: 10
   - item: {fileID: 11400000, guid: 46e38e26093934b4b9c10ae7ae8b31ed, type: 2}
-    maxCount: 5
+    maxCount: 8
   - item: {fileID: 11400000, guid: 7a25cfdae284f4146ae44fd6ea705794, type: 2}
-    maxCount: 3
+    maxCount: 5
   - item: {fileID: 11400000, guid: 2feddedf60f710f42af15511888dfc30, type: 2}
-    maxCount: 2
+    maxCount: 4
   - item: {fileID: 11400000, guid: 5a5443189c35a04449694eabab71fc2e, type: 2}
-    maxCount: 1
+    maxCount: 3
