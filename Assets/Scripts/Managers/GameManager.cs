@@ -23,10 +23,19 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private FinalExitDoor _finalExitDoor;
 
+    [SerializeField]
+    private IntroCutscene _cutscene;
+
     private void Awake()
     {
         _stepManager.OnStepsEnded += HandleStepsEnded;
         _finalExitDoor.OnEscaped += HandleEscape;
+        _cutscene.OnCutsceneEnded += HandleCutsceneEnded;
+    }
+
+    private void HandleCutsceneEnded()
+    {
+        _uiManager.ShowInstructionPanel();
     }
 
     private void HandleStepsEnded(Room room)

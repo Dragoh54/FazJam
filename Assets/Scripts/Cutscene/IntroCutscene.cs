@@ -20,6 +20,9 @@ public class IntroCutscene : MonoBehaviour
     private bool _canContinue;
     private bool _finished;
 
+    public delegate void CutsceneEnded();
+    public event CutsceneEnded OnCutsceneEnded;
+
     private void Awake()
     {
         player.SetActive(false);
@@ -109,5 +112,7 @@ public class IntroCutscene : MonoBehaviour
         player.SetActive(true);
 
         gameObject.SetActive(false);
+
+        OnCutsceneEnded?.Invoke();
     }
 }

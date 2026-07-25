@@ -19,9 +19,13 @@ public class InputManager : MonoBehaviour
     {
         var shop = FindAnyObjectByType<Shop>();
         var uiManager = FindAnyObjectByType<UIManager>();
+        var intructionPanel = FindAnyObjectByType<InstructionPanel>(FindObjectsInactive.Include);
 
         shop.OnShopOpened += BlockAllInput;
         uiManager.OnShopClosed += EnableAllInput;
+        intructionPanel.OnStartInstructionClosed += EnableAllInput;
+
+        BlockAllInput();
     }
 
     private void Update()

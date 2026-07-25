@@ -74,6 +74,11 @@ public class UIManager : MonoBehaviour
         _successPanel.SetActive(true);
     }
 
+    public void ShowInstructionPanel()
+    {
+        _instructionPanel.GetComponent<InstructionPanel>().ShowWithClickTip();
+    }
+
     public void UpdateUICounter(int steps)
     {
         if (_counter is not null)
