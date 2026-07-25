@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemGeneration.ItemGenerationSettings
   maxItemsPerRoom: 2
   items:
-  - item: {fileID: 11400000, guid: c161de89cb64c68498ef74c868029a51, type: 2}
+  - item: {fileID: 11400000, guid: b848a80b92d4ea847aa621e10494f4f4, type: 2}
     maxCount: 10
-  - item: {fileID: 11400000, guid: 6c9ddc45f075d234e8b343ab25150cce, type: 2}
+  - item: {fileID: 11400000, guid: dcc132e97669eca4681cdfc84473166d, type: 2}
     maxCount: 10
   - item: {fileID: 11400000, guid: 85f82349ace14194a83a5082922834aa, type: 2}
     maxCount: 8
-  - item: {fileID: 11400000, guid: aed234e9a8e790b4ba09e0d746192831, type: 2}
-    maxCount: 5
   - item: {fileID: 11400000, guid: fb1d0b4b4fcc47741b66b552ffd255dd, type: 2}
+    maxCount: 5
+  - item: {fileID: 11400000, guid: 46e38e26093934b4b9c10ae7ae8b31ed, type: 2}
     maxCount: 5
   - item: {fileID: 11400000, guid: 7a25cfdae284f4146ae44fd6ea705794, type: 2}
     maxCount: 3

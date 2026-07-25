@@ -9,16 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcc9f3fc130c49fcafa5b7a3183093cc, type: 3}
+  m_Script: {fileID: 11500000, guid: 3441fdd00f9042fcb00da51916d452d0, type: 3}
   m_Name: Herbs
-  m_EditorClassIdentifier: Assembly-CSharp::Items.ItemData
-  itemName: Magic bush
-  icon: {fileID: 0}
-  categoryType: 2
-  description: Looks like cabbage, smells like cabbage, tastes like cabbage. Definitelly
-    magic
-  price: 1750
-  spawnLocationType: 1
+  m_EditorClassIdentifier: Assembly-CSharp::Items.UpgradeItemData
+  itemName: Herbs
+  icon: {fileID: -7154643226380819692, guid: 474082cefe611624f969e29d19dfd8f3, type: 3}
+  description: Increase max steps by 6
+  itemPrefab: {fileID: 5301650465121654513, guid: c707d7b78b02bcc4f92ee7b9905acb5c, type: 3}
   effects:
-  - effectType: 2
-    value: 6
+  - {fileID: 11400000, guid: 6858a2bccb9a70541b0161258fb5abd7, type: 2}
+  price: 2100

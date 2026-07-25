@@ -935,6 +935,22 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4151853779671809129, guid: 4618000d28205ce4a932bc81eadfc04d, type: 3}
+      propertyPath: UpDoor
+      value: 
+      objectReference: {fileID: 2022376110318109941}
+    - target: {fileID: 4151853779671809129, guid: 4618000d28205ce4a932bc81eadfc04d, type: 3}
+      propertyPath: DownDoor
+      value: 
+      objectReference: {fileID: 3154905474845480756}
+    - target: {fileID: 4151853779671809129, guid: 4618000d28205ce4a932bc81eadfc04d, type: 3}
+      propertyPath: LeftDoor
+      value: 
+      objectReference: {fileID: 6049210088926156617}
+    - target: {fileID: 4151853779671809129, guid: 4618000d28205ce4a932bc81eadfc04d, type: 3}
+      propertyPath: RightDoor
+      value: 
+      objectReference: {fileID: 8250299560844916085}
     - target: {fileID: 4586492402851036833, guid: 4618000d28205ce4a932bc81eadfc04d, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 0.111
@@ -1118,11 +1134,55 @@ PrefabInstance:
       addedObject: {fileID: 7068427606186987302}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4618000d28205ce4a932bc81eadfc04d, type: 3}
+--- !u!114 &2022376110318109941 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4337860229966103560, guid: 4618000d28205ce4a932bc81eadfc04d, type: 3}
+  m_PrefabInstance: {fileID: 2315906556041085181}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe6c9cffb071d3f46aa640151c6fec2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Door
+--- !u!114 &3154905474845480756 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 858984038017947593, guid: 4618000d28205ce4a932bc81eadfc04d, type: 3}
+  m_PrefabInstance: {fileID: 2315906556041085181}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe6c9cffb071d3f46aa640151c6fec2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Door
 --- !u!4 &3227445617036924657 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 930538742202193420, guid: 4618000d28205ce4a932bc81eadfc04d, type: 3}
   m_PrefabInstance: {fileID: 2315906556041085181}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6049210088926156617 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8345412245008996276, guid: 4618000d28205ce4a932bc81eadfc04d, type: 3}
+  m_PrefabInstance: {fileID: 2315906556041085181}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe6c9cffb071d3f46aa640151c6fec2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Door
+--- !u!114 &8250299560844916085 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5934955971979457928, guid: 4618000d28205ce4a932bc81eadfc04d, type: 3}
+  m_PrefabInstance: {fileID: 2315906556041085181}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe6c9cffb071d3f46aa640151c6fec2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Door
 --- !u!1001 &2871417264090734640
 PrefabInstance:
   m_ObjectHideFlags: 0

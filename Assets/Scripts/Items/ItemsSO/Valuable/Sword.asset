@@ -9,13 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcc9f3fc130c49fcafa5b7a3183093cc, type: 3}
+  m_Script: {fileID: 11500000, guid: be3d0c2762634915bf356402022c51d2, type: 3}
   m_Name: Sword
-  m_EditorClassIdentifier: Assembly-CSharp::Items.ItemData
+  m_EditorClassIdentifier: Assembly-CSharp::Items.ValuableItemData
   itemName: Sword
   icon: {fileID: -3753825769889500098, guid: a3205f10aa05f3a438e7cfe6fe3bbc0c, type: 3}
-  categoryType: 0
-  description: Jackpot
-  price: 200
+  description: Asian sword
   itemPrefab: {fileID: 3766128364901188695, guid: dee114cdccc889e428e1dda6ebbc0673, type: 3}
-  effects: []
+  sellPrice: 200

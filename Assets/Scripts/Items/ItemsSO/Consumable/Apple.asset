@@ -9,15 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcc9f3fc130c49fcafa5b7a3183093cc, type: 3}
+  m_Script: {fileID: 11500000, guid: d3aed070692a4c7f8a6eeae3ee3219bd, type: 3}
   m_Name: Apple
-  m_EditorClassIdentifier: Assembly-CSharp::Items.ItemData
+  m_EditorClassIdentifier: Assembly-CSharp::Items.ConsumableItemData
   itemName: Apple
   icon: {fileID: 3133344535812834036, guid: 598ad58396c4a72469ec0618a908fd13, type: 3}
-  categoryType: 1
-  description: Wow! Farmer Team really Cook
-  price: 500
-  spawnLocationType: -1
+  description: Restore 6 steps
+  itemPrefab: {fileID: 8754239443811335123, guid: dd8c698030ec6334fba2bb2c16f81df4, type: 3}
   effects:
-  - effectType: 0
-    value: 6
+  - {fileID: 11400000, guid: 26271d8a5817090409b301fcebdf3b4b, type: 2}
+  price: 500

@@ -13,8 +13,8 @@ namespace Managers
         [SerializeField] private Image consumablePrompt;
         
         [Header("Items")]
-        private readonly List<ItemData> _valuables = new();
-        public ItemData ConsumeItem { get; private set; }
+        private readonly List<ValuableItemData> _valuables = new();
+        public ConsumableItemData ConsumeItem { get; private set; }
 
         private void Start()
         {
@@ -30,14 +30,14 @@ namespace Managers
             }
         }
 
-        public void AddValuable(ItemData item)
+        public void AddValuable(ValuableItemData item)
         {
             _valuables.Add(item);
             
             Debug.Log($"Added: {item.itemName}");
         }
         
-        public ItemData SetConsumable(ItemData newItem)
+        public ItemData SetConsumable(ConsumableItemData newItem)
         {
             var oldItem = ConsumeItem;
 
@@ -50,13 +50,14 @@ namespace Managers
             return oldItem;
         }
         
-        public ItemData UseConsumable()
+        //TODO: REMOVE COMMENTED
+        public ConsumableItemData UseConsumable()
         {
             if (ConsumeItem == null)
                 return null;
 
             var item = ConsumeItem;
-            ConsumeItem = null;
+            //ConsumeItem = null;
             
             UpdateConsumableUI();
 
@@ -93,14 +94,14 @@ namespace Managers
             Debug.Log("===== Valuables =====");
 
             foreach (var item in _valuables)
-                Debug.Log($"{item.itemName} ({item.price})");
+                Debug.Log($"{item.itemName} ({item.sellPrice})");
 
             Debug.Log($"Total: {GetTotalValue()}");
         }
         
         public int GetTotalValue()
         {
-            return _valuables.Sum(item => item.price);
+            return _valuables.Sum(item => item.sellPrice);
         }
     }
 }
