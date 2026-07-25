@@ -44,6 +44,9 @@ namespace Managers
 
             while (timer < fadeDuration)
             {
+                if (entry == null)
+                    yield break;
+                
                 timer += Time.deltaTime;
                 
                 entry.CanvasGroup.alpha = Mathf.Lerp(
@@ -61,6 +64,9 @@ namespace Managers
 
                 yield return null;
             }
+            
+            if (entry == null)
+                yield break;
 
             _messages.Remove(entry);
 
