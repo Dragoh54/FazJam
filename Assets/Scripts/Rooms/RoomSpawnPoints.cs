@@ -21,5 +21,15 @@ namespace Rooms
         {
             SpawnedItems++;
         }
+        
+        public void ClearSpawnedItems()
+        {
+            SpawnedItems = 0;
+
+            foreach (var spawnPoint in spawnPoints)
+            {
+                spawnPoint.Clear();
+            }
+        }
     }
 }
