@@ -9,11 +9,22 @@ namespace Player.Interactions
         private IInteractable _currentInteractable;
         private InteractionPrompt _prompt;
         
+        [Header("Settings")]
+        [SerializeField] private float interactionRadius = 0.7f;
+        [SerializeField] private LayerMask interactableLayer;
+
+        private readonly Collider2D[] _results = new Collider2D[8];
+        
         private void Awake()
         {
             _prompt = GetComponentInChildren<InteractionPrompt>();
         }
         
+        private void Update()
+        {
+            FindInteractable();
+        }
+
         public void HandleInput()
         {
             if (Input.GetKeyDown(KeyCode.E))
@@ -22,25 +33,42 @@ namespace Player.Interactions
             }
         }
 
-        private void OnTriggerEnter2D(Collider2D other)
+        private void FindInteractable()
         {
-            var interactable = other.GetComponent<IInteractable>();
+            var count = Physics2D.OverlapCircleNonAlloc(
+                transform.position,
+                interactionRadius,
+                _results,
+                interactableLayer);
 
-            if (interactable != null)
+            IInteractable closest = null;
+            var closestDistance = float.MaxValue;
+
+            for (var i = 0; i < count; i++)
             {
-                _currentInteractable = interactable;
-                _prompt.Show();
+                if (!_results[i].TryGetComponent(out IInteractable interactable))
+                    continue;
+
+                var distance = Vector2.SqrMagnitude(
+                    _results[i].transform.position - transform.position);
+
+                if (distance < closestDistance)
+                {
+                    closestDistance = distance;
+                    closest = interactable;
+                }
+
+                _results[i] = null;
             }
-        }
 
-        private void OnTriggerExit2D(Collider2D other)
-        {
-            var interactable = other.GetComponent<IInteractable>();
-
-            if (interactable != null && interactable == _currentInteractable)
+            if (closest != _currentInteractable)
             {
-                _currentInteractable = null;
-                _prompt.Hide();
+                _currentInteractable = closest;
+
+                if (_currentInteractable != null)
+                    _prompt.Show();
+                else
+                    _prompt.Hide();
             }
         }
     }

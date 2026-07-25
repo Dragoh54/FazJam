@@ -27,6 +27,20 @@ namespace ItemGeneration
             }
         }
         
+        public void RegenerateItems()
+        {
+            ClearGeneratedItems();
+            GenerateItems();
+        }
+        
+        private void ClearGeneratedItems()
+        {
+            foreach (var room in _rooms)
+            {
+                room.ClearSpawnedItems();
+            }
+        }
+        
         private void SpawnItemAmount(ItemGenerationData itemData)
         {
             for (var i = 0; i < itemData.maxCount; i++)
@@ -46,7 +60,8 @@ namespace ItemGeneration
                 Instantiate(
                     itemData.item.itemPrefab,
                     spawnPoint.transform.position,
-                    Quaternion.identity
+                    Quaternion.identity,
+                    spawnPoint.transform
                 );
 
 

@@ -28,7 +28,7 @@ public class ShopManager : MonoBehaviour
 
     private void HandleShopOpened()
     {
-        _itemGenerator.GenerateItems();
+        _itemGenerator.RegenerateItems();
 
         int previousMoney = CurrentMoney;
         CurrentMoney += CurrentMoneyChange;

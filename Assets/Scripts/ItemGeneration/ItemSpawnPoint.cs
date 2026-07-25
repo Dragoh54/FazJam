@@ -35,5 +35,15 @@ namespace Items
 
             return (allowedTypes & requiredType) != 0;
         }
+        
+        public void Clear()
+        {
+            IsOccupied = false;
+
+            foreach (Transform child in transform)
+            {
+                Destroy(child.gameObject);
+            }
+        }
     }
 }
