@@ -4,10 +4,10 @@ using UnityEngine;
 public class ShopPanel : MonoBehaviour
 {
     [SerializeField]
-    private Item[] Consumables;
+    private ShopItem[] Consumables;
 
     [SerializeField]
-    private Item[] Upgrades;
+    private ShopItem[] Upgrades;
 
     public void HandleVisibility(bool hasConsumable, int CurrentMoney)
     {
@@ -15,26 +15,26 @@ public class ShopPanel : MonoBehaviour
         {
             foreach (var item in Consumables)
             {
-                if (item.ItemData is ConsumableItemData data && data.price > CurrentMoney)
+                if (item.Item.ItemData is ConsumableItemData data && data.price > CurrentMoney)
                 {
-                    item.transform.parent.gameObject.SetActive(false);
+                    item.Disable();
                 }
                 else
                 {
-                    item.transform.parent.gameObject.SetActive(true);
+                    item.Enable();
                 }
             }
         }
 
         foreach (var item in Upgrades)
         {
-            if (item.ItemData is UpgradeItemData data && data.price > CurrentMoney)
+            if (item.Item.ItemData is UpgradeItemData data && data.price > CurrentMoney)
             {
-                item.transform.parent.gameObject.SetActive(false);
+                item.Disable();
             }
             else
             {
-                item.transform.parent.gameObject.SetActive(true);
+                item.Enable();
             }
         }
     }

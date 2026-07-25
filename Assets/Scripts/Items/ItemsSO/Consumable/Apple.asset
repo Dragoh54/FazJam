@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Items.ConsumableItemData
   itemName: Apple
   icon: {fileID: 21300000, guid: 146b498cf9cee0e43a1d0dbb5007dce6, type: 3}
-  description: Restore 6 steps
+  description: Restores 6 steps
   itemPrefab: {fileID: 8754239443811335123, guid: dd8c698030ec6334fba2bb2c16f81df4, type: 3}
   effects:
   - {fileID: 11400000, guid: 26271d8a5817090409b301fcebdf3b4b, type: 2}

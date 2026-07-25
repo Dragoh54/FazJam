@@ -1,3 +1,4 @@
+using ItemGeneration;
 using Items;
 using Managers;
 using UnityEngine;
@@ -6,6 +7,9 @@ public class ShopManager : MonoBehaviour
 {
     [SerializeField]
     private InventoryManager _inventoryManager;
+
+    [SerializeField]
+    private ItemGenerator _itemGenerator;
 
     [SerializeField]
     private UIManager _uiManager;
@@ -24,6 +28,8 @@ public class ShopManager : MonoBehaviour
 
     private void HandleShopOpened()
     {
+        _itemGenerator.GenerateItems();
+
         int previousMoney = CurrentMoney;
         CurrentMoney += CurrentMoneyChange;
 

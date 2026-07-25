@@ -19,7 +19,7 @@ namespace ItemGeneration
             GenerateItems();
         }
         
-        private void GenerateItems()
+        public void GenerateItems()
         {
             foreach (var itemData in generationSettings.items)
             {
