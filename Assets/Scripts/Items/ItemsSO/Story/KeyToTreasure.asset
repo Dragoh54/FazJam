@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63157c61aaa24ae1ac27014f98f07ef6, type: 3}
   m_Name: KeyToTreasure
   m_EditorClassIdentifier: Assembly-CSharp::Items.StoryItemData
-  itemName: KeyToTreasure
+  itemName: Key To Treasure
   icon: {fileID: 21300000, guid: 9dd625b8cb0b2d44a8f92fa46c25abeb, type: 3}
   description: '"You fool dare to get my treasure? Fine, open locked door"'
   itemPrefab: {fileID: 6062730200170658143, guid: f4a1908c41892d24b93e5f86ebe703b7, type: 3}
