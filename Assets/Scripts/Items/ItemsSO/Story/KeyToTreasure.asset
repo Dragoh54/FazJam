@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63157c61aaa24ae1ac27014f98f07ef6, type: 3}
+  m_Name: KeyToTreasure
+  m_EditorClassIdentifier: Assembly-CSharp::Items.StoryItemData
+  itemName: KeyToTreasure
+  icon: {fileID: -7511967566865430983, guid: b649c99901922204989900c2c88de45b, type: 3}
+  description: '"Go to treasure trickster"'
+  itemPrefab: {fileID: 6062730200170658143, guid: f4a1908c41892d24b93e5f86ebe703b7, type: 3}
+  storyFlag: 0
+  returnOnDeath: 0

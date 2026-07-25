@@ -22,7 +22,7 @@ namespace Player.Interactions
                 UseConsumable();
             }
         }
-
+        
         private void UseConsumable()
         {
             var item = _inventoryManager.UseConsumable();
@@ -30,25 +30,35 @@ namespace Player.Interactions
             if (item == null)
                 return;
 
-            foreach (var effect in item.effects)
-            {
-                switch (effect.effectType)
-                {
-                    case ItemEffectType.AddSteps:
-                        _stepManager.AddSteps(effect.value);
-                        break;
-
-                    case ItemEffectType.RestoreToMaxSteps:
-                        _stepManager.RestoreToMaxSteps();
-                        break;
-
-                    case ItemEffectType.IncreaseMaxSteps:
-                        _stepManager.IncreaseMaxSteps(effect.value);
-                        break;
-                }
-            }
-
-            Debug.Log($"Used {item.itemName}");
+            item.Use(_stepManager);
         }
+
+        // private void UseConsumable()
+        // {
+        //     var item = _inventoryManager.UseConsumable();
+        //
+        //     if (item == null)
+        //         return;
+        //
+        //     foreach (var effect in item.effects)
+        //     {
+        //         switch (effect.effectType)
+        //         {
+        //             case ItemEffectType.AddSteps:
+        //                 _stepManager.AddSteps(effect.value);
+        //                 break;
+        //
+        //             case ItemEffectType.RestoreToMaxSteps:
+        //                 _stepManager.RestoreToMaxSteps();
+        //                 break;
+        //
+        //             case ItemEffectType.IncreaseMaxSteps:
+        //                 _stepManager.IncreaseMaxSteps(effect.value);
+        //                 break;
+        //         }
+        //     }
+        //
+        //     Debug.Log($"Used {item.itemName}");
+        // }
     }
 }

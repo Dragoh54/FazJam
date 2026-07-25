@@ -36,11 +36,11 @@ public class ShopManager : MonoBehaviour
         _uiManager.AnimateMoneyChange(prevMoneyChange, CurrentMoneyChange);
     }
 
-    public void AddConsumableInInventory(Item item)
+    public void AddConsumableInInventory(ConsumableItemData item)
     {
         Debug.Log("item" + item.name);
 
-        _inventoryManager.SetConsumable(item.ItemData);
+        _inventoryManager.SetConsumable(item);
     }
 
     public void BuyUpgrades(Item item)

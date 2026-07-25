@@ -9,15 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcc9f3fc130c49fcafa5b7a3183093cc, type: 3}
+  m_Script: {fileID: 11500000, guid: d3aed070692a4c7f8a6eeae3ee3219bd, type: 3}
   m_Name: Coffee
-  m_EditorClassIdentifier: Assembly-CSharp::Items.ItemData
+  m_EditorClassIdentifier: Assembly-CSharp::Items.ConsumableItemData
   itemName: Coffee
   icon: {fileID: 4369098806548012131, guid: acfbdc6c0e82432409591886d58dc29c, type: 3}
-  categoryType: 1
-  description: Perfect shit
-  price: 4000
-  spawnLocationType: -1
+  description: Restore all steps
+  itemPrefab: {fileID: 5786044301261043197, guid: 4912e74e1f2d0fd4bbf361c2563ed360, type: 3}
   effects:
-  - effectType: 1
-    value: 0
+  - {fileID: 11400000, guid: e7d3774f2d55aa94591cac50d08313a0, type: 2}
+  price: 4000

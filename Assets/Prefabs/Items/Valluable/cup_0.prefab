@@ -153,3 +153,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Items.Item
   <ItemData>k__BackingField: {fileID: 11400000, guid: 85f82349ace14194a83a5082922834aa, type: 2}
+  stepManager: {fileID: 0}
+  inventoryManager: {fileID: 0}
+  storyProgressManager: {fileID: 0}

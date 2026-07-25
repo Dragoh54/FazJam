@@ -9,13 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcc9f3fc130c49fcafa5b7a3183093cc, type: 3}
+  m_Script: {fileID: 11500000, guid: be3d0c2762634915bf356402022c51d2, type: 3}
   m_Name: Book
-  m_EditorClassIdentifier: Assembly-CSharp::Items.ItemData
+  m_EditorClassIdentifier: Assembly-CSharp::Items.ValuableItemData
   itemName: Book
   icon: {fileID: 3843231544584785974, guid: 49e82a068d9dfd44b87bea7a230552d1, type: 3}
-  categoryType: 0
-  description: Bible 2
-  price: 100
+  description: 'I cannot read this '
   itemPrefab: {fileID: 6062730200170658143, guid: 7030f331dcc4ae04b837a3154cc8d7a5, type: 3}
-  effects: []
+  sellPrice: 100

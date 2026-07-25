@@ -9,15 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcc9f3fc130c49fcafa5b7a3183093cc, type: 3}
+  m_Script: {fileID: 11500000, guid: d3aed070692a4c7f8a6eeae3ee3219bd, type: 3}
   m_Name: Pie
-  m_EditorClassIdentifier: Assembly-CSharp::Items.ItemData
+  m_EditorClassIdentifier: Assembly-CSharp::Items.ConsumableItemData
   itemName: Pie
   icon: {fileID: 204608602259608170, guid: 40eca46353af87d4a9e80e5ec7e2421a, type: 3}
-  categoryType: 1
-  description: 'Sweet pie from Sweety friend '
-  price: 1500
-  spawnLocationType: -1
+  description: Restore 12 steps
+  itemPrefab: {fileID: 7537333843279433292, guid: 914e6b4ae8da5db4b88d0769e089901f, type: 3}
   effects:
-  - effectType: 0
-    value: 12
+  - {fileID: 11400000, guid: 4d34724e45b21174485e250aa1ee7bc5, type: 2}
+  price: 1500

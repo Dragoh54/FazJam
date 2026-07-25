@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63157c61aaa24ae1ac27014f98f07ef6, type: 3}
+  m_Name: Treasure
+  m_EditorClassIdentifier: Assembly-CSharp::Items.StoryItemData
+  itemName: Lapis Philosophorum
+  icon: {fileID: 5962689061485224524, guid: cd1178e4113efe54394834d686a4f5d2, type: 3}
+  description: '"Now try to escape"'
+  itemPrefab: {fileID: 6062730200170658143, guid: 50b0546dbf327b14f9a9f77a506ea9ad, type: 3}
+  storyFlag: 1
+  returnOnDeath: 1

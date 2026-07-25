@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.CompilerServices;
 using Items;
 using UnityEngine;
 using Image = UnityEngine.UI.Image;
@@ -14,8 +13,8 @@ namespace Managers
         [SerializeField] private Image consumablePrompt;
         
         [Header("Items")]
-        private readonly List<ItemData> _valuables = new();
-        public ItemData ConsumeItem { get; private set; }
+        private readonly List<ValuableItemData> _valuables = new();
+        public ConsumableItemData ConsumeItem { get; private set; }
 
         [SerializeField]
         private ShopManager _shopManager;
@@ -34,16 +33,16 @@ namespace Managers
             }
         }
 
-        public void AddValuable(ItemData item)
+        public void AddValuable(ValuableItemData item)
         {
             _valuables.Add(item);
 
-            _shopManager.AddMoneyChange(item.price);
+            _shopManager.AddMoneyChange(item.sellPrice);
 
             Debug.Log($"Added: {item.itemName}");
         }
         
-        public ItemData SetConsumable(ItemData newItem)
+        public ItemData SetConsumable(ConsumableItemData newItem)
         {
             var oldItem = ConsumeItem;
 
@@ -56,13 +55,14 @@ namespace Managers
             return oldItem;
         }
         
-        public ItemData UseConsumable()
+        //TODO: REMOVE COMMENTED
+        public ConsumableItemData UseConsumable()
         {
             if (ConsumeItem == null)
                 return null;
 
             var item = ConsumeItem;
-            ConsumeItem = null;
+            //ConsumeItem = null;
             
             UpdateConsumableUI();
 
@@ -99,14 +99,14 @@ namespace Managers
             Debug.Log("===== Valuables =====");
 
             foreach (var item in _valuables)
-                Debug.Log($"{item.itemName} ({item.price})");
+                Debug.Log($"{item.itemName} ({item.sellPrice})");
 
             Debug.Log($"Total: {GetTotalValue()}");
         }
         
         public int GetTotalValue()
         {
-            return _valuables.Sum(item => item.price);
+            return _valuables.Sum(item => item.sellPrice);
         }
 
         public int SellValuables()
@@ -115,7 +115,7 @@ namespace Managers
 
             foreach (var item in _valuables)
             {
-                totalValue += item.price;
+                totalValue += item.sellPrice;
             }
 
             _valuables.Clear();

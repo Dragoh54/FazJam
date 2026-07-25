@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3d0c2762634915bf356402022c51d2, type: 3}
+  m_Name: PocketClock
+  m_EditorClassIdentifier: Assembly-CSharp::Items.ValuableItemData
+  itemName: Pocket Clock
+  icon: {fileID: 8581363780399802525, guid: 3880fe0f992ded04fb5cdcfce486a120, type: 3}
+  description: summus cultus
+  itemPrefab: {fileID: 3356990537620989881, guid: 4726c7f18b3a06d498c07ba558e38008, type: 3}
+  sellPrice: 200

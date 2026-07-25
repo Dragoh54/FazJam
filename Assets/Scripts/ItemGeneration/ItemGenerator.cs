@@ -31,7 +31,7 @@ namespace ItemGeneration
         {
             for (var i = 0; i < itemData.maxCount; i++)
             {
-                var spawnPoint = FindSpawnPoint(itemData.item.categoryType);
+                var spawnPoint = FindSpawnPoint(itemData.item.CategoryType);
 
                 if (spawnPoint == null)
                 {

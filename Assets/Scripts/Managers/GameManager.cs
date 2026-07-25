@@ -27,7 +27,7 @@ public class GameManager : MonoBehaviour
     private void HandleStepsEnded(Room room)
     {
         var items = room.GetComponentsInChildren<Item>();
-        var containsConsumable = items.Any(item => item.ItemData.categoryType == ItemCategoryType.Consumable);
+        var containsConsumable = items.Any(item => item.ItemData.CategoryType == ItemCategoryType.Consumable);
 
         var hasConsumableInInventory = _inventoryManager.ConsumeItem != null;
 
