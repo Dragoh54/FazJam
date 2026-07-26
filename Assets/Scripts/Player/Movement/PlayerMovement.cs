@@ -31,19 +31,29 @@ namespace Movement
                 _playerAnimator.SetFloat("Horizontal", _input.x);
                 _playerAnimator.SetFloat("Vertical", _input.y);
 
-                _playerAnimator.SetBool("IsWalking", true);
             }
             else
             {
                 SoundManager.Instance.StopWalkingSound();
-
-                _playerAnimator.SetBool("IsWalking", false);
             }
+
+            if (Mathf.Abs(_input.y) > Mathf.Abs(_input.x))
+            {
+                _input.x = 0;
+            }
+            else
+            {
+                _input.y = 0;
+            }
+
+            _playerAnimator.SetFloat("Speed", _input.magnitude);
         }
 
         private void FixedUpdate()
         {
             _rb.MovePosition(_rb.position + _input * (moveSpeed * Time.fixedDeltaTime));
+            _input = Vector2.zero;
+            SoundManager.Instance.StopWalkingSound();
         }
     }
 }
