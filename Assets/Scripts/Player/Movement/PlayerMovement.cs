@@ -51,6 +51,8 @@ namespace Movement
         {
             _rb.MovePosition(
                 _rb.position + _input * (moveSpeed * Time.fixedDeltaTime));
+            _input = Vector2.zero;
+            SoundManager.Instance.StopWalkingSound();
         }
     }
 }
