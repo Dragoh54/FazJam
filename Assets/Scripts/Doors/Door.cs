@@ -1,5 +1,6 @@
 using Items;
 using Rooms;
+using Sounds;
 using UnityEngine;
 
 public class Door : MonoBehaviour, IInteractable
@@ -11,7 +12,7 @@ public class Door : MonoBehaviour, IInteractable
     [SerializeField] protected Transform spawnPoint;
     
     [Header("Audio")]
-    [SerializeField] private AudioClip openSound;
+    [SerializeField] private SoundData interactSound;
     
     [Header("Room")]
     [SerializeField] protected Room room;
@@ -45,6 +46,14 @@ public class Door : MonoBehaviour, IInteractable
     public virtual void Interact()
     {
         var player = GameObject.FindGameObjectWithTag("Player");
+        
+        if (player == null || connectedDoor == null || _stepManager.CurrentSteps <= 0)
+            return;
+        
+        if (interactSound != null)
+        {
+            SoundManager.Instance.PlaySFX(interactSound);
+        }
 
         if (player != null && connectedDoor != null && _stepManager.CurrentSteps > 0)
         {

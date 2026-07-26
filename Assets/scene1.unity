@@ -9898,7 +9898,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Doors.StoryDoor
   connectedDoor: {fileID: 0}
   spawnPoint: {fileID: 319495133}
-  openSound: {fileID: 0}
+  interactSound: {fileID: 11400000, guid: 573de8413e5e06441bc5d66db94bdf49, type: 2}
   room: {fileID: 1697232256}
   _zoomOutSprite: {fileID: 0}
   requirement: {fileID: 11400000, guid: ffcc8c347f4de4c458957edfccdc3626, type: 2}
