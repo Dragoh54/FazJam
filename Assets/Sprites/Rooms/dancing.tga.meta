@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5be16c47898c5f644a4260716b1b62fe
+guid: 05444e1b998f9bd4e9be462f5b407970
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8346503198532818100
-    second: dining (4)_0
+      213: -1568923795231682939
+    second: dancing_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dining (4)_0
+      name: dancing_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c4b2ac600934b2c80800000000000000
-      internalID: -8346503198532818100
+      spriteID: 58ece89ee101a3ae0800000000000000
+      internalID: -1568923795231682939
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      dining (4)_0: -8346503198532818100
+      dancing_0: -1568923795231682939
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

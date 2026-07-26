@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5be16c47898c5f644a4260716b1b62fe
+guid: a7e0cf316d9653140bd5e485f51a2600
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8346503198532818100
-    second: dining (4)_0
+      213: -6786669600135619843
+    second: dancing_door_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dining (4)_0
+      name: dancing_door_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 6
         y: 0
-        width: 1000
-        height: 1000
+        width: 113
+        height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c4b2ac600934b2c80800000000000000
-      internalID: -8346503198532818100
+      spriteID: dfa59fbb4f7e0d1a0800000000000000
+      internalID: -6786669600135619843
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      dining (4)_0: -8346503198532818100
+      dancing_door_0: -6786669600135619843
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
