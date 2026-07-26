@@ -530,6 +530,10 @@ PrefabInstance:
       propertyPath: spawnPoint
       value: 
       objectReference: {fileID: 8587875183693153925}
+    - target: {fileID: 1390793195463157210, guid: 5991aa9336563e0439ca2f1c8b9ff666, type: 3}
+      propertyPath: _zoomOutSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 11d8afc2897763649b4c597535bd2b02, type: 3}
     - target: {fileID: 5042432784143536424, guid: 5991aa9336563e0439ca2f1c8b9ff666, type: 3}
       propertyPath: m_LocalScale.x
       value: 1

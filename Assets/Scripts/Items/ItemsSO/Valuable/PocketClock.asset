@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be3d0c2762634915bf356402022c51d2, type: 3}
   m_Name: PocketClock
   m_EditorClassIdentifier: Assembly-CSharp::Items.ValuableItemData
-  itemName: Pocket Clock
+  itemName: Pocket Watch
   icon: {fileID: 21300000, guid: fee2d21acf601e94fa8580ac3a0b4458, type: 3}
   description: Only rich guys use these
   itemPrefab: {fileID: 3356990537620989881, guid: 4726c7f18b3a06d498c07ba558e38008, type: 3}

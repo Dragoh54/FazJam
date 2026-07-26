@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be3d0c2762634915bf356402022c51d2, type: 3}
   m_Name: Sword
   m_EditorClassIdentifier: Assembly-CSharp::Items.ValuableItemData
-  itemName: Sword
+  itemName: Saber
   icon: {fileID: 21300000, guid: ce6ca6edaf7cb9d419d4cc78cd81882a, type: 3}
   description: It has cuts along its edges
   itemPrefab: {fileID: 3766128364901188695, guid: dee114cdccc889e428e1dda6ebbc0673, type: 3}

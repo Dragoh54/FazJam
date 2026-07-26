@@ -188,4 +188,4 @@ MonoBehaviour:
   spawnPoint: {fileID: 6363719405324232535}
   interactSound: {fileID: 11400000, guid: 279fae89884a28c4c90a46449226b999, type: 2}
   room: {fileID: 0}
-  _zoomOutSprite: {fileID: 21300000, guid: b87c4b8ac1074e04faf7b9fc3881132e, type: 3}
+  _zoomOutSprite: {fileID: 21300000, guid: 11d8afc2897763649b4c597535bd2b02, type: 3}

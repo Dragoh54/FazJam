@@ -1,4 +1,5 @@
 using Items;
+using Managers;
 using Rooms;
 using Sounds;
 using UnityEngine;
@@ -25,6 +26,7 @@ public class Door : MonoBehaviour, IInteractable
 
     private StepManager _stepManager;
     private GameManager _gameManager;
+    protected PickupNotificationManager _pickupNotificationManager;
 
     public delegate void RoomVisited(Room room, Door door);
     public event RoomVisited OnRoomVisited;
@@ -36,6 +38,7 @@ public class Door : MonoBehaviour, IInteractable
 
         _gameManager = FindAnyObjectByType<GameManager>();
         _stepManager = FindAnyObjectByType<StepManager>();
+        _pickupNotificationManager = FindAnyObjectByType<PickupNotificationManager>();
 
         var inputManager = FindAnyObjectByType<InputManager>();
 
@@ -46,7 +49,14 @@ public class Door : MonoBehaviour, IInteractable
     public virtual void Interact()
     {
         var player = GameObject.FindGameObjectWithTag("Player");
-        
+
+        if(_stepManager.CurrentSteps <= 0)
+        {
+            _pickupNotificationManager.AddMessage("You ran out of steps, use your food if you have one", Color.red);
+
+            return;
+        }
+
         if (player == null || connectedDoor == null || _stepManager.CurrentSteps <= 0)
             return;
         

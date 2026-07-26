@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be3d0c2762634915bf356402022c51d2, type: 3}
   m_Name: Cup
   m_EditorClassIdentifier: Assembly-CSharp::Items.ValuableItemData
-  itemName: Cup
+  itemName: Goblet
   icon: {fileID: 21300000, guid: fa22be3841f6602488046e3fac42ca16, type: 3}
   description: It shines in the light
   itemPrefab: {fileID: 6134611538225561799, guid: 5cd88fe6fc1d2ac459bd1106ff8572a3, type: 3}
