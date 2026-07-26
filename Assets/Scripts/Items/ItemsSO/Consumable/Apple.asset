@@ -16,6 +16,8 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: 146b498cf9cee0e43a1d0dbb5007dce6, type: 3}
   description: Add 12 steps
   itemPrefab: {fileID: 8754239443811335123, guid: dd8c698030ec6334fba2bb2c16f81df4, type: 3}
+  pickupSound: {fileID: 11400000, guid: c8a676504ae87e84eb2281277ecdebec, type: 2}
   effects:
   - {fileID: 11400000, guid: 26271d8a5817090409b301fcebdf3b4b, type: 2}
   price: 500
+  useSound: {fileID: 11400000, guid: e6b1e95d041497b4b9f27123e8d64fa0, type: 2}

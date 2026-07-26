@@ -29,6 +29,11 @@ namespace Items
         
         public void Interact()
         {
+            if (ItemData.pickupSound != null)
+            {
+                SoundManager.Instance.PlaySFX(ItemData.pickupSound);
+            }
+            
             ShowPickupNotification();
             
             ItemData.OnPickup(this);

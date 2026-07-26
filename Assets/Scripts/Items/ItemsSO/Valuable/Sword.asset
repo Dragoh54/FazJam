@@ -16,4 +16,5 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: ce6ca6edaf7cb9d419d4cc78cd81882a, type: 3}
   description: Asian sword
   itemPrefab: {fileID: 3766128364901188695, guid: dee114cdccc889e428e1dda6ebbc0673, type: 3}
+  pickupSound: {fileID: 11400000, guid: 1fc3b9700db466147aaa4de46a30e5c4, type: 2}
   sellPrice: 200

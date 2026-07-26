@@ -44,4 +44,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bef3c647e3f4227959c367a540b58c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Items.ItemSpawnPoint
-  allowedTypes: -1
+  allowedTypes: 2

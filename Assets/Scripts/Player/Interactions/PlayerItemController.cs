@@ -29,6 +29,8 @@ namespace Player.Interactions
 
             if (item == null)
                 return;
+            
+            SoundManager.Instance.PlaySFX(item.useSound);
 
             item.Use(_stepManager);
         }

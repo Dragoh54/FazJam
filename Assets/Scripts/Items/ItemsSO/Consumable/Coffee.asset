@@ -16,6 +16,8 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: 787ece129318c2440a984dd5f1cde816, type: 3}
   description: Restores all steps
   itemPrefab: {fileID: 5786044301261043197, guid: 4912e74e1f2d0fd4bbf361c2563ed360, type: 3}
+  pickupSound: {fileID: 11400000, guid: c8a676504ae87e84eb2281277ecdebec, type: 2}
   effects:
   - {fileID: 11400000, guid: e7d3774f2d55aa94591cac50d08313a0, type: 2}
   price: 4000
+  useSound: {fileID: 11400000, guid: e6b1e95d041497b4b9f27123e8d64fa0, type: 2}

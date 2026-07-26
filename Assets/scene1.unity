@@ -3683,7 +3683,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &491286361
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9499,6 +9499,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Doors.StoryDoor
   connectedDoor: {fileID: 0}
   spawnPoint: {fileID: 319495133}
+  interactSound: {fileID: 0}
   room: {fileID: 1697232256}
   _zoomOutSprite: {fileID: 0}
   requirement: {fileID: 11400000, guid: ffcc8c347f4de4c458957edfccdc3626, type: 2}
@@ -10360,7 +10361,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1284061455
 RectTransform:
   m_ObjectHideFlags: 0
@@ -18318,7 +18319,7 @@ PrefabInstance:
     - target: {fileID: 6455535791490708994, guid: 856b1efc16d8a234aa418a6fda37d2d0, type: 3}
       propertyPath: WalkingClip
       value: 
-      objectReference: {fileID: 8300000, guid: c68b494abdffab64daed634d86aff537, type: 3}
+      objectReference: {fileID: 11400000, guid: 77e021599c69d144a8266edbb5eb43e1, type: 2}
     - target: {fileID: 6455535791490708994, guid: 856b1efc16d8a234aa418a6fda37d2d0, type: 3}
       propertyPath: _WalkingSource
       value: 
