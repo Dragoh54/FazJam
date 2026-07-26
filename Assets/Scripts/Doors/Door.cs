@@ -10,6 +10,9 @@ public class Door : MonoBehaviour, IInteractable
     [Header("Spawn")]
     [SerializeField] protected Transform spawnPoint;
     
+    [Header("Audio")]
+    [SerializeField] private AudioClip openSound;
+    
     [Header("Room")]
     [SerializeField] protected Room room;
 

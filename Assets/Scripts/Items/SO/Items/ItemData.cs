@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Sounds;
+using UnityEngine;
 using UnityEngine.Serialization;
 
 namespace Items
@@ -17,6 +18,9 @@ namespace Items
         
         [Header("Notification color")]
         public virtual Color NotificationColor => Color.white;
+        
+        [Header("Audio")]
+        public SoundData pickupSound;
         
         public abstract void OnPickup(Item item);
     }

@@ -16,6 +16,7 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: 662653299b348c74c86e9d0b008ac4b3, type: 3}
   description: Increase max steps by 6
   itemPrefab: {fileID: 5301650465121654513, guid: c707d7b78b02bcc4f92ee7b9905acb5c, type: 3}
+  pickupSound: {fileID: 11400000, guid: 9a124977e3f537447a46b6ae3249f5a7, type: 2}
   effects:
   - {fileID: 11400000, guid: 6858a2bccb9a70541b0161258fb5abd7, type: 2}
   price: 1900

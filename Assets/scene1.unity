@@ -1174,7 +1174,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -18, y: -27.100006}
+  m_AnchoredPosition: {x: -18, y: -27.099976}
   m_SizeDelta: {x: 140, y: 80}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &182934579
@@ -9898,6 +9898,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Doors.StoryDoor
   connectedDoor: {fileID: 0}
   spawnPoint: {fileID: 319495133}
+  openSound: {fileID: 0}
   room: {fileID: 1697232256}
   _zoomOutSprite: {fileID: 0}
   requirement: {fileID: 11400000, guid: ffcc8c347f4de4c458957edfccdc3626, type: 2}
@@ -18805,10 +18806,6 @@ PrefabInstance:
       propertyPath: interactableLayer.m_Bits
       value: 8
       objectReference: {fileID: 0}
-    - target: {fileID: 4093484711962500951, guid: b6f175014ebcb3349950da677e1b40e2, type: 3}
-      propertyPath: interactableLayer.m_Bits
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 6328665737274535018, guid: b6f175014ebcb3349950da677e1b40e2, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -19063,7 +19060,7 @@ PrefabInstance:
     - target: {fileID: 6455535791490708994, guid: 856b1efc16d8a234aa418a6fda37d2d0, type: 3}
       propertyPath: WalkingClip
       value: 
-      objectReference: {fileID: 8300000, guid: c68b494abdffab64daed634d86aff537, type: 3}
+      objectReference: {fileID: 11400000, guid: 77e021599c69d144a8266edbb5eb43e1, type: 2}
     - target: {fileID: 6455535791490708994, guid: 856b1efc16d8a234aa418a6fda37d2d0, type: 3}
       propertyPath: _WalkingSource
       value: 

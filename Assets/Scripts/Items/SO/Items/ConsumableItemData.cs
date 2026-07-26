@@ -1,5 +1,6 @@
 ﻿using Items.SO.Effects;
 using Managers;
+using Sounds;
 using UnityEngine;
 
 namespace Items
@@ -9,6 +10,7 @@ namespace Items
     {
         [Header("Consumable Item Data")] 
         public int price;
+        public SoundData useSound;
 
         public override ItemCategoryType CategoryType => ItemCategoryType.Consumable;
         public override Color NotificationColor => Color.green;

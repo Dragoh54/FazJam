@@ -16,5 +16,6 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: 9dd625b8cb0b2d44a8f92fa46c25abeb, type: 3}
   description: '"You fool dare to get my treasure? Fine, open locked door"'
   itemPrefab: {fileID: 6062730200170658143, guid: f4a1908c41892d24b93e5f86ebe703b7, type: 3}
+  pickupSound: {fileID: 11400000, guid: 12dce5e9253d2fe47a8a671540239f56, type: 2}
   storyFlag: 0
   returnOnDeath: 0
