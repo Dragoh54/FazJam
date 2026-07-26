@@ -5,6 +5,6 @@
     {
         None      = 0,
         Valuable  = 1,
-        Item      = 2
+        Consumable      = 2
     }
 }

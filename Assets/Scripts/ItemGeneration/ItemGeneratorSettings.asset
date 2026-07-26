@@ -30,3 +30,7 @@ MonoBehaviour:
     maxCount: 4
   - item: {fileID: 11400000, guid: 5a5443189c35a04449694eabab71fc2e, type: 2}
     maxCount: 3
+  - item: {fileID: 11400000, guid: f9829230b90edfb4dae0a31e0c126258, type: 2}
+    maxCount: 4
+  - item: {fileID: 11400000, guid: a4b6a7e4db6985c40a5bbc55eb418739, type: 2}
+    maxCount: 2

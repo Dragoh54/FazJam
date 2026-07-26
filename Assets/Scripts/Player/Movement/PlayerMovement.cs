@@ -17,33 +17,31 @@ namespace Movement
             _rb = GetComponent<Rigidbody2D>();
             _playerAnimator = GetComponent<Animator>();
         }
-
+        
         public void HandleInput()
         {
             _input.x = Input.GetAxisRaw("Horizontal");
             _input.y = Input.GetAxisRaw("Vertical");
             _input = _input.normalized;
 
-            if(_input.magnitude >= 0.01)
+            if (_input.magnitude >= 0.01f)
             {
                 SoundManager.Instance.StartWalkingSound();
-
-                _playerAnimator.SetFloat("Horizontal", _input.x);
-                _playerAnimator.SetFloat("Vertical", _input.y);
-
+                
+                if (Mathf.Abs(_input.x) > Mathf.Abs(_input.y))
+                {
+                    _playerAnimator.SetFloat("Horizontal", Mathf.Sign(_input.x));
+                    _playerAnimator.SetFloat("Vertical", 0f);
+                }
+                else
+                {
+                    _playerAnimator.SetFloat("Horizontal", 0f);
+                    _playerAnimator.SetFloat("Vertical", Mathf.Sign(_input.y));
+                }
             }
             else
             {
                 SoundManager.Instance.StopWalkingSound();
-            }
-
-            if (Mathf.Abs(_input.y) > Mathf.Abs(_input.x))
-            {
-                _input.x = 0;
-            }
-            else
-            {
-                _input.y = 0;
             }
 
             _playerAnimator.SetFloat("Speed", _input.magnitude);
@@ -51,9 +49,8 @@ namespace Movement
 
         private void FixedUpdate()
         {
-            _rb.MovePosition(_rb.position + _input * (moveSpeed * Time.fixedDeltaTime));
-            _input = Vector2.zero;
-            SoundManager.Instance.StopWalkingSound();
+            _rb.MovePosition(
+                _rb.position + _input * (moveSpeed * Time.fixedDeltaTime));
         }
     }
 }
