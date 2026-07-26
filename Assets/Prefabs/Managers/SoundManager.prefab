@@ -138,7 +138,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 902573542718507691}
-  - component: {fileID: 489592227710172499}
+  - component: {fileID: 4554131113707277214}
   m_Layer: 0
   m_Name: WalkingSource
   m_TagString: Untagged
@@ -161,7 +161,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4989035404453503144}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &489592227710172499
+--- !u!82 &4554131113707277214
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -173,7 +173,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 1
@@ -308,7 +308,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   _MusicSource: {fileID: 9170429676822421662}
   _BackgroundSource: {fileID: 0}
-  _WalkingSource: {fileID: 489592227710172499}
+  _WalkingSource: {fileID: 0}
   _SFXChannels:
   - {fileID: 6994380036437065618}
   MusicClip: {fileID: 0}

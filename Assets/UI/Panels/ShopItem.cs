@@ -12,6 +12,9 @@ public class ShopItem : MonoBehaviour
     private TextMeshProUGUI _itemDescription;
 
     [SerializeField]
+    private TextMeshProUGUI _itemPrice;
+
+    [SerializeField]
     private Color _disabledColor;
 
     private Image _image;
@@ -19,7 +22,13 @@ public class ShopItem : MonoBehaviour
     private void OnEnable()
     {
         _image = GetComponent<Image>();
+
         _itemDescription.text = Item.ItemData.description;
+        _itemPrice.text = (Item.ItemData is ConsumableItemData consumable ? 
+            consumable.price.ToString() : 
+            (Item.ItemData is UpgradeItemData upgrade ? 
+                upgrade.price.ToString() : 
+                "")) + "c";
     }
 
     public void Disable()

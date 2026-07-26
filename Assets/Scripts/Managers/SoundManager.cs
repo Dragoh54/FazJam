@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class SoundManager : MonoBehaviour
 {
@@ -31,6 +32,8 @@ public class SoundManager : MonoBehaviour
         _MusicSource.Play();
 
         _WalkingSource.clip = WalkingClip;
+        _WalkingSource.Play();
+        _WalkingSource.mute = true;
 
         //PlayBackgroundAmbience(BackgroundClip);
     }
@@ -61,12 +64,11 @@ public class SoundManager : MonoBehaviour
 
     public void StartWalkingSound()
     {
-        _WalkingSource.Play();
+        _WalkingSource.mute = false;
     }
 
     public void StopWalkingSound()
     {
-        Debug.Log("Stop");
-        _WalkingSource.Stop();
+        _WalkingSource.mute = true;
     }
 }
