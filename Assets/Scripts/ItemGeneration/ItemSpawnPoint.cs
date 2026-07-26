@@ -29,7 +29,7 @@ namespace Items
             var requiredType = category switch
             {
                 ItemCategoryType.Valuable => SpawnPointType.Valuable,
-                ItemCategoryType.Consumable => SpawnPointType.Item,
+                ItemCategoryType.Consumable => SpawnPointType.Consumable,
                 _ => SpawnPointType.None
             };
 
