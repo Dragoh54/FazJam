@@ -312,7 +312,7 @@ MonoBehaviour:
   _SFXChannels:
   - {fileID: 6994380036437065618}
   MusicClip: {fileID: 0}
-  BackgroundClip: {fileID: 0}
+  BackgroundClip: {fileID: 11400000, guid: 59ffa5dadbd7a4c488f7ba61edbe2a96, type: 2}
   WalkingClip: {fileID: 0}
 --- !u!1 &6408424409908087244
 GameObject:

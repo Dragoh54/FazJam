@@ -13,7 +13,7 @@ public class SoundManager : MonoBehaviour
     [SerializeField] private AudioSource _WalkingSource;
     [SerializeField] private AudioSource[] _SFXChannels;
 
-    [SerializeField] private SoundData MusicClip;
+    [SerializeField] private MusicData MusicClip;
     [SerializeField] private SoundData BackgroundClip;
     [SerializeField] private SoundData WalkingClip;
 
@@ -31,25 +31,12 @@ public class SoundManager : MonoBehaviour
     
     private void Start()
     {
-        PlayLoop(_MusicSource, MusicClip);
+        StartCoroutine(MusicLoop());
+        
         PlayLoop(_WalkingSource, WalkingClip);
 
         _WalkingSource.mute = true;
-
-        //PlayBackgroundAmbience(background);
     }
-
-    // private void Start()
-    // {
-    //     _MusicSource.clip = MusicClip;
-    //     _MusicSource.Play();
-    //
-    //     _WalkingSource.clip = WalkingClip;
-    //     _WalkingSource.Play();
-    //     _WalkingSource.mute = true;
-    //
-    //     //PlayBackgroundAmbience(BackgroundClip);
-    // }
     
     public void PlaySFX(SoundData sound)
     {
@@ -75,19 +62,7 @@ public class SoundManager : MonoBehaviour
         _SFXChannels[0].pitch = sound.GetRandomPitch();
         _SFXChannels[0].PlayOneShot(clip, sound.Volume);
     }
-
-    // public void PlaySFX(AudioClip audioClip)
-    // {
-    //     foreach (var channel in _SFXChannels)
-    //     {
-    //         if (!channel.isPlaying)
-    //         {
-    //             channel.PlayOneShot(audioClip);
-    //
-    //             return;
-    //         }
-    //     }
-    // }
+    
     
     public void PlayBackgroundAmbience(SoundData sound, bool loop = true)
     {
@@ -105,17 +80,6 @@ public class SoundManager : MonoBehaviour
         _BackgroundSource.loop = loop;
         _BackgroundSource.Play();
     }
-
-    // public void PlayBackgroundAmbience(AudioClip clip, bool loop = true)
-    // {
-    //     if (_BackgroundSource.clip != clip)
-    //     {
-    //         _BackgroundSource.clip = clip;
-    //     }
-    //
-    //     _BackgroundSource.loop = loop;
-    //     _BackgroundSource.Play();
-    // }
 
     public void StartWalkingSound()
     {
@@ -144,6 +108,51 @@ public class SoundManager : MonoBehaviour
         source.Play();
 
         StartCoroutine(CheckMusicEnd(clip.length));
+    }
+    
+    private IEnumerator MusicLoop()
+    {
+        while (true)
+        {
+            var clip = MusicClip.GetRandomTrack();
+
+            if (clip == null)
+                yield break;
+
+            _MusicSource.clip = clip;
+            _MusicSource.volume = 0;
+            _MusicSource.Play();
+
+            yield return StartCoroutine(FadeMusic(0, MusicClip.Volume, MusicClip.FadeDuration));
+
+            var waitTime = clip.length - MusicClip.FadeDuration * 2f;
+
+            if (waitTime > 0)
+                yield return new WaitForSeconds(waitTime);
+
+            yield return StartCoroutine(FadeMusic(MusicClip.Volume, 0, MusicClip.FadeDuration));
+
+            _MusicSource.Stop();
+        }
+    }
+    
+    private IEnumerator FadeMusic(float from, float to, float duration)
+    {
+        float timer = 0;
+
+        while (timer < duration)
+        {
+            timer += Time.deltaTime;
+
+            _MusicSource.volume = Mathf.Lerp(
+                from,
+                to,
+                timer / duration);
+
+            yield return null;
+        }
+
+        _MusicSource.volume = to;
     }
 
     private IEnumerator CheckMusicEnd(float clipLength)
