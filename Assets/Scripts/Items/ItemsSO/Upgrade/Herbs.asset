@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Items.UpgradeItemData
   itemName: Herbs
   icon: {fileID: 21300000, guid: 662653299b348c74c86e9d0b008ac4b3, type: 3}
-  description: Increase max steps by 6
+  description: Add 6 max steps
   itemPrefab: {fileID: 5301650465121654513, guid: c707d7b78b02bcc4f92ee7b9905acb5c, type: 3}
   effects:
   - {fileID: 11400000, guid: 6858a2bccb9a70541b0161258fb5abd7, type: 2}

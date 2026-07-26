@@ -11,18 +11,15 @@ public class ShopPanel : MonoBehaviour
 
     public void HandleVisibility(bool hasConsumable, int CurrentMoney)
     {
-        if (!hasConsumable)
+        foreach (var item in Consumables)
         {
-            foreach (var item in Consumables)
+            if (item.Item.ItemData is ConsumableItemData data && data.price > CurrentMoney || hasConsumable)
             {
-                if (item.Item.ItemData is ConsumableItemData data && data.price > CurrentMoney)
-                {
-                    item.Disable();
-                }
-                else
-                {
-                    item.Enable();
-                }
+                item.Disable();
+            }
+            else
+            {
+                item.Enable();
             }
         }
 

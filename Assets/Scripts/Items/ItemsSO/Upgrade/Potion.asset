@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Items.UpgradeItemData
   itemName: Potion
   icon: {fileID: 21300000, guid: 61f27a0f5eb6b654fa004e0a114d429a, type: 3}
-  description: Increase max steps by 12
+  description: Add 12 max steps
   itemPrefab: {fileID: 6292622422727524720, guid: 238bdd7504419064e9c1a0a4a438db4d, type: 3}
   effects:
   - {fileID: 11400000, guid: cd5b4e1e13b476b489a05cc1b14ef1c6, type: 2}

@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0649d6fbf6744eae9d88470be94fe9fc, type: 3}
   m_Name: AppleRestoreEffect
   m_EditorClassIdentifier: Assembly-CSharp::Items.SO.Effects.AddStepsEffect
-  value: 6
+  value: 12
