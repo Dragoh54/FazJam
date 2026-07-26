@@ -1,6 +1,7 @@
 using ItemGeneration;
 using Items;
 using Managers;
+using Sounds;
 using UnityEngine;
 
 public class ShopManager : MonoBehaviour
@@ -13,6 +14,9 @@ public class ShopManager : MonoBehaviour
 
     [SerializeField]
     private UIManager _uiManager;
+
+
+    [SerializeField] private SoundData _moneySound;
 
     [field:SerializeField]
     public int CurrentMoney { get; private set; }
@@ -54,6 +58,8 @@ public class ShopManager : MonoBehaviour
 
         if(item.ItemData is ConsumableItemData data && CurrentMoney >= data.price && _inventoryManager.ConsumeItem is null)
         {
+            PlaySound();
+
             _inventoryManager.SetConsumable(data);
 
             CurrentMoney -= data.price;
@@ -70,6 +76,8 @@ public class ShopManager : MonoBehaviour
 
         if (item.ItemData is UpgradeItemData data && CurrentMoney >= data.price)
         {
+            PlaySound();
+
             data.OnPickup(item);
 
             CurrentMoney -= data.price;
@@ -78,5 +86,10 @@ public class ShopManager : MonoBehaviour
 
             _uiManager.HandleShopChange(_inventoryManager.ConsumeItem is not null, CurrentMoney);
         }
+    }
+
+    private void PlaySound()
+    {
+        SoundManager.Instance.PlaySFX(_moneySound);
     }
 }

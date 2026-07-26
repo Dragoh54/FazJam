@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: VaultDoorRequirement
   m_EditorClassIdentifier: Assembly-CSharp::Doors.SO.DoorRequirement
   requiredFlag: 0
-  lockedMessage: It need key
+  lockedMessage: I need a key

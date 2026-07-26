@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: FinalExitRequirement
   m_EditorClassIdentifier: Assembly-CSharp::Doors.SO.DoorRequirement
   requiredFlag: 1
-  lockedMessage: I cannot go without treasure
+  lockedMessage: I need to get the Philosopher's Stone

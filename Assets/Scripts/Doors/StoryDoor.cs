@@ -10,6 +10,7 @@ namespace Doors
         [SerializeField] private DoorRequirement requirement;
         
         private StoryProgressManager _storyProgressManager;
+        private PickupNotificationManager _pickupNotificationManager;
 
         public delegate void FailToInteract();
         public event FailToInteract OnFailToInteract;
@@ -19,12 +20,15 @@ namespace Doors
             base.Awake();
 
             _storyProgressManager = FindFirstObjectByType<StoryProgressManager>();
+            _pickupNotificationManager = FindFirstObjectByType<PickupNotificationManager>();
         }
         
         public override void Interact()
         {
             if (!CanInteract())
+            {
                 return;
+            }
 
             base.Interact();
         }
@@ -38,6 +42,8 @@ namespace Doors
                 return true;
 
             OnFailToInteract?.Invoke();
+
+            _pickupNotificationManager.AddMessage(requirement.lockedMessage, Color.red);
 
             return false;
         }

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Items.ValuableItemData
   itemName: Violin
   icon: {fileID: 21300000, guid: a180e5f679277f14c91a043168cd5fee, type: 3}
-  description: Engraved "Antonio Salieri"
+  description: Unintelligible word is engraved on the wood
   itemPrefab: {fileID: 295537343177470758, guid: 2de4929340dfa154d95f0f68aaf82305, type: 3}
   pickupSound: {fileID: 11400000, guid: 1fc3b9700db466147aaa4de46a30e5c4, type: 2}
   sellPrice: 300
