@@ -1,4 +1,6 @@
 using Sounds;
+using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Audio;
 
@@ -140,5 +142,14 @@ public class SoundManager : MonoBehaviour
         source.volume = sound.Volume;
         source.loop = true;
         source.Play();
+
+        StartCoroutine(CheckMusicEnd(clip.length));
+    }
+
+    private IEnumerator CheckMusicEnd(float clipLength)
+    {
+        yield return new WaitForSeconds(clipLength);
+
+        PlayLoop(_MusicSource, MusicClip);
     }
 }

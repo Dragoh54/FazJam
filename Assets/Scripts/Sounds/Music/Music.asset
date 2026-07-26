@@ -10,9 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1f11b12310824e8c874892debbc4accf, type: 3}
-  m_Name: DoorSound
+  m_Name: Music
   m_EditorClassIdentifier: Assembly-CSharp::Sounds.SoundData
   clips:
-  - {fileID: 8300000, guid: 00c9ded669e1d494abddc5a6cf517401, type: 3}
+  - {fileID: 8300000, guid: d09ae56680c7f3d438c5aad5662b2dc3, type: 3}
+  - {fileID: 8300000, guid: 44d5ce07ecc15d44492acad9a1ea89b0, type: 3}
+  - {fileID: 8300000, guid: 4d3831167429c7f488659eaa9f101ec9, type: 3}
+  - {fileID: 8300000, guid: fdfe964bc154551448d058ba97242415, type: 3}
+  - {fileID: 8300000, guid: f30a5229702607d40bcffad50eb7e5c4, type: 3}
   pitchRange: {x: 1, y: 1}
-  volume: 1
+  volume: 0.704
